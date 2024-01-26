@@ -1,0 +1,2740 @@
+{
+    "id": 0,
+    "steps": [
+        {
+            "step": 0,
+            "nodes": [
+                {
+                    "id": 0,
+                    "answer": null,
+                    "value": null,
+                    "parent_node": null,
+                    "ancestor_value": null
+                }
+            ],
+            "selected_node": {
+                "id": 0,
+                "answer": null,
+                "value": null,
+                "parent_node": null,
+                "ancestor_value": null
+            },
+            "is_back": false
+        },
+        {
+            "step": 1,
+            "nodes": [
+                {
+                    "id": 0,
+                    "answer": null,
+                    "value": null,
+                    "parent_node": null,
+                    "ancestor_value": null
+                },
+                {
+                    "id": 4,
+                    "answer": "v3. grand",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 1
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 1,
+                    "answer": "h2. motor",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 0
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 2,
+                    "answer": "v2. motor",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 0
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 3,
+                    "answer": "h4. atria",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 0
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 5,
+                    "answer": "v4. atria",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 0
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                }
+            ],
+            "selected_node": {
+                "id": 4,
+                "answer": "v3. grand",
+                "value": {
+                    "sure": 0,
+                    "maybe": 0,
+                    "impossible": 1
+                },
+                "parent_node": 0,
+                "ancestor_value": 0
+            },
+            "is_back": false
+        },
+        {
+            "step": 2,
+            "nodes": [
+                {
+                    "id": 0,
+                    "answer": null,
+                    "value": null,
+                    "parent_node": null,
+                    "ancestor_value": null
+                },
+                {
+                    "id": 4,
+                    "answer": "v3. grand",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 1
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 1,
+                    "answer": "h2. motor",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 0
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 2,
+                    "answer": "v2. motor",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 0
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 3,
+                    "answer": "h4. atria",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 0
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 5,
+                    "answer": "v4. atria",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 0
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 7,
+                    "answer": "v2. motor",
+                    "value": {
+                        "sure": 2,
+                        "maybe": 2,
+                        "impossible": 3
+                    },
+                    "parent_node": 4,
+                    "ancestor_value": 0.001
+                },
+                {
+                    "id": 9,
+                    "answer": "v4. atria",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 3,
+                        "impossible": 2
+                    },
+                    "parent_node": 4,
+                    "ancestor_value": 0.001
+                },
+                {
+                    "id": 8,
+                    "answer": "h4. atria",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 1,
+                        "impossible": 1
+                    },
+                    "parent_node": 4,
+                    "ancestor_value": 0.001
+                },
+                {
+                    "id": 6,
+                    "answer": "h2. motor",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 0
+                    },
+                    "parent_node": 4,
+                    "ancestor_value": 0.001
+                }
+            ],
+            "selected_node": {
+                "id": 7,
+                "answer": "v2. motor",
+                "value": {
+                    "sure": 2,
+                    "maybe": 2,
+                    "impossible": 3
+                },
+                "parent_node": 4,
+                "ancestor_value": 0.001
+            },
+            "is_back": true
+        },
+        {
+            "step": 2,
+            "nodes": [
+                {
+                    "id": 0,
+                    "answer": null,
+                    "value": null,
+                    "parent_node": null,
+                    "ancestor_value": null
+                },
+                {
+                    "id": 4,
+                    "answer": "v3. grand",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 1
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 1,
+                    "answer": "h2. motor",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 0
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 2,
+                    "answer": "v2. motor",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 0
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 3,
+                    "answer": "h4. atria",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 0
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 5,
+                    "answer": "v4. atria",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 0
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 7,
+                    "answer": "v2. motor",
+                    "value": {
+                        "sure": 2,
+                        "maybe": 2,
+                        "impossible": 3
+                    },
+                    "parent_node": 4,
+                    "ancestor_value": 0.001
+                },
+                {
+                    "id": 9,
+                    "answer": "v4. atria",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 3,
+                        "impossible": 2
+                    },
+                    "parent_node": 4,
+                    "ancestor_value": 0.001
+                },
+                {
+                    "id": 8,
+                    "answer": "h4. atria",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 1,
+                        "impossible": 1
+                    },
+                    "parent_node": 4,
+                    "ancestor_value": 0.001
+                },
+                {
+                    "id": 6,
+                    "answer": "h2. motor",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 0
+                    },
+                    "parent_node": 4,
+                    "ancestor_value": 0.001
+                }
+            ],
+            "selected_node": {
+                "id": 9,
+                "answer": "v4. atria",
+                "value": {
+                    "sure": 1,
+                    "maybe": 3,
+                    "impossible": 2
+                },
+                "parent_node": 4,
+                "ancestor_value": 0.001
+            },
+            "is_back": false
+        },
+        {
+            "step": 3,
+            "nodes": [
+                {
+                    "id": 0,
+                    "answer": null,
+                    "value": null,
+                    "parent_node": null,
+                    "ancestor_value": null
+                },
+                {
+                    "id": 4,
+                    "answer": "v3. grand",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 1
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 1,
+                    "answer": "h2. motor",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 0
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 2,
+                    "answer": "v2. motor",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 0
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 3,
+                    "answer": "h4. atria",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 0
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 5,
+                    "answer": "v4. atria",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 0
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 7,
+                    "answer": "v2. motor",
+                    "value": {
+                        "sure": 2,
+                        "maybe": 2,
+                        "impossible": 3
+                    },
+                    "parent_node": 4,
+                    "ancestor_value": 0.001
+                },
+                {
+                    "id": 9,
+                    "answer": "v4. atria",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 3,
+                        "impossible": 2
+                    },
+                    "parent_node": 4,
+                    "ancestor_value": 0.001
+                },
+                {
+                    "id": 8,
+                    "answer": "h4. atria",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 1,
+                        "impossible": 1
+                    },
+                    "parent_node": 4,
+                    "ancestor_value": 0.001
+                },
+                {
+                    "id": 6,
+                    "answer": "h2. motor",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 0
+                    },
+                    "parent_node": 4,
+                    "ancestor_value": 0.001
+                },
+                {
+                    "id": 12,
+                    "answer": "h2. motor",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 2,
+                        "impossible": 3
+                    },
+                    "parent_node": 9,
+                    "ancestor_value": 23.003
+                },
+                {
+                    "id": 11,
+                    "answer": "v2. motor",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 3,
+                        "impossible": 4
+                    },
+                    "parent_node": 9,
+                    "ancestor_value": 23.003
+                }
+            ],
+            "selected_node": {
+                "id": 12,
+                "answer": "h2. motor",
+                "value": {
+                    "sure": 1,
+                    "maybe": 2,
+                    "impossible": 3
+                },
+                "parent_node": 9,
+                "ancestor_value": 23.003
+            },
+            "is_back": false
+        },
+        {
+            "step": 4,
+            "nodes": [
+                {
+                    "id": 0,
+                    "answer": null,
+                    "value": null,
+                    "parent_node": null,
+                    "ancestor_value": null
+                },
+                {
+                    "id": 4,
+                    "answer": "v3. grand",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 1
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 1,
+                    "answer": "h2. motor",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 0
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 2,
+                    "answer": "v2. motor",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 0
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 3,
+                    "answer": "h4. atria",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 0
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 5,
+                    "answer": "v4. atria",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 0
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 7,
+                    "answer": "v2. motor",
+                    "value": {
+                        "sure": 2,
+                        "maybe": 2,
+                        "impossible": 3
+                    },
+                    "parent_node": 4,
+                    "ancestor_value": 0.001
+                },
+                {
+                    "id": 9,
+                    "answer": "v4. atria",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 3,
+                        "impossible": 2
+                    },
+                    "parent_node": 4,
+                    "ancestor_value": 0.001
+                },
+                {
+                    "id": 8,
+                    "answer": "h4. atria",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 1,
+                        "impossible": 1
+                    },
+                    "parent_node": 4,
+                    "ancestor_value": 0.001
+                },
+                {
+                    "id": 6,
+                    "answer": "h2. motor",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 0
+                    },
+                    "parent_node": 4,
+                    "ancestor_value": 0.001
+                },
+                {
+                    "id": 12,
+                    "answer": "h2. motor",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 2,
+                        "impossible": 3
+                    },
+                    "parent_node": 9,
+                    "ancestor_value": 23.003
+                },
+                {
+                    "id": 11,
+                    "answer": "v2. motor",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 3,
+                        "impossible": 4
+                    },
+                    "parent_node": 9,
+                    "ancestor_value": 23.003
+                },
+                {
+                    "id": 15,
+                    "answer": "h4. atria",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 6,
+                        "impossible": 3
+                    },
+                    "parent_node": 12,
+                    "ancestor_value": 45.006
+                },
+                {
+                    "id": 13,
+                    "answer": "h3. grand",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 5,
+                        "impossible": 4
+                    },
+                    "parent_node": 12,
+                    "ancestor_value": 45.006
+                },
+                {
+                    "id": 16,
+                    "answer": "v2. comet",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 3,
+                        "impossible": 4
+                    },
+                    "parent_node": 12,
+                    "ancestor_value": 45.006
+                },
+                {
+                    "id": 14,
+                    "answer": "v1. amend",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 3,
+                        "impossible": 3
+                    },
+                    "parent_node": 12,
+                    "ancestor_value": 45.006
+                }
+            ],
+            "selected_node": {
+                "id": 15,
+                "answer": "h4. atria",
+                "value": {
+                    "sure": 0,
+                    "maybe": 6,
+                    "impossible": 3
+                },
+                "parent_node": 12,
+                "ancestor_value": 45.006
+            },
+            "is_back": false
+        },
+        {
+            "step": 5,
+            "nodes": [
+                {
+                    "id": 0,
+                    "answer": null,
+                    "value": null,
+                    "parent_node": null,
+                    "ancestor_value": null
+                },
+                {
+                    "id": 4,
+                    "answer": "v3. grand",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 1
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 1,
+                    "answer": "h2. motor",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 0
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 2,
+                    "answer": "v2. motor",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 0
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 3,
+                    "answer": "h4. atria",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 0
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 5,
+                    "answer": "v4. atria",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 0
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 7,
+                    "answer": "v2. motor",
+                    "value": {
+                        "sure": 2,
+                        "maybe": 2,
+                        "impossible": 3
+                    },
+                    "parent_node": 4,
+                    "ancestor_value": 0.001
+                },
+                {
+                    "id": 9,
+                    "answer": "v4. atria",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 3,
+                        "impossible": 2
+                    },
+                    "parent_node": 4,
+                    "ancestor_value": 0.001
+                },
+                {
+                    "id": 8,
+                    "answer": "h4. atria",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 1,
+                        "impossible": 1
+                    },
+                    "parent_node": 4,
+                    "ancestor_value": 0.001
+                },
+                {
+                    "id": 6,
+                    "answer": "h2. motor",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 0
+                    },
+                    "parent_node": 4,
+                    "ancestor_value": 0.001
+                },
+                {
+                    "id": 12,
+                    "answer": "h2. motor",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 2,
+                        "impossible": 3
+                    },
+                    "parent_node": 9,
+                    "ancestor_value": 23.003
+                },
+                {
+                    "id": 11,
+                    "answer": "v2. motor",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 3,
+                        "impossible": 4
+                    },
+                    "parent_node": 9,
+                    "ancestor_value": 23.003
+                },
+                {
+                    "id": 15,
+                    "answer": "h4. atria",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 6,
+                        "impossible": 3
+                    },
+                    "parent_node": 12,
+                    "ancestor_value": 45.006
+                },
+                {
+                    "id": 13,
+                    "answer": "h3. grand",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 5,
+                        "impossible": 4
+                    },
+                    "parent_node": 12,
+                    "ancestor_value": 45.006
+                },
+                {
+                    "id": 16,
+                    "answer": "v2. comet",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 3,
+                        "impossible": 4
+                    },
+                    "parent_node": 12,
+                    "ancestor_value": 45.006
+                },
+                {
+                    "id": 14,
+                    "answer": "v1. amend",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 3,
+                        "impossible": 3
+                    },
+                    "parent_node": 12,
+                    "ancestor_value": 45.006
+                },
+                {
+                    "id": 18,
+                    "answer": "h1. agape",
+                    "value": {
+                        "sure": 2,
+                        "maybe": 4,
+                        "impossible": 3
+                    },
+                    "parent_node": 15,
+                    "ancestor_value": 51.009
+                },
+                {
+                    "id": 19,
+                    "answer": "h3. baric",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 4,
+                        "impossible": 4
+                    },
+                    "parent_node": 15,
+                    "ancestor_value": 51.009
+                },
+                {
+                    "id": 20,
+                    "answer": "v1. amass",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 4,
+                        "impossible": 4
+                    },
+                    "parent_node": 15,
+                    "ancestor_value": 51.009
+                },
+                {
+                    "id": 17,
+                    "answer": "v2. motor",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 3,
+                        "impossible": 4
+                    },
+                    "parent_node": 15,
+                    "ancestor_value": 51.009
+                }
+            ],
+            "selected_node": {
+                "id": 18,
+                "answer": "h1. agape",
+                "value": {
+                    "sure": 2,
+                    "maybe": 4,
+                    "impossible": 3
+                },
+                "parent_node": 15,
+                "ancestor_value": 51.009
+            },
+            "is_back": true
+        },
+        {
+            "step": 5,
+            "nodes": [
+                {
+                    "id": 0,
+                    "answer": null,
+                    "value": null,
+                    "parent_node": null,
+                    "ancestor_value": null
+                },
+                {
+                    "id": 4,
+                    "answer": "v3. grand",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 1
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 1,
+                    "answer": "h2. motor",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 0
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 2,
+                    "answer": "v2. motor",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 0
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 3,
+                    "answer": "h4. atria",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 0
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 5,
+                    "answer": "v4. atria",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 0
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 7,
+                    "answer": "v2. motor",
+                    "value": {
+                        "sure": 2,
+                        "maybe": 2,
+                        "impossible": 3
+                    },
+                    "parent_node": 4,
+                    "ancestor_value": 0.001
+                },
+                {
+                    "id": 9,
+                    "answer": "v4. atria",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 3,
+                        "impossible": 2
+                    },
+                    "parent_node": 4,
+                    "ancestor_value": 0.001
+                },
+                {
+                    "id": 8,
+                    "answer": "h4. atria",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 1,
+                        "impossible": 1
+                    },
+                    "parent_node": 4,
+                    "ancestor_value": 0.001
+                },
+                {
+                    "id": 6,
+                    "answer": "h2. motor",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 0
+                    },
+                    "parent_node": 4,
+                    "ancestor_value": 0.001
+                },
+                {
+                    "id": 12,
+                    "answer": "h2. motor",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 2,
+                        "impossible": 3
+                    },
+                    "parent_node": 9,
+                    "ancestor_value": 23.003
+                },
+                {
+                    "id": 11,
+                    "answer": "v2. motor",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 3,
+                        "impossible": 4
+                    },
+                    "parent_node": 9,
+                    "ancestor_value": 23.003
+                },
+                {
+                    "id": 15,
+                    "answer": "h4. atria",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 6,
+                        "impossible": 3
+                    },
+                    "parent_node": 12,
+                    "ancestor_value": 45.006
+                },
+                {
+                    "id": 13,
+                    "answer": "h3. grand",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 5,
+                        "impossible": 4
+                    },
+                    "parent_node": 12,
+                    "ancestor_value": 45.006
+                },
+                {
+                    "id": 16,
+                    "answer": "v2. comet",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 3,
+                        "impossible": 4
+                    },
+                    "parent_node": 12,
+                    "ancestor_value": 45.006
+                },
+                {
+                    "id": 14,
+                    "answer": "v1. amend",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 3,
+                        "impossible": 3
+                    },
+                    "parent_node": 12,
+                    "ancestor_value": 45.006
+                },
+                {
+                    "id": 18,
+                    "answer": "h1. agape",
+                    "value": {
+                        "sure": 2,
+                        "maybe": 4,
+                        "impossible": 3
+                    },
+                    "parent_node": 15,
+                    "ancestor_value": 51.009
+                },
+                {
+                    "id": 19,
+                    "answer": "h3. baric",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 4,
+                        "impossible": 4
+                    },
+                    "parent_node": 15,
+                    "ancestor_value": 51.009
+                },
+                {
+                    "id": 20,
+                    "answer": "v1. amass",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 4,
+                        "impossible": 4
+                    },
+                    "parent_node": 15,
+                    "ancestor_value": 51.009
+                },
+                {
+                    "id": 17,
+                    "answer": "v2. motor",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 3,
+                        "impossible": 4
+                    },
+                    "parent_node": 15,
+                    "ancestor_value": 51.009
+                }
+            ],
+            "selected_node": {
+                "id": 19,
+                "answer": "h3. baric",
+                "value": {
+                    "sure": 1,
+                    "maybe": 4,
+                    "impossible": 4
+                },
+                "parent_node": 15,
+                "ancestor_value": 51.009
+            },
+            "is_back": false
+        },
+        {
+            "step": 6,
+            "nodes": [
+                {
+                    "id": 0,
+                    "answer": null,
+                    "value": null,
+                    "parent_node": null,
+                    "ancestor_value": null
+                },
+                {
+                    "id": 4,
+                    "answer": "v3. grand",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 1
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 1,
+                    "answer": "h2. motor",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 0
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 2,
+                    "answer": "v2. motor",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 0
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 3,
+                    "answer": "h4. atria",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 0
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 5,
+                    "answer": "v4. atria",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 0
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 7,
+                    "answer": "v2. motor",
+                    "value": {
+                        "sure": 2,
+                        "maybe": 2,
+                        "impossible": 3
+                    },
+                    "parent_node": 4,
+                    "ancestor_value": 0.001
+                },
+                {
+                    "id": 9,
+                    "answer": "v4. atria",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 3,
+                        "impossible": 2
+                    },
+                    "parent_node": 4,
+                    "ancestor_value": 0.001
+                },
+                {
+                    "id": 8,
+                    "answer": "h4. atria",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 1,
+                        "impossible": 1
+                    },
+                    "parent_node": 4,
+                    "ancestor_value": 0.001
+                },
+                {
+                    "id": 6,
+                    "answer": "h2. motor",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 0
+                    },
+                    "parent_node": 4,
+                    "ancestor_value": 0.001
+                },
+                {
+                    "id": 12,
+                    "answer": "h2. motor",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 2,
+                        "impossible": 3
+                    },
+                    "parent_node": 9,
+                    "ancestor_value": 23.003
+                },
+                {
+                    "id": 11,
+                    "answer": "v2. motor",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 3,
+                        "impossible": 4
+                    },
+                    "parent_node": 9,
+                    "ancestor_value": 23.003
+                },
+                {
+                    "id": 15,
+                    "answer": "h4. atria",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 6,
+                        "impossible": 3
+                    },
+                    "parent_node": 12,
+                    "ancestor_value": 45.006
+                },
+                {
+                    "id": 13,
+                    "answer": "h3. grand",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 5,
+                        "impossible": 4
+                    },
+                    "parent_node": 12,
+                    "ancestor_value": 45.006
+                },
+                {
+                    "id": 16,
+                    "answer": "v2. comet",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 3,
+                        "impossible": 4
+                    },
+                    "parent_node": 12,
+                    "ancestor_value": 45.006
+                },
+                {
+                    "id": 14,
+                    "answer": "v1. amend",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 3,
+                        "impossible": 3
+                    },
+                    "parent_node": 12,
+                    "ancestor_value": 45.006
+                },
+                {
+                    "id": 18,
+                    "answer": "h1. agape",
+                    "value": {
+                        "sure": 2,
+                        "maybe": 4,
+                        "impossible": 3
+                    },
+                    "parent_node": 15,
+                    "ancestor_value": 51.009
+                },
+                {
+                    "id": 19,
+                    "answer": "h3. baric",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 4,
+                        "impossible": 4
+                    },
+                    "parent_node": 15,
+                    "ancestor_value": 51.009
+                },
+                {
+                    "id": 20,
+                    "answer": "v1. amass",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 4,
+                        "impossible": 4
+                    },
+                    "parent_node": 15,
+                    "ancestor_value": 51.009
+                },
+                {
+                    "id": 17,
+                    "answer": "v2. motor",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 3,
+                        "impossible": 4
+                    },
+                    "parent_node": 15,
+                    "ancestor_value": 51.009
+                },
+                {
+                    "id": 26,
+                    "answer": "h3. grand",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 4,
+                        "impossible": 3
+                    },
+                    "parent_node": 19,
+                    "ancestor_value": 75.013
+                },
+                {
+                    "id": 25,
+                    "answer": "v5. caric",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 3,
+                        "impossible": 4
+                    },
+                    "parent_node": 19,
+                    "ancestor_value": 75.013
+                },
+                {
+                    "id": 24,
+                    "answer": "v2. float",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 2,
+                        "impossible": 6
+                    },
+                    "parent_node": 19,
+                    "ancestor_value": 75.013
+                },
+                {
+                    "id": 27,
+                    "answer": "v1. ember",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 2,
+                        "impossible": 5
+                    },
+                    "parent_node": 19,
+                    "ancestor_value": 75.013
+                }
+            ],
+            "selected_node": {
+                "id": 26,
+                "answer": "h3. grand",
+                "value": {
+                    "sure": 1,
+                    "maybe": 4,
+                    "impossible": 3
+                },
+                "parent_node": 19,
+                "ancestor_value": 75.013
+            },
+            "is_back": false
+        },
+        {
+            "step": 7,
+            "nodes": [
+                {
+                    "id": 0,
+                    "answer": null,
+                    "value": null,
+                    "parent_node": null,
+                    "ancestor_value": null
+                },
+                {
+                    "id": 4,
+                    "answer": "v3. grand",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 1
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 1,
+                    "answer": "h2. motor",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 0
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 2,
+                    "answer": "v2. motor",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 0
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 3,
+                    "answer": "h4. atria",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 0
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 5,
+                    "answer": "v4. atria",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 0
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 7,
+                    "answer": "v2. motor",
+                    "value": {
+                        "sure": 2,
+                        "maybe": 2,
+                        "impossible": 3
+                    },
+                    "parent_node": 4,
+                    "ancestor_value": 0.001
+                },
+                {
+                    "id": 9,
+                    "answer": "v4. atria",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 3,
+                        "impossible": 2
+                    },
+                    "parent_node": 4,
+                    "ancestor_value": 0.001
+                },
+                {
+                    "id": 8,
+                    "answer": "h4. atria",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 1,
+                        "impossible": 1
+                    },
+                    "parent_node": 4,
+                    "ancestor_value": 0.001
+                },
+                {
+                    "id": 6,
+                    "answer": "h2. motor",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 0
+                    },
+                    "parent_node": 4,
+                    "ancestor_value": 0.001
+                },
+                {
+                    "id": 12,
+                    "answer": "h2. motor",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 2,
+                        "impossible": 3
+                    },
+                    "parent_node": 9,
+                    "ancestor_value": 23.003
+                },
+                {
+                    "id": 11,
+                    "answer": "v2. motor",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 3,
+                        "impossible": 4
+                    },
+                    "parent_node": 9,
+                    "ancestor_value": 23.003
+                },
+                {
+                    "id": 15,
+                    "answer": "h4. atria",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 6,
+                        "impossible": 3
+                    },
+                    "parent_node": 12,
+                    "ancestor_value": 45.006
+                },
+                {
+                    "id": 13,
+                    "answer": "h3. grand",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 5,
+                        "impossible": 4
+                    },
+                    "parent_node": 12,
+                    "ancestor_value": 45.006
+                },
+                {
+                    "id": 16,
+                    "answer": "v2. comet",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 3,
+                        "impossible": 4
+                    },
+                    "parent_node": 12,
+                    "ancestor_value": 45.006
+                },
+                {
+                    "id": 14,
+                    "answer": "v1. amend",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 3,
+                        "impossible": 3
+                    },
+                    "parent_node": 12,
+                    "ancestor_value": 45.006
+                },
+                {
+                    "id": 18,
+                    "answer": "h1. agape",
+                    "value": {
+                        "sure": 2,
+                        "maybe": 4,
+                        "impossible": 3
+                    },
+                    "parent_node": 15,
+                    "ancestor_value": 51.009
+                },
+                {
+                    "id": 19,
+                    "answer": "h3. baric",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 4,
+                        "impossible": 4
+                    },
+                    "parent_node": 15,
+                    "ancestor_value": 51.009
+                },
+                {
+                    "id": 20,
+                    "answer": "v1. amass",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 4,
+                        "impossible": 4
+                    },
+                    "parent_node": 15,
+                    "ancestor_value": 51.009
+                },
+                {
+                    "id": 17,
+                    "answer": "v2. motor",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 3,
+                        "impossible": 4
+                    },
+                    "parent_node": 15,
+                    "ancestor_value": 51.009
+                },
+                {
+                    "id": 26,
+                    "answer": "h3. grand",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 4,
+                        "impossible": 3
+                    },
+                    "parent_node": 19,
+                    "ancestor_value": 75.013
+                },
+                {
+                    "id": 25,
+                    "answer": "v5. caric",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 3,
+                        "impossible": 4
+                    },
+                    "parent_node": 19,
+                    "ancestor_value": 75.013
+                },
+                {
+                    "id": 24,
+                    "answer": "v2. float",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 2,
+                        "impossible": 6
+                    },
+                    "parent_node": 19,
+                    "ancestor_value": 75.013
+                },
+                {
+                    "id": 27,
+                    "answer": "v1. ember",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 2,
+                        "impossible": 5
+                    },
+                    "parent_node": 19,
+                    "ancestor_value": 75.013
+                },
+                {
+                    "id": 29,
+                    "answer": "v1. image",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 3,
+                        "impossible": 2
+                    },
+                    "parent_node": 26,
+                    "ancestor_value": 99.016
+                },
+                {
+                    "id": 28,
+                    "answer": "v1. omega",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 2,
+                        "impossible": 3
+                    },
+                    "parent_node": 26,
+                    "ancestor_value": 99.016
+                },
+                {
+                    "id": 30,
+                    "answer": "v1. magma",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 2,
+                        "impossible": 7
+                    },
+                    "parent_node": 26,
+                    "ancestor_value": 99.016
+                },
+                {
+                    "id": 31,
+                    "answer": "v5. carda",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 9
+                    },
+                    "parent_node": 26,
+                    "ancestor_value": 99.016
+                }
+            ],
+            "selected_node": {
+                "id": 29,
+                "answer": "v1. image",
+                "value": {
+                    "sure": 1,
+                    "maybe": 3,
+                    "impossible": 2
+                },
+                "parent_node": 26,
+                "ancestor_value": 99.016
+            },
+            "is_back": true
+        },
+        {
+            "step": 7,
+            "nodes": [
+                {
+                    "id": 0,
+                    "answer": null,
+                    "value": null,
+                    "parent_node": null,
+                    "ancestor_value": null
+                },
+                {
+                    "id": 4,
+                    "answer": "v3. grand",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 1
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 1,
+                    "answer": "h2. motor",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 0
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 2,
+                    "answer": "v2. motor",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 0
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 3,
+                    "answer": "h4. atria",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 0
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 5,
+                    "answer": "v4. atria",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 0
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 7,
+                    "answer": "v2. motor",
+                    "value": {
+                        "sure": 2,
+                        "maybe": 2,
+                        "impossible": 3
+                    },
+                    "parent_node": 4,
+                    "ancestor_value": 0.001
+                },
+                {
+                    "id": 9,
+                    "answer": "v4. atria",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 3,
+                        "impossible": 2
+                    },
+                    "parent_node": 4,
+                    "ancestor_value": 0.001
+                },
+                {
+                    "id": 8,
+                    "answer": "h4. atria",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 1,
+                        "impossible": 1
+                    },
+                    "parent_node": 4,
+                    "ancestor_value": 0.001
+                },
+                {
+                    "id": 6,
+                    "answer": "h2. motor",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 0
+                    },
+                    "parent_node": 4,
+                    "ancestor_value": 0.001
+                },
+                {
+                    "id": 12,
+                    "answer": "h2. motor",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 2,
+                        "impossible": 3
+                    },
+                    "parent_node": 9,
+                    "ancestor_value": 23.003
+                },
+                {
+                    "id": 11,
+                    "answer": "v2. motor",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 3,
+                        "impossible": 4
+                    },
+                    "parent_node": 9,
+                    "ancestor_value": 23.003
+                },
+                {
+                    "id": 15,
+                    "answer": "h4. atria",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 6,
+                        "impossible": 3
+                    },
+                    "parent_node": 12,
+                    "ancestor_value": 45.006
+                },
+                {
+                    "id": 13,
+                    "answer": "h3. grand",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 5,
+                        "impossible": 4
+                    },
+                    "parent_node": 12,
+                    "ancestor_value": 45.006
+                },
+                {
+                    "id": 16,
+                    "answer": "v2. comet",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 3,
+                        "impossible": 4
+                    },
+                    "parent_node": 12,
+                    "ancestor_value": 45.006
+                },
+                {
+                    "id": 14,
+                    "answer": "v1. amend",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 3,
+                        "impossible": 3
+                    },
+                    "parent_node": 12,
+                    "ancestor_value": 45.006
+                },
+                {
+                    "id": 18,
+                    "answer": "h1. agape",
+                    "value": {
+                        "sure": 2,
+                        "maybe": 4,
+                        "impossible": 3
+                    },
+                    "parent_node": 15,
+                    "ancestor_value": 51.009
+                },
+                {
+                    "id": 19,
+                    "answer": "h3. baric",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 4,
+                        "impossible": 4
+                    },
+                    "parent_node": 15,
+                    "ancestor_value": 51.009
+                },
+                {
+                    "id": 20,
+                    "answer": "v1. amass",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 4,
+                        "impossible": 4
+                    },
+                    "parent_node": 15,
+                    "ancestor_value": 51.009
+                },
+                {
+                    "id": 17,
+                    "answer": "v2. motor",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 3,
+                        "impossible": 4
+                    },
+                    "parent_node": 15,
+                    "ancestor_value": 51.009
+                },
+                {
+                    "id": 26,
+                    "answer": "h3. grand",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 4,
+                        "impossible": 3
+                    },
+                    "parent_node": 19,
+                    "ancestor_value": 75.013
+                },
+                {
+                    "id": 25,
+                    "answer": "v5. caric",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 3,
+                        "impossible": 4
+                    },
+                    "parent_node": 19,
+                    "ancestor_value": 75.013
+                },
+                {
+                    "id": 24,
+                    "answer": "v2. float",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 2,
+                        "impossible": 6
+                    },
+                    "parent_node": 19,
+                    "ancestor_value": 75.013
+                },
+                {
+                    "id": 27,
+                    "answer": "v1. ember",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 2,
+                        "impossible": 5
+                    },
+                    "parent_node": 19,
+                    "ancestor_value": 75.013
+                },
+                {
+                    "id": 29,
+                    "answer": "v1. image",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 3,
+                        "impossible": 2
+                    },
+                    "parent_node": 26,
+                    "ancestor_value": 99.016
+                },
+                {
+                    "id": 28,
+                    "answer": "v1. omega",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 2,
+                        "impossible": 3
+                    },
+                    "parent_node": 26,
+                    "ancestor_value": 99.016
+                },
+                {
+                    "id": 30,
+                    "answer": "v1. magma",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 2,
+                        "impossible": 7
+                    },
+                    "parent_node": 26,
+                    "ancestor_value": 99.016
+                },
+                {
+                    "id": 31,
+                    "answer": "v5. carda",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 9
+                    },
+                    "parent_node": 26,
+                    "ancestor_value": 99.016
+                }
+            ],
+            "selected_node": {
+                "id": 28,
+                "answer": "v1. omega",
+                "value": {
+                    "sure": 1,
+                    "maybe": 2,
+                    "impossible": 3
+                },
+                "parent_node": 26,
+                "ancestor_value": 99.016
+            },
+            "is_back": true
+        },
+        {
+            "step": 7,
+            "nodes": [
+                {
+                    "id": 0,
+                    "answer": null,
+                    "value": null,
+                    "parent_node": null,
+                    "ancestor_value": null
+                },
+                {
+                    "id": 4,
+                    "answer": "v3. grand",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 1
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 1,
+                    "answer": "h2. motor",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 0
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 2,
+                    "answer": "v2. motor",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 0
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 3,
+                    "answer": "h4. atria",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 0
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 5,
+                    "answer": "v4. atria",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 0
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 7,
+                    "answer": "v2. motor",
+                    "value": {
+                        "sure": 2,
+                        "maybe": 2,
+                        "impossible": 3
+                    },
+                    "parent_node": 4,
+                    "ancestor_value": 0.001
+                },
+                {
+                    "id": 9,
+                    "answer": "v4. atria",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 3,
+                        "impossible": 2
+                    },
+                    "parent_node": 4,
+                    "ancestor_value": 0.001
+                },
+                {
+                    "id": 8,
+                    "answer": "h4. atria",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 1,
+                        "impossible": 1
+                    },
+                    "parent_node": 4,
+                    "ancestor_value": 0.001
+                },
+                {
+                    "id": 6,
+                    "answer": "h2. motor",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 0
+                    },
+                    "parent_node": 4,
+                    "ancestor_value": 0.001
+                },
+                {
+                    "id": 12,
+                    "answer": "h2. motor",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 2,
+                        "impossible": 3
+                    },
+                    "parent_node": 9,
+                    "ancestor_value": 23.003
+                },
+                {
+                    "id": 11,
+                    "answer": "v2. motor",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 3,
+                        "impossible": 4
+                    },
+                    "parent_node": 9,
+                    "ancestor_value": 23.003
+                },
+                {
+                    "id": 15,
+                    "answer": "h4. atria",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 6,
+                        "impossible": 3
+                    },
+                    "parent_node": 12,
+                    "ancestor_value": 45.006
+                },
+                {
+                    "id": 13,
+                    "answer": "h3. grand",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 5,
+                        "impossible": 4
+                    },
+                    "parent_node": 12,
+                    "ancestor_value": 45.006
+                },
+                {
+                    "id": 16,
+                    "answer": "v2. comet",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 3,
+                        "impossible": 4
+                    },
+                    "parent_node": 12,
+                    "ancestor_value": 45.006
+                },
+                {
+                    "id": 14,
+                    "answer": "v1. amend",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 3,
+                        "impossible": 3
+                    },
+                    "parent_node": 12,
+                    "ancestor_value": 45.006
+                },
+                {
+                    "id": 18,
+                    "answer": "h1. agape",
+                    "value": {
+                        "sure": 2,
+                        "maybe": 4,
+                        "impossible": 3
+                    },
+                    "parent_node": 15,
+                    "ancestor_value": 51.009
+                },
+                {
+                    "id": 19,
+                    "answer": "h3. baric",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 4,
+                        "impossible": 4
+                    },
+                    "parent_node": 15,
+                    "ancestor_value": 51.009
+                },
+                {
+                    "id": 20,
+                    "answer": "v1. amass",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 4,
+                        "impossible": 4
+                    },
+                    "parent_node": 15,
+                    "ancestor_value": 51.009
+                },
+                {
+                    "id": 17,
+                    "answer": "v2. motor",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 3,
+                        "impossible": 4
+                    },
+                    "parent_node": 15,
+                    "ancestor_value": 51.009
+                },
+                {
+                    "id": 26,
+                    "answer": "h3. grand",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 4,
+                        "impossible": 3
+                    },
+                    "parent_node": 19,
+                    "ancestor_value": 75.013
+                },
+                {
+                    "id": 25,
+                    "answer": "v5. caric",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 3,
+                        "impossible": 4
+                    },
+                    "parent_node": 19,
+                    "ancestor_value": 75.013
+                },
+                {
+                    "id": 24,
+                    "answer": "v2. float",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 2,
+                        "impossible": 6
+                    },
+                    "parent_node": 19,
+                    "ancestor_value": 75.013
+                },
+                {
+                    "id": 27,
+                    "answer": "v1. ember",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 2,
+                        "impossible": 5
+                    },
+                    "parent_node": 19,
+                    "ancestor_value": 75.013
+                },
+                {
+                    "id": 29,
+                    "answer": "v1. image",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 3,
+                        "impossible": 2
+                    },
+                    "parent_node": 26,
+                    "ancestor_value": 99.016
+                },
+                {
+                    "id": 28,
+                    "answer": "v1. omega",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 2,
+                        "impossible": 3
+                    },
+                    "parent_node": 26,
+                    "ancestor_value": 99.016
+                },
+                {
+                    "id": 30,
+                    "answer": "v1. magma",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 2,
+                        "impossible": 7
+                    },
+                    "parent_node": 26,
+                    "ancestor_value": 99.016
+                },
+                {
+                    "id": 31,
+                    "answer": "v5. carda",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 9
+                    },
+                    "parent_node": 26,
+                    "ancestor_value": 99.016
+                }
+            ],
+            "selected_node": {
+                "id": 30,
+                "answer": "v1. magma",
+                "value": {
+                    "sure": 0,
+                    "maybe": 2,
+                    "impossible": 7
+                },
+                "parent_node": 26,
+                "ancestor_value": 99.016
+            },
+            "is_back": true
+        },
+        {
+            "step": 7,
+            "nodes": [
+                {
+                    "id": 0,
+                    "answer": null,
+                    "value": null,
+                    "parent_node": null,
+                    "ancestor_value": null
+                },
+                {
+                    "id": 4,
+                    "answer": "v3. grand",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 1
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 1,
+                    "answer": "h2. motor",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 0
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 2,
+                    "answer": "v2. motor",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 0
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 3,
+                    "answer": "h4. atria",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 0
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 5,
+                    "answer": "v4. atria",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 0
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 7,
+                    "answer": "v2. motor",
+                    "value": {
+                        "sure": 2,
+                        "maybe": 2,
+                        "impossible": 3
+                    },
+                    "parent_node": 4,
+                    "ancestor_value": 0.001
+                },
+                {
+                    "id": 9,
+                    "answer": "v4. atria",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 3,
+                        "impossible": 2
+                    },
+                    "parent_node": 4,
+                    "ancestor_value": 0.001
+                },
+                {
+                    "id": 8,
+                    "answer": "h4. atria",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 1,
+                        "impossible": 1
+                    },
+                    "parent_node": 4,
+                    "ancestor_value": 0.001
+                },
+                {
+                    "id": 6,
+                    "answer": "h2. motor",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 0
+                    },
+                    "parent_node": 4,
+                    "ancestor_value": 0.001
+                },
+                {
+                    "id": 12,
+                    "answer": "h2. motor",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 2,
+                        "impossible": 3
+                    },
+                    "parent_node": 9,
+                    "ancestor_value": 23.003
+                },
+                {
+                    "id": 11,
+                    "answer": "v2. motor",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 3,
+                        "impossible": 4
+                    },
+                    "parent_node": 9,
+                    "ancestor_value": 23.003
+                },
+                {
+                    "id": 15,
+                    "answer": "h4. atria",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 6,
+                        "impossible": 3
+                    },
+                    "parent_node": 12,
+                    "ancestor_value": 45.006
+                },
+                {
+                    "id": 13,
+                    "answer": "h3. grand",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 5,
+                        "impossible": 4
+                    },
+                    "parent_node": 12,
+                    "ancestor_value": 45.006
+                },
+                {
+                    "id": 16,
+                    "answer": "v2. comet",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 3,
+                        "impossible": 4
+                    },
+                    "parent_node": 12,
+                    "ancestor_value": 45.006
+                },
+                {
+                    "id": 14,
+                    "answer": "v1. amend",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 3,
+                        "impossible": 3
+                    },
+                    "parent_node": 12,
+                    "ancestor_value": 45.006
+                },
+                {
+                    "id": 18,
+                    "answer": "h1. agape",
+                    "value": {
+                        "sure": 2,
+                        "maybe": 4,
+                        "impossible": 3
+                    },
+                    "parent_node": 15,
+                    "ancestor_value": 51.009
+                },
+                {
+                    "id": 19,
+                    "answer": "h3. baric",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 4,
+                        "impossible": 4
+                    },
+                    "parent_node": 15,
+                    "ancestor_value": 51.009
+                },
+                {
+                    "id": 20,
+                    "answer": "v1. amass",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 4,
+                        "impossible": 4
+                    },
+                    "parent_node": 15,
+                    "ancestor_value": 51.009
+                },
+                {
+                    "id": 17,
+                    "answer": "v2. motor",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 3,
+                        "impossible": 4
+                    },
+                    "parent_node": 15,
+                    "ancestor_value": 51.009
+                },
+                {
+                    "id": 26,
+                    "answer": "h3. grand",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 4,
+                        "impossible": 3
+                    },
+                    "parent_node": 19,
+                    "ancestor_value": 75.013
+                },
+                {
+                    "id": 25,
+                    "answer": "v5. caric",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 3,
+                        "impossible": 4
+                    },
+                    "parent_node": 19,
+                    "ancestor_value": 75.013
+                },
+                {
+                    "id": 24,
+                    "answer": "v2. float",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 2,
+                        "impossible": 6
+                    },
+                    "parent_node": 19,
+                    "ancestor_value": 75.013
+                },
+                {
+                    "id": 27,
+                    "answer": "v1. ember",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 2,
+                        "impossible": 5
+                    },
+                    "parent_node": 19,
+                    "ancestor_value": 75.013
+                },
+                {
+                    "id": 29,
+                    "answer": "v1. image",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 3,
+                        "impossible": 2
+                    },
+                    "parent_node": 26,
+                    "ancestor_value": 99.016
+                },
+                {
+                    "id": 28,
+                    "answer": "v1. omega",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 2,
+                        "impossible": 3
+                    },
+                    "parent_node": 26,
+                    "ancestor_value": 99.016
+                },
+                {
+                    "id": 30,
+                    "answer": "v1. magma",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 2,
+                        "impossible": 7
+                    },
+                    "parent_node": 26,
+                    "ancestor_value": 99.016
+                },
+                {
+                    "id": 31,
+                    "answer": "v5. carda",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 9
+                    },
+                    "parent_node": 26,
+                    "ancestor_value": 99.016
+                }
+            ],
+            "selected_node": {
+                "id": 31,
+                "answer": "v5. carda",
+                "value": {
+                    "sure": 0,
+                    "maybe": 0,
+                    "impossible": 9
+                },
+                "parent_node": 26,
+                "ancestor_value": 99.016
+            },
+            "is_back": false
+        }
+    ],
+    "answer": [
+        "m",
+        "m",
+        "e",
+        "g",
+        "c",
+        "a",
+        "o",
+        "t",
+        "o",
+        "a",
+        "g",
+        "t",
+        "a",
+        "n",
+        "r",
+        "m",
+        "o",
+        "r",
+        "i",
+        "d",
+        "a",
+        "r",
+        "d",
+        "a",
+        "a"
+    ],
+    "correct": null,
+    "cost time": 1318.7842814922333
+}

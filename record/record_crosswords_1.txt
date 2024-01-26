@@ -1,0 +1,3141 @@
+D:/model/openhermes-2.5-neural-chat-7b-v3-1-7b.Q8_0.gguf
+temperature: 0.7
+
+Generator: 
+[('h1. planx', 0.5), ('h1. dutyx', 0.5), ('h1. taskx', 0.5), ('h1. aimxz', 0.5), ('h1. jobxr', 0.5)]
+Generator nodes:
+[{'id': 1, 'answer': 'h1. planx', 'value': None, 'parent_node': 0, 'ancestor_value': 0}, {'id': 2, 'answer': 'h1. dutyx', 'value': None, 'parent_node': 0, 'ancestor_value': 0}, {'id': 3, 'answer': 'h1. taskx', 'value': None, 'parent_node': 0, 'ancestor_value': 0}, {'id': 4, 'answer': 'h1. aimxz', 'value': None, 'parent_node': 0, 'ancestor_value': 0}, {'id': 5, 'answer': 'h1. jobxr', 'value': None, 'parent_node': 0, 'ancestor_value': 0}]
+cost time: 46.841880083084106
+
+
+input: An agendum; something to be done: planx
+Evaluator response: The letter constraint is: 5 letters, no specific letter requirement.
+Some possible words that mean "An agendum; something to be done":
+schedule (s c h e d u l e): 7 letters, not 5
+plan (p l a n): 4 letters, not 5
+I cannot think of any word now with the pattern planx that means "An agendum; something to be done". It's likely impossible due to the lack of specific constraints.
+impossible
+cost time: 149.909925699234
+
+answer: h1. planx
+Count: {'sure': 0, 'maybe': 0, 'impossible': 0}
+
+
+input: An agendum; something to be done: dutyx
+Evaluator response: The letter constraint is: 5 letters, no specific letters are constrained.
+Some possible words that mean "An agendum; something to be done":
+task (t a s k): 4 letters, not 5
+assignment (a s s i g n m e n t): 10 letters, not 5
+duty (d u t y): 4 letters, not 5 (we can't evaluate "dutyx")
+I cannot think of any words now. The original word has an uncommon pattern with no specific letter constraints, making it difficult to find a fitting meaning for it
+maybe
+cost time: 77.78028416633606
+
+answer: h1. dutyx
+Count: {'sure': 0, 'maybe': 0, 'impossible': 0}
+
+
+input: An agendum; something to be done: taskx
+Evaluator response: The letter constraint is: 5 letters, letter 2 is x.
+Some possible words that mean "An agendum; something to be done":
+action (a c t i o n): 6 letters, not 5
+mission (m i s s i o n): 6 letters, not 5
+task (t a s k): 4 letters, not 5
+I cannot think of any words now. 1 letter is constrained, and it is unlikely to have a meaningful five-letter word with constraint x in the middle to mean "An agendum; something to be done"
+impossible
+cost time: 77.98804593086243
+
+answer: h1. taskx
+Count: {'sure': 0, 'maybe': 0, 'impossible': 0}
+
+
+input: An agendum; something to be done: aimxz
+Evaluator response: The letter constraint is: 5 letters, letter 1 is a, letter 3 is i, letter 4 is m, letter 5 is x.
+Some possible words that mean "An agendum; something to be done":
+task (t a s k): 4 letters, not 5, does not fit the pattern
+objective (o b j e c t i v e): 10 letters, not 5
+I cannot think of any words now. The given pattern is very specific and doesn't seem to have a meaningful word fitting it for these meanings.
+impossible
+cost time: 73.99336695671082
+
+answer: h1. aimxz
+Count: {'sure': 0, 'maybe': 0, 'impossible': 0}
+
+
+input: An agendum; something to be done: jobxr
+Evaluator response: The letter constraint is: 5 letters, letter 1 is j, letter 3 is b, letter 4 is o.
+Some possible words that mean "An agendum; something to be done":
+task (t a s k): 4 letters, not 5
+job (j o b): 3 letters, not 5
+I cannot think of any words now. Only 4 letters are constrained, and it is improbable to have a word with pattern jobxr to mean "An agendum; something to be done"
+maybe
+cost time: 70.24876427650452
+
+answer: h1. jobxr
+Count: {'sure': 0, 'maybe': 0, 'impossible': 0}
+
+
+now step: 0
+board:
+Current Board
+_____
+_____
+_____
+_____
+_____
+
+
+
+Steps: 
+0
+Nodes:
+[{'id': 1, 'answer': 'h1. itemb', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 2, 'answer': 'h1. goalb', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 3, 'answer': 'h1. taskc', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 4, 'answer': 'h1. apple', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 5, 'answer': 'h1. issue', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 6, 'answer': 'h3. orate', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 7, 'answer': 'h3. pompq', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 8, 'answer': 'h2. locom', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 9, 'answer': 'h2. motor', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 10, 'answer': 'h2. steam', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 11, 'answer': 'h2. pearl', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 6, 'ancestor_value': 0.0}, {'id': 12, 'answer': 'h2. apple', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 6, 'ancestor_value': 0.0}, {'id': 13, 'answer': 'h2. banan', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 6, 'ancestor_value': 0.0}, {'id': 14, 'answer': 'h2. grape', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 6, 'ancestor_value': 0.0}, {'id': 15, 'answer': 'h2. raspb', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 6, 'ancestor_value': 0.0}, {'id': 16, 'answer': 'h5. ridic', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 11, 'ancestor_value': 0.0}, {'id': 17, 'answer': 'h2. analy', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 11, 'ancestor_value': 0.0}, {'id': 18, 'answer': 'h4. convn', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 11, 'ancestor_value': 0.0}, {'id': 19, 'answer': 'v1. ipoes', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 11, 'ancestor_value': 0.0}, {'id': 20, 'answer': 'v2. terni', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 11, 'ancestor_value': 0.0}, {'id': 21, 'answer': 'h4. venue', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 16, 'ancestor_value': 0.0}, {'id': 22, 'answer': 'h4. asaln', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 16, 'ancestor_value': 0.0}, {'id': 23, 'answer': 'h4. hallo', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 16, 'ancestor_value': 0.0}, {'id': 24, 'answer': 'h4. roomi', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 16, 'ancestor_value': 0.0}, {'id': 25, 'answer': 'h4. space', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 16, 'ancestor_value': 0.0}, {'id': 1, 'answer': 'h1. planx', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 2, 'answer': 'h1. dutyx', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 3, 'answer': 'h1. taskx', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 4, 'answer': 'h1. aimxz', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 5, 'answer': 'h1. jobxr', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}]
+Selected node:
+{'id': 1, 'answer': 'h1. planx', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}
+
+
+Generator: 
+[('h2. wiret', 0.5), ('h2. tapxr', 0.5), ('h3. oustx', 0.5), ('h3. firex', 0.5), ('h4. awakx', 0.5)]
+Generator nodes:
+[{'id': 6, 'answer': 'h2. wiret', 'value': None, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 7, 'answer': 'h2. tapxr', 'value': None, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 8, 'answer': 'h3. oustx', 'value': None, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 9, 'answer': 'h3. firex', 'value': None, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 10, 'answer': 'h4. awakx', 'value': None, 'parent_node': 1, 'ancestor_value': 0.0}]
+cost time: 46.40118074417114
+
+
+input: An agendum; something to be done: planx
+Evaluator response: The letter constraint is: 6 letters, letter 1 is p, letter 5 is x.
+Some possible words that mean "An agendum; something to be done":
+program (p r o g r a m): 6 letters, letter 1 is p, not l
+scheme (s c h e e m): 6 letters, letter 1 is s, not p
+I cannot think of any words now. 2 letters are constrained, and it is unlikely to have a word with pattern planx to mean "An agendum; something to be done"
+maybe
+
+A newcomer: c _ n _ w
+The letter constraint is: 5 letters, letter 1 is c, letter 3 is n, and s
+cost time: 180.79678201675415
+
+input: One who wires: wiret
+Evaluator response: The letter constraint is: 5 letters, letter 2 is i.
+Some possible words that mean "One who wires":
+wirer (w i r e r): 6 letters, not 5
+I cannot think of any words now. 1 letter is constrained, and it is unlikely to find a word with only 4 unconstrained letters to match the given meaning.
+impossible
+
+A person who performs in films: _ t _ r
+The letter constraint is: 5 letters, letter 2 is t, letter 3 is _, letter 4 is _, letter 5 is r.
+Some possible words that mean "A person who performs in films"s
+cost time: 86.3338131904602
+
+input: Mindful; conscious: pw___
+Evaluator response: The letter constraint is: 5 letters, letter 2 is w.
+Some possible words that mean "Mindful; conscious":
+aware (a w a r e): 5 letters, letter 2 is w
+conscious (c o n s c i o u s): 10 letters, letter 2 is w, but it has more than 5 letters
+I cannot think of any words now. Only 1 letter is constrained, and _w___ doesn't fit well for the meaning
+maybe
+cost time: 64.92364859580994
+
+input: A gadget: li___
+Evaluator response: The letter constraint is: 5 letters, letter 2 is l, letter 4 is i.
+Some possible words that mean "A gadget":
+lighter (l i t e r): 6 letters, not 5
+device (d e v i c e): 6 letters, not 5
+I cannot think of any words now. Only 2 letters are constrained, it is still likely
+maybe
+cost time: 53.342589378356934
+
+input: Notched or uneven, as if gnawed away (cognate with "erode"): ar___
+Evaluator response: The letter constraint is: 5 letters, letter 2 is r.
+Some possible words that mean "Notched or uneven, as if gnawed away":
+abrade (a b r a d e): 6 letters, not 5
+I cannot think of any words now. Only 1 letter is constrained and it's too specific for the pattern ar___ to represent such meaning directly
+impossible
+cost time: 55.96304488182068
+
+input: Not ever: ne___
+Evaluator response: The letter constraint is: 5 letters, letter 1 is n.
+Some possible words that mean "Not ever":
+never (n e v e r): 5 letters, letter 1 is n
+I cannot think of any words now. 4 letters are constrained, and ____ can be filled in many ways but not meaningful with the given context
+impossible
+cost time: 47.16255974769592
+
+input: Drenched; drowned: xt___
+Evaluator response: The letter constraint is: 5 letters, letter 2 is x.
+Some possible words that mean "Drenched; drowned":
+wet (w e t): 3 letters, not 5
+soaked (s o a k e d): 6 letters, letter 2 is s, not x
+I cannot think of any words now. Only 1 letter is constrained, and it does not help to narrow down the meaning
+impossible
+cost time: 58.48635458946228
+
+answer: h2. wiret
+Count: {'sure': 0, 'maybe': 0, 'impossible': 0}
+
+
+input: An agendum; something to be done: planx
+Evaluator response: The letter constraint is: 5 letters, no specific letter constraints.
+Some possible words that mean "An agendum; something to be done":
+scheme (s c h e m e): 5 letters, not 6
+strategy (s t r a t e g y): 8 letters, not 5
+I cannot think of any words now. There are no specific letter constraints and the given word 'planx' does not seem to have a meaning fitting the description. The task might be impossible.
+impossible
+cost time: 67.58447885513306
+
+input: One who wires: tapxr
+Evaluator response: The letter constraint is: 5 letters, letter 1 is t, letter 2 is a, letter 4 is x, letter 5 is r.
+Some possible words that mean "One who wires":
+electrician (e l e c t r i c i a n): 13 letters, not 5
+wireman (w i r e m a n): 6 letters, letter 2 is w, not t
+I cannot think of any words now. 4 letters are constrained, and it is extremely unlikely to have a word with pattern tapxr that represents "One who wires"
+impossible
+cost time: 80.51958680152893
+
+input: Mindful; conscious: pt___
+Evaluator response: The letter constraint is: 5 letters, letter 2 is p, letter 4 is _, letter 5 is t.
+Some possible words that mean "Mindful; conscious":
+aware (a w a r e): 5 letters, letter 2 is a, not p
+cognizant (c o g n i z a n t): 9 letters, too long for the constraint
+I cannot think of any words now. 3 letters are constrained, and it is very unlikely to have a word with pattern pt___ to mean "Mindful; conscious"
+impossible
+cost time: 73.7846314907074
+
+input: A gadget: la___
+Evaluator response: The letter constraint is: 5 letters, letter 1 is l, letter 2 is a.
+Some possible words that mean "A gadget":
+labot (l a b o t): 5 letters, letter 1 is l, letter 2 is a, not _
+I cannot think of any other word now. Only 2 letters are constrained, and it seems quite unlikely to have a 5-letter word with this pattern that means "A gadget"
+maybe
+cost time: 60.60359025001526
+
+input: Notched or uneven, as if gnawed away (cognate with "erode"): ap___
+Evaluator response: The letter constraint is: 5 letters, letter 2 is a, letter 4 is p.
+Some possible words that mean "Notched or uneven, as if gnawed away":
+abraded (a b r a d e d): 7 letters, not 5
+eroded (e r o d e d): 6 letters, not 5
+I cannot think of any words now. Only 2 letters are constrained, it is still likely
+maybe
+cost time: 63.302786111831665
+
+input: Not ever: nx___
+Evaluator response: The letter constraint is: 5 letters, no specific constraint on the given alphabet.
+Some possible words that mean "Not ever":
+never (n e v e r): 5 letters, not all xs
+I cannot think of any words now with at least one 'x' and a meaning like "not ever". This seems quite impossible.
+impossible
+cost time: 46.10394072532654
+
+input: Drenched; drowned: xr___
+Evaluator response: The letter constraint is: 5 letters, letter 1 is x, letter 3 is r.
+Some possible words that mean "Drenched; drowned":
+sopping (s o p p i n g): 7 letters, not 5
+soaked (s o a k e): 5 letters, letter 1 is s, not x
+I cannot think of any words now. 2 letters are constrained, and it is still likely to find some word with pattern xr___ that means "Drenched; drowned"
+maybe
+cost time: 70.28358554840088
+
+answer: h2. tapxr
+Count: {'sure': 0, 'maybe': 0, 'impossible': 0}
+
+
+input: An agendum; something to be done: planx
+Evaluator response: The letter constraint is: 5 letters.
+Some possible words that mean "An agendum; something to be done":
+task (t a s k): 4 letters, not 5
+goal (g o l): 3 letters, not 5
+I cannot think of any words now. The word 'planx' doesn't seem to fit the given meaning or letter constraint pattern.
+impossible
+cost time: 53.465781450271606
+
+input: To stir up; to remove from office: oustx
+Evaluator response: The letter constraint is: 5 letters, letter 2 is u, letter 3 is t.
+Some possible words that fit the constraints but have different meanings:
+oust (o u s t): 4 letters, not 5
+I cannot think of any words now. The given word "oustx" does not seem to fit a common pattern with meaning "to stir up; to remove from office," and only 2 out of 5 letters are constrained. So it is likely impossible.
+impossible
+cost time: 64.67550754547119
+
+input: Mindful; conscious: p_o__
+Evaluator response: The letter constraint is: 5 letters, letter 1 is p, letter 2 is o, letter 4 is o.
+Some possible words that mean "Mindful; conscious":
+aware (a w a r e): 5 letters, letter 1 is a, not p
+I cannot think of any words now. 3 letters are constrained, and it is extremely unlikely to have a word with pattern p_o__ to mean "Mindful; conscious"
+impossible
+cost time: 61.51445817947388
+
+input: A gadget: l_u__
+Evaluator response: The letter constraint is: 5 letters, letter 1 is l, letter 3 is u.
+Some possible words that mean "A gadget":
+gizmo (g i z m o): 5 letters, not starting with l or containing u
+widget (w i d g e t): 6 letters, not starting with l or containing u
+I cannot think of any words now. 2 letters are constrained, and it is still likely to find a word with pattern _u__ to mean "A gadget"
+maybe
+cost time: 67.11394882202148
+
+input: Notched or uneven, as if gnawed away (cognate with "erode"): a_s__
+Evaluator response: The letter constraint is: 5 letters, letter 2 is a, letter 4 is s.
+Some possible words that mean "Notched or uneven, as if gnawed away":
+abrade (a b r a d e): 5 letters, letter 1 is a, not _
+erode (e r o d e): 5 letters, letter 1 is e, not _
+I cannot think of any words now. 3 letters are constrained, and _ a s _ seems a common pattern to mean "Notched or uneven, as if gnawed away"
+maybe
+cost time: 78.4542465209961
+
+input: Not ever: n_t__
+Evaluator response: The letter constraint is: 5 letters, letter 1 is n, letter 2 is _, letter 3 is _, letter 4 is _, letter 5 is _.
+Some possible words that mean "Not ever":
+never (n e v e r): 5 letters, not all letters specified
+I cannot think of any other words now. The given constraint does not limit the middle letters, making it difficult to find a specific meaning word with this pattern
+maybe
+cost time: 57.87484383583069
+
+input: Drenched; drowned: x_x__
+Evaluator response: The letter constraint is: 5 letters, no specific letters are constrained.
+Some possible words that mean "Drenched; drowned":
+soaked (s o a k e d): 5 letters, not x_x__
+I cannot think of any words now. No specific letters are constrained, but the given pattern does not give much information to find any meaningful word.
+impossible
+cost time: 52.32461500167847
+
+answer: h3. oustx
+Count: {'sure': 0, 'maybe': 0, 'impossible': 0}
+
+
+input: An agendum; something to be done: planx
+Evaluator response: The letter constraint is: 6 letters, letter 2 is p, letter 4 is l, letter 5 is n.
+Some possible words that mean "An agendum; something to be done":
+project (p r o j e c t): 6 letters, not 6
+plan (p l a n): 4 letters, not 6
+I cannot think of any words now. The given word "planx" does not seem like a common pattern or a valid English word, and the constraints only apply to 3 letters among 6.
+impossible
+cost time: 73.32235026359558
+
+input: To stir up; to remove from office: firex
+Evaluator response: The letter constraint is: 5 letters, no specific letter constraints.
+Some possible words that mean "To stir up; to remove from office":
+dismiss (d i s m i s): 6 letters, not 5
+fire (f i r e): 4 letters, not 5
+I cannot think of any words now. The given word does not fit the letter constraints and is not a common term, making it impossible to find a suitable meaning.
+impossible
+cost time: 61.46760106086731
+
+input: Mindful; conscious: p_f__
+Evaluator response: The letter constraint is: 5 letters, letter 2 is p, letter 4 is f.
+Some possible words that mean "Mindful; conscious":
+aware (a w a r e): 5 letters, letter 1 is a, not p
+conscientious (c o n s c i e n t i o u s): 13 letters, only 2 match the constraint
+I cannot think of any words now. Only 2 letters are constrained and they don't form a common pattern
+impossible
+cost time: 67.5090663433075
+
+input: A gadget: l_i__
+Evaluator response: The letter constraint is: 5 letters, letter 1 is l, letter 3 is i, letter 4 is blank.
+Some possible words that mean "A gadget":
+gizmo (g i z m o): 6 letters, not 5 (only 2 letters are constrained and there is no direct fitting word)
+maybe
+cost time: 45.35657525062561
+
+input: Notched or uneven, as if gnawed away (cognate with "erode"): a_r__
+Evaluator response: The letter constraint is: 5 letters, letter 1 is a, letter 3 is r.
+Some possible words that mean "Notched or uneven, as if gnawed away (cognate with 'erode')":
+frail (f r a i l): 5 letters, letter 1 is f, not a
+I cannot think of any words now. Only 2 letters are constrained, and it's unlikely to find a meaningful word with this specific pattern
+maybe
+cost time: 65.54586482048035
+
+input: Not ever: n_e__
+Evaluator response: The letter constraint is: 5 letters, letter 1 is n, letter 3 is e, letter 4 is _.
+Some possible words that mean "Not ever":
+never (n e v e r): 5 letters, letter 1 is n, letter 3 is e, letter 4 is v
+I cannot think of any other words now. 3 letters are constrained and it seems the pattern _ doesn't fit in this context
+maybe
+cost time: 57.42193412780762
+
+input: Drenched; drowned: x_x__
+Evaluator response: The letter constraint is: 5 letters, no specific letters are constrained.
+Some possible words that mean "Drenched; drowned":
+soggy (s o g g y): 5 letters
+wet (w e t): 3 letters
+I cannot think of any other suitable words now. There are no specific letter constraints, so finding a word with this pattern is not impossible, but it's quite unlikely to have a meaningful word in this case.
+maybe
+cost time: 61.46869230270386
+
+answer: h3. firex
+Count: {'sure': 0, 'maybe': 0, 'impossible': 0}
+
+
+input: An agendum; something to be done: planx
+Evaluator response: The letter constraint is: 5 letters, letter 1 is p, letter 2 is l, letter 3 is a, letter 4 is n.
+Some possible words that mean "An agendum; something to be done":
+task (t a s k): 4 letters, not 5
+I cannot think of any word now. 4 letters are constrained, and the given string 'planx' does not seem like any common pattern for a meaningful word
+impossible
+cost time: 62.750298261642456
+
+input: Ascended; awakened: awakx
+Evaluator response: The letter constraint is: 5 letters, letter 2 is a, letter 4 is x.
+Some possible words that mean "Ascended; awakened":
+awaken (a w a k e n): 6 letters, not 5
+I cannot think of any other words now. Only 2 letters are constrained, and it seems difficult to find a word with pattern 'awakx' to mean "Ascended; awakened"
+impossible
+cost time: 60.342724561691284
+
+input: Mindful; conscious: p__a_
+Evaluator response: The letter constraint is: 5 letters, letter 1 is p, letter 3 is _, letter 4 is _, letter 5 is a.
+Some possible words that mean "Mindful; conscious":
+aware (a w a r e): 5 letters, not starting with p
+I cannot think of any words now. Only 2 letters are constrained and the pattern seems too loose to have a meaningful word with it
+impossible
+
+Fabulous: b__l_s
+The letter constraint is: 5 letters, letter 1 is b, letter 3 is _, letter 4 is _, letter 5 is s.
+Some possible words that mean "Fabulous":
+marb
+cost time: 88.89678311347961
+
+input: A gadget: l__w_
+Evaluator response: The letter constraint is: 5 letters, letter 1 is l, letter 3 is _, letter 4 is _, letter 5 is w.
+Some possible words that mean "A gadget":
+gizmo (g i z m o): 5 letters, not the pattern l__w_
+I cannot think of any words now. Only 2 letters are specified in the pattern and it is extremely unlikely to have a word with this specific pattern
+impossible
+cost time: 57.93744897842407
+
+input: Notched or uneven, as if gnawed away (cognate with "erode"): a__a_
+Evaluator response: The letter constraint is: 5 letters, letter 1 is a.
+Some possible words that mean "Notched or uneven, as if gnawed away":
+abrade (a b r a d e): 6 letters, not 5
+groove (g r o o v e): 5 letters, letter 1 is g, not a
+I cannot think of any words now. Only the first letter is constrained, which leaves too much flexibility for the rest of the word to mean "Notched or uneven, as if gnawed away"
+maybe
+cost time: 75.62908220291138
+
+input: Not ever: n__k_
+Evaluator response: The letter constraint is: 5 letters, letter 1 is n, letter 4 is _, letter 5 is k.
+Some possible words that mean "Not ever":
+never (n e v e r): 5 letters, letter 1 is n, not _, letter 5 is r
+I cannot think of any words now. Only one letter is constrained at position 4, and it doesn't make much sense with the given meaning
+impossible
+cost time: 58.888118743896484
+
+input: Drenched; drowned: x__x_
+Evaluator response: The letter constraint is: 5 letters, letter 2 is _, letter 3 is _, letter 5 is _.
+Some possible words that mean "Drenched; drowned":
+sopping (s o p p i n g): 7 letters, not 5
+soaked (s o a k e): 5 letters, letter 1 is s, not x
+wet (w e t): 3 letters, not 5
+I cannot think of any words now. There are too many unconstrained characters, and it is extremely unlikely to have a meaningful word with pattern x__x_ for "Drenched; drowned"
+impossible
+cost time: 85.88124918937683
+
+answer: h4. awakx
+Count: {'sure': 0, 'maybe': 0, 'impossible': 0}
+
+
+now step: 1
+board:
+Current Board
+planx
+_____
+_____
+_____
+_____
+
+
+
+Steps: 
+1
+Nodes:
+[{'id': 1, 'answer': 'h1. itemb', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 2, 'answer': 'h1. goalb', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 3, 'answer': 'h1. taskc', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 4, 'answer': 'h1. apple', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 5, 'answer': 'h1. issue', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 6, 'answer': 'h3. orate', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 7, 'answer': 'h3. pompq', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 8, 'answer': 'h2. locom', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 9, 'answer': 'h2. motor', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 10, 'answer': 'h2. steam', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 11, 'answer': 'h2. pearl', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 6, 'ancestor_value': 0.0}, {'id': 12, 'answer': 'h2. apple', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 6, 'ancestor_value': 0.0}, {'id': 13, 'answer': 'h2. banan', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 6, 'ancestor_value': 0.0}, {'id': 14, 'answer': 'h2. grape', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 6, 'ancestor_value': 0.0}, {'id': 15, 'answer': 'h2. raspb', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 6, 'ancestor_value': 0.0}, {'id': 16, 'answer': 'h5. ridic', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 11, 'ancestor_value': 0.0}, {'id': 17, 'answer': 'h2. analy', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 11, 'ancestor_value': 0.0}, {'id': 18, 'answer': 'h4. convn', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 11, 'ancestor_value': 0.0}, {'id': 19, 'answer': 'v1. ipoes', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 11, 'ancestor_value': 0.0}, {'id': 20, 'answer': 'v2. terni', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 11, 'ancestor_value': 0.0}, {'id': 21, 'answer': 'h4. venue', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 16, 'ancestor_value': 0.0}, {'id': 22, 'answer': 'h4. asaln', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 16, 'ancestor_value': 0.0}, {'id': 23, 'answer': 'h4. hallo', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 16, 'ancestor_value': 0.0}, {'id': 24, 'answer': 'h4. roomi', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 16, 'ancestor_value': 0.0}, {'id': 25, 'answer': 'h4. space', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 16, 'ancestor_value': 0.0}, {'id': 1, 'answer': 'h1. planx', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 2, 'answer': 'h1. dutyx', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 3, 'answer': 'h1. taskx', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 4, 'answer': 'h1. aimxz', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 5, 'answer': 'h1. jobxr', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 6, 'answer': 'h2. wiret', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 7, 'answer': 'h2. tapxr', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 8, 'answer': 'h3. oustx', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 9, 'answer': 'h3. firex', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 10, 'answer': 'h4. awakx', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 1, 'ancestor_value': 0.0}]
+Selected node:
+{'id': 6, 'answer': 'h2. wiret', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 1, 'ancestor_value': 0.0}
+
+
+Generator: 
+[('h3. exile', 0.75), ('h3. eject', 0.5), ('h3. toppr', 0.25), ('h3. oustp', 0.25), ('h3. depla', 0.25)]
+Generator nodes:
+[{'id': 11, 'answer': 'h3. exile', 'value': None, 'parent_node': 6, 'ancestor_value': 0.0}, {'id': 12, 'answer': 'h3. eject', 'value': None, 'parent_node': 6, 'ancestor_value': 0.0}, {'id': 13, 'answer': 'h3. toppr', 'value': None, 'parent_node': 6, 'ancestor_value': 0.0}, {'id': 14, 'answer': 'h3. oustp', 'value': None, 'parent_node': 6, 'ancestor_value': 0.0}, {'id': 15, 'answer': 'h3. depla', 'value': None, 'parent_node': 6, 'ancestor_value': 0.0}]
+cost time: 45.34024167060852
+
+
+input: An agendum; something to be done: planx
+Evaluator response: The letter constraint is: 5 letters, letter 1 is p, letter 2 is l, letter 3 is a, letter 4 is n.
+Some possible words that mean "An agendum; something to be done":
+project (p r o j e c t): 6 letters, not 5
+design (d e s i g n): 5 letters, letter 1 is d, not p
+I cannot think of any words now. 4 letters are constrained, and it is extremely unlikely to have a word with pattern planx to mean "An agendum; something to be done"
+impossible
+cost time: 165.47870254516602
+
+input: One who wires: wiret
+Evaluator response: The letter constraint is: 5 letters, letter 1 is w, letter 3 is i, letter 4 is r.
+Some possible words that mean "One who wires":
+electrician (e l e c t r i c i a n): 12 letters, not 5
+wireman (w i r e m a n): 7 letters, letter 3 is not i, letter 4 is not r
+I cannot think of any words now. Only 4 letters are constrained, and it is unlikely to find a meaningful word with the pattern wiret to mean "One who wires"
+impossible
+cost time: 79.329993724823
+
+input: To stir up; to remove from office: exile
+Evaluator response: The given constraint does not apply here, as the required format is a 5-letter word with specific letters. The given words are not 5-letter and do not have specific constrained letters. There might be confusion about the meaning of "To stir up" or "to remove from office". Since no fitting answer can be found within the constraints provided, it's impossible.
+impossible
+cost time: 50.3234498500824
+
+input: Mindful; conscious: pwe__
+Evaluator response: The letter constraint is: 5 letters, letter 2 is w, letter 4 is e.
+Some possible words that mean "Mindful; conscious":
+aware (a w a r e): 5 letters, letter 2 is a, not w
+I cannot think of any words now. Only 3 letters are constrained, and it is still likely to find some words with pattern pwe__ that fit the meaning
+maybe
+cost time: 55.03672766685486
+
+input: A gadget: lix__
+Evaluator response: The letter constraint is: 5 letters, letter 1 is l, letter 2 is i.
+Some possible words that mean "A gadget":
+gizmo (g i z m o): 6 letters, not 5
+widget (w i g e t): 6 letters, not 5
+I cannot think of any words now. Only 2 letters are constrained and it is highly unlikely to find a word with pattern lix__ meaning "A gadget"
+impossible
+cost time: 62.45633149147034
+
+input: Notched or uneven, as if gnawed away (cognate with "erode"): ari__
+Evaluator response: The letter constraint is: 5 letters, letter 1 is a, letter 3 is i.
+Some possible words that mean "Notched or uneven, as if gnawed away (cognate with 'erode')":
+erosion (e r o s i o n): 7 letters, not 5
+I cannot think of any words now. Only 2 letters are constrained, and _ari__ does not form a clear pattern or meaning related to "Notched or uneven"
+impossible
+
+A small container for holding or storing: b _ w
+The letter constraint is: 3 letters, letter 1 is b, letter 2 is _, letter 3 is w.
+Some ways
+cost time: 92.5602822303772
+
+input: Not ever: nel__
+Evaluator response: The letter constraint is: 5 letters, letter 1 is n, letter 3 is e.
+Some possible words that mean "Not ever":
+never (n e v e r): 5 letters, letter 1 is n, not l, letter 3 is e
+I cannot think of any other words now. The given pattern is Nel_ and the meaning is specific which makes it hard to find a suitable word while keeping constraints
+maybe
+cost time: 55.45307159423828
+
+input: Drenched; drowned: xte__
+Evaluator response: The letter constraint is: 5 letters, letter 1 is x, letter 4 is t.
+Some possible words that mean "Drenched; drowned":
+dampen (d a m p e n): 6 letters, not 5
+soaked (s o a k e d): 6 letters, not 5
+submerge (s u b m e r g e): 8 letters, not 5
+I cannot think of any words now. Only 2 letters are constrained, and xte__ seems quite random with no common pattern
+impossible
+cost time: 73.81418442726135
+
+answer: h3. exile
+Count: {'sure': 0, 'maybe': 0, 'impossible': 0}
+
+
+input: An agendum; something to be done: planx
+Evaluator response: The letter constraint is: 5 letters, no specific letters are constrained.
+Some possible words that mean "An agendum; something to be done":
+agenda (a g e n d a): 6 letters, not 5 and doesn't fit the pattern planx
+plan (p l a n): 4 letters, not 5 and doesn't fit the pattern planx
+I cannot think of any words now. The pattern planx doesn't seem to have a meaningful word in English related to agendum or something to be done
+impossible
+cost time: 71.349125623703
+
+input: One who wires: wiret
+Evaluator response: The letter constraint is: 5 letters, letter 2 is i.
+Some possible words that mean "One who wires":
+electrician (e l e c t r i c i a n): 12 letters, not 5
+wirer (w i r e r): 5 letters, letter 2 is i, but has an extra letter
+wireman (w i r e m a n): 6 letters, not 5
+I cannot think of any words now. Only 1 letter is constrained, and the pattern wiret doesn't seem to have a meaning
+maybe
+cost time: 76.32954168319702
+
+input: To stir up; to remove from office: eject
+Evaluator response: The letter constraint is not mentioned for this example.
+Some possible words that mean "To stir up; to remove from office":
+eject (e j e c t): 5 letters, letter 1 is e, letter 3 is j, letter 4 is e, letter 6 is t.
+sure
+cost time: 40.9447295665741
+
+input: Mindful; conscious: pwe__
+Evaluator response: The letter constraint is: 5 letters, letter 3 is w.
+Some possible words that mean "Mindful; conscious":
+aware (a w a r e): 5 letters, letter 2 is a, not p
+attentive (a t t e n t i v e): 10 letters, not 5
+I cannot think of any words now. 1 letter is constrained, and it seems almost impossible to find a word with such a pattern meaning "Mindful; conscious"
+impossible
+cost time: 67.34526443481445
+
+input: A gadget: lij__
+Evaluator response: The letter constraint is: 5 letters, letter 1 is l, letter 2 is i, letter 4 is j.
+Some possible words that mean "A gadget":
+gizmo (g i z m o): 6 letters, not 5
+widget (w i d g t): 6 letters, not 5
+I cannot think of any words now. Only 3 letters are constrained, and _lij__ seems a rare pattern
+impossible
+cost time: 60.983978509902954
+
+input: Notched or uneven, as if gnawed away (cognate with "erode"): are__
+Evaluator response: The letter constraint is: 5 letters, no specific letters constrained.
+Some possible words that mean "Notched or uneven, as if gnawed away":
+frayed (f r a y e d): 6 letters, not 5
+ragged (r a g g e d): 6 letters, not 5
+I cannot think of any words now. It is likely to find a word fitting the meaning with no specific letter constraints
+maybe
+cost time: 60.62922024726868
+
+input: Not ever: nec__
+Evaluator response: The letter constraint is: 5 letters, letter 2 is e.
+Some possible words that mean "Not ever":
+never (n e v e r): 5 letters, letter 2 is e
+I cannot think of any other words now. Only 1 letter is constrained, making it easy to satisfy the constraint without changing the meaning
+maybe
+cost time: 45.6256902217865
+
+input: Drenched; drowned: xtt__
+Evaluator response: The letter constraint is: 5 letters, letter 1 is x, letter 2 is t, letter 3 is t, letter 4 is _, letter 5 is _.
+Some possible words that mean "Drenched; drowned":
+soaked (s o a k e): 5 letters, not 5
+wet (w e t ): 3 letters, not 5
+I cannot think of any words now. 4 letters are constrained and the given pattern is not suitable for any related words
+impossible
+cost time: 67.72652220726013
+
+answer: h3. eject
+Count: {'sure': 0, 'maybe': 0, 'impossible': 0}
+
+
+input: An agendum; something to be done: planx
+Evaluator response: The letter constraint is: 5 letters, no specific letters.
+Some possible words that mean "An agendum; something to be done":
+plan (p l a n): 4 letters, not 5
+scheme (s c h e m e): 5 letters, not 'planx'
+I cannot think of any words now. The given word 'planx' doesn't fit the context and meaning, even without constraints it is unlikely to find any suitable word
+impossible
+cost time: 63.390241384506226
+
+input: One who wires: wiret
+Evaluator response: The letter constraint is: 5 letters, letter 1 is w, letter 4 is i.
+Some possible words that mean "One who wires":
+electrician (e l e c t r i c i a n): 10 letters, not 5
+wirer (w i r e r): 5 letters, letter 2 is i, not w
+I cannot think of any other word now. The given word "wiret" itself doesn't make much sense while fitting the given constraints.
+impossible
+cost time: 68.24959874153137
+
+input: To stir up; to remove from office: toppr
+Evaluator response: The letter constraint is: 5 letters, no specific letters.
+Some possible words that mean "To stir up; to remove from office":
+depose (d e p o s e): 6 letters, not 5
+oust (o u s t): 4 letters, not 5
+I cannot think of any words now. It is very unlikely to find a word with pattern toppr meaning "To stir up; to remove from office" as no specific letter constraints are given
+impossible
+cost time: 62.828985929489136
+
+input: Mindful; conscious: pwt__
+Evaluator response: The letter constraint is: 5 letters, letter 1 is p, letter 2 is w, letter 4 is t.
+Some possible words that mean "Mindful; conscious":
+aware (a w a r e): 5 letters, not starting with p, w, or ending with t
+I cannot think of any words now. Only 3 letters are constrained and the constraints don't form a meaningful word pattern
+impossible
+cost time: 57.497183322906494
+
+input: A gadget: lio__
+Evaluator response: The letter constraint is: 5 letters, letter 1 is l, letter 3 is i.
+Some possible words that mean "A gadget":
+tool (t o o l): 4 letters, not 5
+device (d e v i c e): 6 letters, not 5
+I cannot think of any words now. Only 2 letters are constrained, and lio__ is not a common pattern for meaning "A gadget"
+impossible
+cost time: 59.83708667755127
+
+input: Notched or uneven, as if gnawed away (cognate with "erode"): arp__
+Evaluator response: The letter constraint is: 5 letters, letter 2 is a.
+Some possible words that mean "Notched or uneven, as if gnawed away":
+abrade (a b r a d e): 6 letters, not 5
+gnarl (g n a r l): 5 letters, letter 1 is g, not a
+I cannot think of any words now. Only 2 letters are constrained, it is still likely
+maybe
+
+A person who is very careful: c _ r f u
+The letter constraint is: 5 letters, letter 1 is c, letter 3 is r, letter 4 is f, letter 5 is u.
+Some possible words that mean "A person who is very careful"i
+cost time: 96.256032705307
+
+input: Not ever: nep__
+Evaluator response: The letter constraint is: 5 letters, letter 1 is n, letter 3 is e.
+Some possible words that mean "Not ever":
+never (n e v e r): 5 letters, letter 1 is n, letter 3 is e
+I cannot think of any other word with these specific letter constraints meaning "Not ever"
+sure
+
+A man who works a lot: _ n _ l g
+The letter constraint is: 5 letters, letter 2 is n, letter 4 is l, letter 5 is g.
+Some possible words that mean "A man who works a lot":
+diligent (d i l i g e n t): 8 letters, not 5
+worker (w o r k e r)l
+cost time: 94.76749587059021
+
+input: Drenched; drowned: xtr__
+Evaluator response: The letter constraint is: 5 letters, no specific letters are required.
+Some possible words that mean "Drenched; drowned":
+sodden (s o d d e n): 6 letters, not 5
+dampen (d a m p e n): 5 letters, but it doesn't fit the meaning well
+I cannot think of any words now. The given pattern xtr__ does not seem to match any common word patterns for "Drenched; drowned"
+impossible
+cost time: 66.40588355064392
+
+answer: h3. toppr
+Count: {'sure': 0, 'maybe': 0, 'impossible': 0}
+
+
+input: An agendum; something to be done: planx
+Evaluator response: The letter constraint is: 5 letters.
+Some possible words that mean "An agendum; something to be done":
+project (p r o j e c t): 6 letters, not 5
+mission (m i s s i o n): 6 letters, not 5
+I cannot think of any words now. The given word 'planx' does not fit the constraint and no meaningful alternative is provided
+impossible
+cost time: 55.24980592727661
+
+input: One who wires: wiret
+Evaluator response: The letter constraint is: 5 letters, letter 1 is w, letter 3 is i, letter 4 is r.
+Some possible words that mean "One who wires":
+electrician (e l e c t r i c i a n): 12 letters, not 5
+wireman (w i r e m a n): 6 letters, does not fit the pattern wiret (it should be wirem_ or _t)
+I cannot think of any words now. 4 letters are constrained, and it is extremely unlikely to have a word with pattern wiret to mean "One who wires"
+impossible
+
+A small stream: st _ r m
+The letter constraint is: 5 letters, l
+cost time: 92.63756465911865
+
+input: To stir up; to remove from office: oustp
+Evaluator response: The letter constraint is: 5 letters, letter 1 is o, letter 3 is u, letter 6 is p.
+Some possible words that mean "To stir up; to remove from office":
+dismiss (d i s m i s): 7 letters, not 5
+oust (o u s t): 4 letters, not 5
+I cannot think of any words now. 3 letters are constrained, and the given pattern oustp does not seem meaningful or related to stirring up or removing from office
+impossible
+cost time: 70.01777577400208
+
+input: Mindful; conscious: pwo__
+Evaluator response: The letter constraint is: 5 letters, letter 1 is p, letter 3 is w, letter 4 is o.
+Some possible words that mean "Mindful; conscious":
+aware (a w e r e): 5 letters, letter 1 is a, not p
+I cannot think of any words now. 3 letters are constrained, and the pattern pwo__ seems random
+impossible
+cost time: 52.66592073440552
+
+input: A gadget: liu__
+Evaluator response: The letter constraint is: 5 letters, letter 2 is i.
+Some possible words that mean "A gadget":
+invention (i n v e n t i o n): 9 letters, letter 2 is i, letter 3 is not specified
+contraption (c o n t r a p t i o n): 10 letters, letter 2 is i, other letters fit the pattern
+I cannot think of any words now. 4 letters are constrained, and it is quite unlikely to have a word with pattern liu__ to mean "A gadget"
+maybe
+cost time: 74.28303647041321
+
+input: Notched or uneven, as if gnawed away (cognate with "erode"): ars__
+Evaluator response: The letter constraint is: 5 letters, letter 1 is a, letter 2 is r, letter 4 is s.
+Some possible words that mean "Notched or uneven, as if gnawed away":
+ravage (r a v a g e): 6 letters, not 5
+erode (e r o d e): 5 letters, letter 1 is e, not a
+I cannot think of any words now. 3 letters are constrained, and it is extremely unlikely to have a word with pattern ars__ to mean "Notched or uneven, as if gnawed away"
+impossible
+cost time: 82.48864936828613
+
+input: Not ever: net__
+Evaluator response: The letter constraint is: 5 letters, letter 1 is n, letter 3 is e, letter 4 is t.
+Some possible words that mean "Not ever":
+never (n e v e r): 5 letters, letter 1 is n, letter 3 is e, letter 4 is v, not t
+I cannot think of any words now. 3 letters are constrained, and _ net__ seems a common pattern
+maybe
+cost time: 57.759777307510376
+
+input: Drenched; drowned: xtp__
+Evaluator response: The letter constraint is: 5 letters, letter 1 is x, letter 3 is t, letter 4 is p.
+Some possible words that mean "Drenched; drowned":
+soppy (s o p p y): 5 letters, not in pattern xtp__
+submerged (s u b m e r g e d): 11 letters, not in pattern xtp__
+I cannot think of any words now. 4 letters are constrained, and it is extremely unlikely to have a word with pattern xtp__ to mean "Drenched; drowned"
+impossible
+cost time: 78.90565037727356
+
+answer: h3. oustp
+Count: {'sure': 0, 'maybe': 0, 'impossible': 0}
+
+
+input: An agendum; something to be done: planx
+Evaluator response: The letter constraint is: 5 letters, no specific letter constraints.
+Some possible words that mean "An agendum; something to be done":
+scheme (s c h e m e): 5 letters, not planx
+blueprint (b l u e p r i n t): 8 letters, not planx
+I cannot think of any words now. There are no specific letter constraints provided for the given pattern "planx" to represent an agendum or something to be done.
+impossible
+cost time: 66.1173906326294
+
+input: One who wires: wiret
+Evaluator response: The letter constraint is: 5 letters, letter 2 is w, letter 3 is i, letter 4 is r, letter 5 is e.
+Some possible words that mean "One who wires":
+electrician (e l e c t r i c i a n): 12 letters, not 5
+wireman (w i r e m a n): 6 letters, not 5
+I cannot think of any words now. 4 letters are constrained, and _ wiret doesn't seem to form a meaningful word with the given meaning
+impossible
+cost time: 72.76869869232178
+
+input: To stir up; to remove from office: depla
+Evaluator response: The letter constraint is: 5 letters, no specific constraints on the letters.
+Some possible words that mean "To stir up":
+provoke (p r o v o k e): 6 letters, not 5
+incite (i n c i t e): 5 letters
+stir (s t i r): 4 letters, not 5
+Some possible words that mean "To remove from office":
+dismiss (d i s m i s): 6 letters, not 5
+remove (r e m o v e): 5 letters
+demote (d e m o t e): 5 letters
+impossible
+cost time: 82.71989345550537
+
+input: Mindful; conscious: pwd__
+Evaluator response: The letter constraint is: 5 letters, letter 3 is w, letter 4 is d.
+Some possible words that mean "Mindful; conscious":
+aware (a w a r e): 5 letters, letter 3 is w, letter 4 is e, not d
+I cannot think of any words now. 2 letters are constrained, and it is still likely due to the limited pattern pwd__
+maybe
+cost time: 55.20106267929077
+
+input: A gadget: lie__
+Evaluator response: The letter constraint is: 5 letters, letter 1 is l, letter 2 is i, letter 3 is e.
+Some possible words that mean "A gadget":
+gizmo (g i z m o): 6 letters, not 5
+widget (w i g d t): 6 letters, not 5
+I cannot think of any words now. Only 3 letters are constrained, and it is extremely unlikely to have a word with pattern lie__ to mean "A gadget"
+impossible
+cost time: 65.50228261947632
+
+input: Notched or uneven, as if gnawed away (cognate with "erode"): arp__
+Evaluator response: The letter constraint is: 5 letters, letter 3 is r, letter 4 is p.
+Some possible words that mean "Notched or uneven, as if gnawed away":
+abrade (a b r a d e): 6 letters, not 5
+gnawn (g n a w n): 5 letters, letter 2 is g, not r
+I cannot think of any words now. 2 letters are constrained, and there seems to be no common word pattern with _rp__ to mean "Notched or uneven, as if gnawed away"
+impossible
+
+A small stream: s t _ r c
+The letter constraint is: 5 letters, letter 1 is s, letter 2 is t, letter
+cost time: 98.59189105033875
+
+input: Not ever: nel__
+Evaluator response: The letter constraint is: 5 letters, letter 2 is n, letter 4 is e.
+Some possible words that mean "Not ever":
+never (n e v e r): 5 letters, letter 2 is e, not n
+I cannot think of any words now. 3 letters are constrained, and it is extremely unlikely to have a word with pattern nel__ to mean "Not ever"
+impossible
+cost time: 53.17982029914856
+
+input: Drenched; drowned: xta__
+Evaluator response: The letter constraint is: 5 letters, letter 1 is x, letter 3 is t, letter 4 is a.
+Some possible words that mean "Drenched; drowned":
+submerge (s u b m e r g e): 8 letters, not 5
+immerse (i m m e r s e): 7 letters, not 5
+I cannot think of any words now. 4 letters are constrained, and it is extremely unlikely to have a word with pattern xta__ to mean "Drenched; drowned"
+impossible
+cost time: 72.9081597328186
+
+answer: h3. depla
+Count: {'sure': 0, 'maybe': 0, 'impossible': 0}
+
+
+now step: 2
+board:
+Current Board
+planx
+wiret
+_____
+_____
+_____
+
+
+
+Steps: 
+2
+Nodes:
+[{'id': 1, 'answer': 'h1. itemb', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 2, 'answer': 'h1. goalb', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 3, 'answer': 'h1. taskc', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 4, 'answer': 'h1. apple', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 5, 'answer': 'h1. issue', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 6, 'answer': 'h3. orate', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 7, 'answer': 'h3. pompq', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 8, 'answer': 'h2. locom', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 9, 'answer': 'h2. motor', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 10, 'answer': 'h2. steam', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 11, 'answer': 'h2. pearl', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 6, 'ancestor_value': 0.0}, {'id': 12, 'answer': 'h2. apple', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 6, 'ancestor_value': 0.0}, {'id': 13, 'answer': 'h2. banan', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 6, 'ancestor_value': 0.0}, {'id': 14, 'answer': 'h2. grape', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 6, 'ancestor_value': 0.0}, {'id': 15, 'answer': 'h2. raspb', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 6, 'ancestor_value': 0.0}, {'id': 16, 'answer': 'h5. ridic', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 11, 'ancestor_value': 0.0}, {'id': 17, 'answer': 'h2. analy', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 11, 'ancestor_value': 0.0}, {'id': 18, 'answer': 'h4. convn', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 11, 'ancestor_value': 0.0}, {'id': 19, 'answer': 'v1. ipoes', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 11, 'ancestor_value': 0.0}, {'id': 20, 'answer': 'v2. terni', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 11, 'ancestor_value': 0.0}, {'id': 21, 'answer': 'h4. venue', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 16, 'ancestor_value': 0.0}, {'id': 22, 'answer': 'h4. asaln', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 16, 'ancestor_value': 0.0}, {'id': 23, 'answer': 'h4. hallo', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 16, 'ancestor_value': 0.0}, {'id': 24, 'answer': 'h4. roomi', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 16, 'ancestor_value': 0.0}, {'id': 25, 'answer': 'h4. space', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 16, 'ancestor_value': 0.0}, {'id': 1, 'answer': 'h1. planx', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 2, 'answer': 'h1. dutyx', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 3, 'answer': 'h1. taskx', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 4, 'answer': 'h1. aimxz', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 5, 'answer': 'h1. jobxr', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 6, 'answer': 'h2. wiret', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 7, 'answer': 'h2. tapxr', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 8, 'answer': 'h3. oustx', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 9, 'answer': 'h3. firex', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 10, 'answer': 'h4. awakx', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 11, 'answer': 'h3. exile', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 6, 'ancestor_value': 0.0}, {'id': 12, 'answer': 'h3. eject', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 6, 'ancestor_value': 0.0}, {'id': 13, 'answer': 'h3. toppr', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 6, 'ancestor_value': 0.0}, {'id': 14, 'answer': 'h3. oustp', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 6, 'ancestor_value': 0.0}, {'id': 15, 'answer': 'h3. depla', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 6, 'ancestor_value': 0.0}]
+Selected node:
+{'id': 11, 'answer': 'h3. exile', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 6, 'ancestor_value': 0.0}
+
+
+Generator: 
+[('h3. awake', 1), ('h3. arise', 0.75), ('h3. resur', 0.5), ('h3. awakn', 0.25), ('h3. waken', 0.25)]
+Generator nodes:
+[{'id': 16, 'answer': 'h3. awake', 'value': None, 'parent_node': 11, 'ancestor_value': 0.0}, {'id': 17, 'answer': 'h3. arise', 'value': None, 'parent_node': 11, 'ancestor_value': 0.0}, {'id': 18, 'answer': 'h3. resur', 'value': None, 'parent_node': 11, 'ancestor_value': 0.0}, {'id': 19, 'answer': 'h3. awakn', 'value': None, 'parent_node': 11, 'ancestor_value': 0.0}, {'id': 20, 'answer': 'h3. waken', 'value': None, 'parent_node': 11, 'ancestor_value': 0.0}]
+cost time: 45.83976078033447
+
+
+input: An agendum; something to be done: planx
+Evaluator response: The letter constraint is: 5 letters.
+This seems like a made-up word that doesn't fit the given meaning. It doesn't seem possible to find a five-letter word with this pattern and meaning.
+impossible
+cost time: 116.05883049964905
+
+input: One who wires: wiret
+Evaluator response: The letter constraint is: 5 letters, letter 2 is w, letter 4 is t.
+Some possible words that mean "One who wires":
+wirer (w i r e r): 6 letters, not 5
+I cannot think of any words now. 3 letters are constrained and _ wiret does not form a common pattern for such meaning
+impossible
+cost time: 49.103678941726685
+
+input: To stir up; to remove from office: awake
+Evaluator response: The letter constraint is not given. The word 'awake' does not match the given description as it means "to be conscious and alert."
+impossible
+cost time: 22.368914365768433
+
+input: Mindful; conscious: pwa__
+Evaluator response: The letter constraint is: 5 letters, letter 1 is p, letter 4 is a.
+Some possible words that mean "Mindful; conscious":
+aware (a w a r e): 5 letters, letter 2 is w, not p
+consci (c o n s c i): 5 letters, letter 1 is c, not p
+I cannot think of any words now. 2 letters are constrained, and it is extremely unlikely to have a word with pattern pwa__ to mean "Mindful; conscious"
+impossible
+cost time: 70.67750906944275
+
+input: A gadget: liw__
+Evaluator response: The letter constraint is: 5 letters, letter 2 is l, letter 4 is i.
+Some possible words that mean "A gadget":
+widget (w i d g e t): 6 letters, not 5
+gizmo (g z m o): 5 letters, letter 1 is g, not l
+I cannot think of any words now. 3 letters are constrained, and it seems like a very uncommon pattern for a word to mean "A gadget"
+maybe
+cost time: 64.9260139465332
+
+input: Notched or uneven, as if gnawed away (cognate with "erode"): ara__
+Evaluator response: The letter constraint is: 5 letters, letter 2 is a.
+Some possible words that mean "Notched or uneven, as if gnawed away (cognate with 'erode'):":
+abrade (a b r a d e): 6 letters, not 5
+I cannot think of any words now. There is only one letter constrained and it seems there are no five-letter words fitting the description while having an "a" in position 2.
+impossible
+cost time: 66.49314165115356
+
+input: Not ever: nek__
+Evaluator response: The letter constraint is: 5 letters, letter 2 is e (either uppercase or lowercase), letter 4 is _, letter 5 is e (either uppercase or lowercase).
+Some possible words that mean "Not ever":
+never (n e v e r): 5 letters, letter 2 is v, not e
+I cannot think of any words now. 3 letters are constrained and the pattern nek_ is too limited to represent any meaningful word.
+impossible
+cost time: 62.282509326934814
+
+input: Drenched; drowned: xte__
+Evaluator response: The letter constraint is: 5 letters, letter 1 is x, letter 3 is t, letter 4 is e.
+Some possible words that mean "Drenched; drowned":
+soaked (s o a k e): 5 letters, not starting with x
+wet (w e t): 3 letters, not starting with x
+I cannot think of any words now. Only 3 letters are constrained, and it is extremely unlikely to have a word with pattern xte__ to mean "Drenched; drowned"
+impossible
+cost time: 69.82937955856323
+
+answer: h3. awake
+Count: {'sure': 0, 'maybe': 0, 'impossible': 0}
+
+
+input: An agendum; something to be done: planx
+Evaluator response: The letter constraint is: 5 letters, none of the given letters are present.
+There is no suitable five-letter word with any meaning that fits the provided constraints.
+impossible
+cost time: 25.756452083587646
+
+input: One who wires: wiret
+Evaluator response: The letter constraint is: 5 letters, no specific constraints on individual letters.
+Some possible words that mean "One who wires":
+electrician (e l e c t r i c i a n): 12 letters, not 5
+wireman (w i r e m a n): 7 letters, not 5 (needs to be shortened)
+wireperson (w i r e p e r s o n): 10 letters, not 5 (too long)
+I cannot think of any words now. The given pattern wiret does not have any clear meaning or relation to a profession related to wiring. It is too short to be meaningful with the currents
+cost time: 88.25731635093689
+
+input: To stir up; to remove from office: arise
+Evaluator response: The letter constraint is not given.
+Some possible words that mean "To stir up; to remove from office":
+arise (a r i s e): 5 letters, can be used as both verbs for these meanings
+sure
+cost time: 32.329689264297485
+
+input: Mindful; conscious: pwa__
+Evaluator response: The letter constraint is: 5 letters, letter 1 is p, letter 2 is w, letter 4 is _, letter 5 is a.
+Some possible words that mean "Mindful; conscious":
+aware (a w a r e): 5 letters, letter 1 is a, not p
+I cannot think of any words now. 4 letters are constrained, and it is extremely unlikely to have a word with pattern pwa__ to mean "Mindful; conscious"
+impossible
+cost time: 64.45156145095825
+
+input: A gadget: lir__
+Evaluator response: The letter constraint is: 5 letters, letter 1 is l, letter 3 is i, letter 4 is r.
+Some possible words that mean "A gadget":
+gizmo (g i z m o): 6 letters, not 5
+widget (w i d g e t): 6 letters, not 5
+I cannot think of any words now. Only 3 letters are constrained, and _lir__ is a common pattern for gadgets, so there might be one.
+maybe
+cost time: 65.55376291275024
+
+input: Notched or uneven, as if gnawed away (cognate with "erode"): ari__
+Evaluator response: The letter constraint is: 5 letters, letter 1 is a, letter 3 is r, letter 4 is i.
+Some possible words that mean "Notched or uneven, as if gnawed away (cognate with 'erode')":
+arid (a r i d): 4 letters, not 5
+I cannot think of any words now. Only 3 letters are constrained and it doesn't form a common pattern for the meaning given
+impossible
+cost time: 63.96096134185791
+
+input: Not ever: nes__
+Evaluator response: The letter constraint is: 5 letters, letter 1 is n, letter 3 is e.
+Some possible words that mean "Not ever":
+never (n e v e r): 5 letters, letter 1 is n, letter 3 is e
+I cannot think of any other words now. There are only 2 letters constrained and the given pattern fits perfectly for "not ever".
+sure
+cost time: 52.81014895439148
+
+input: Drenched; drowned: xte__
+Evaluator response: The letter constraint is: 5 letters, letter 1 is x, letter 3 is t.
+Some possible words that mean "Drenched; drowned":
+soaked (s o a k e): 5 letters, not starting with x
+I cannot think of any words now. The given letters don't form common patterns for words related to drenching or drowning.
+impossible
+cost time: 52.68335008621216
+
+answer: h3. arise
+Count: {'sure': 0, 'maybe': 0, 'impossible': 0}
+
+
+input: An agendum; something to be done: planx
+Evaluator response: The letter constraint is: 5 letters, letter 1 is p, letter 3 is l, letter 4 is x.
+Some possible words that mean "An agendum; something to be done":
+task (t a s k): 4 letters, not 5
+objective (o b j e c t i v e): 9 letters, only 5 match the constraints
+I cannot think of any common words now. Only one letter is constrained in the middle, and the given word 'planx' doesn't seem to have any meaning related to an agendum or something to be done. The constraints are not sufficient to form a meaningful
+cost time: 83.31172966957092
+
+input: One who wires: wiret
+Evaluator response: The letter constraint is: 5 letters, letter 2 is w.
+Some possible words that mean "One who wires":
+electrician (e l e c t r i c i a n): 13 letters, not 5
+wirer (w i r e r): 5 letters, letter 1 is w, not wiret
+I cannot think of any word now. Only 1 letter is constrained and the given pattern is not common for a meaningful word
+impossible
+cost time: 62.35924816131592
+
+input: To stir up; to remove from office: resur
+Evaluator response: The letter constraint is: 5 letters, letter 2 is s, letter 4 is u.
+Some possible words that mean "To stir up":
+rouse (r o u s e): 5 letters, not 5
+stir (s t i r): 4 letters, not 5
+I cannot think of any words now. Only 2 letters are constrained, and the given pattern seems unrelated to "to remove from office"
+impossible
+cost time: 62.109171867370605
+
+input: Mindful; conscious: pwr__
+Evaluator response: The letter constraint is: 5 letters, letter 1 is p, letter 2 is w, letter 3 is r.
+Some possible words that mean "Mindful; conscious":
+aware (a w a r e): 5 letters, letter 1 is a, not p
+I cannot think of any words now. Only 3 letters are constrained, and it is quite difficult to find meaningful words with the given pattern
+maybe
+cost time: 55.531015157699585
+
+input: A gadget: lie__
+Evaluator response: The letter constraint is: 5 letters, letter 1 is l, letter 3 is i.
+Some possible words that mean "A gadget":
+gizmo (g i z m o): 6 letters, not 5
+device (d e v i c e): 6 letters, not 5
+I cannot think of any words now. Only 2 letters are constrained, and _lie__ seems a common pattern for something negative or untrue, but not fitting the meaning "A gadget"
+impossible
+cost time: 67.34357237815857
+
+input: Notched or uneven, as if gnawed away (cognate with "erode"): ars__
+Evaluator response: The letter constraint is: 5 letters, letter 1 is a, letter 3 is r, letter 4 is s.
+Some possible words that mean "Notched or uneven, as if gnawed away":
+fissure (f i s u r e): 6 letters, not 5
+corrode (c o r r o d e): 6 letters, not 5
+I cannot think of any words now. 3 letters are constrained, and _ r s is not a common pattern for the given meaning
+impossible
+cost time: 72.31592631340027
+
+input: Not ever: neu__
+Evaluator response: The letter constraint is: 5 letters, no specific constraints.
+Some possible words that mean "Not ever":
+never (n e v e r): 5 letters, letter 2 is e, letter 3 is v, letter 4 is e
+I cannot think of any other words now with these constraints and meaning "not ever"
+maybe
+cost time: 44.16736674308777
+
+input: Drenched; drowned: xtr__
+Evaluator response: The letter constraint is: 5 letters, no specific constraints.
+Some possible words that mean "Drenched; drowned":
+sodden (s o d d e n): 6 letters, not 5
+drowned (d r o u n n e d): 9 letters, not 5
+I cannot think of any words now. No specific constraints are given, so a five-letter word fitting the description is possible but hard to find.
+maybe
+cost time: 59.34557795524597
+
+answer: h3. resur
+Count: {'sure': 0, 'maybe': 0, 'impossible': 0}
+
+
+input: An agendum; something to be done: planx
+Evaluator response: The letter constraint is: 5 letters, no specific constraints.
+Some possible words that mean "An agendum; something to be done":
+scheme (s c h e m e): 5 letters, not 'planx'
+plot (p l o t): 4 letters, not 'planx'
+I cannot think of any words now. The letter constraint is just 5 letters with no specific constraints, so it seems unlikely to find a meaningful word fitting the pattern 'planx'. It might be a typo or unrelated to words we usually use.
+maybe
+cost time: 72.28022527694702
+
+input: One who wires: wiret
+Evaluator response: The letter constraint is: 5 letters, letter 1 is w, letter 4 is e, letter 5 is t.
+Some possible words that mean "One who wires":
+electrician (e l c t r i c i a n): 10 letters, not 5
+wirer (w i r e r): 5 letters, letter 2 is i, not w
+I cannot think of any words now. Only one word with the given constraint fits the meaning, but it lacks an 'r' in the middle. It is still possible to find a suitable word
+maybe
+cost time: 76.62624955177307
+
+input: To stir up; to remove from office: awakn
+Evaluator response: The letter constraint is: 5 letters, letter 1 is a, letter 2 is w, letter 4 is n.
+Some possible words that mean "To stir up":
+rouse (r o u s e): 5 letters, letter 1 is r, not a
+awaken (a w a k e n): 7 letters, not 5
+I cannot think of any words now. 4 letters are constrained, and it is extremely unlikely to have a word with pattern awakn to mean "To stir up; to remove from office"
+impossible
+cost time: 72.12020087242126
+
+input: Mindful; conscious: pwa__
+Evaluator response: The letter constraint is: 5 letters, letter 2 is w, letter 3 is a.
+Some possible words that mean "Mindful; conscious":
+aware (a w a r e): 5 letters, letter 1 is a, not p
+conscientious (c o n s c i e n t i o u s): 12 letters, only 3 are constrained to be w and a, not enough for the constraint
+I cannot think of any words now. 3 letters are constrained, but they are not in common letter patterns for such meanings
+impossible
+cost time: 76.6534571647644
+
+input: A gadget: liw__
+Evaluator response: The letter constraint is: 5 letters, letter 1 is l, letter 3 is i.
+Some possible words that mean "A gadget":
+widget (w i g t): 6 letters, not 5
+I cannot think of any words now. Only 2 letters are constrained, it is still likely to find a word with this pattern meaning "A gadget" but the given letters don't fit any common patterns
+maybe
+cost time: 55.86226677894592
+
+input: Notched or uneven, as if gnawed away (cognate with "erode"): ara__
+Evaluator response: The letter constraint is: 5 letters, letter 1 is a, letter 3 is r.
+Some possible words that mean "Notched or uneven, as if gnawed away (cognate with 'erode')":
+abrade (a b r a d e): 6 letters, not 5
+I cannot think of any words now. 2 letters are constrained, and it is difficult to find a word that fits the meaning and has pattern ara__
+maybe
+cost time: 63.8559205532074
+
+input: Not ever: nek__
+Evaluator response: The letter constraint is: 5 letters, letter 2 is e, letter 3 is k.
+Some possible words that mean "Not ever":
+never (n e v e r): 5 letters, letter 2 is e, not n
+I cannot think of any words now. 3 letters are constrained, and it is extremely unlikely to have a word with pattern nek_ to mean "Not ever"
+impossible
+cost time: 53.99781084060669
+
+input: Drenched; drowned: xtn__
+Evaluator response: The letter constraint is: 5 letters, letter 1 is x, letter 3 is t, letter 4 is n.
+Some possible words that mean "Drenched; drowned":
+soaked (s o a k e): 5 letters, not starting with x
+wet (w e t): 3 letters, only 3 letters match
+I cannot think of any words now. 4 letters are constrained, and it is extremely unlikely to have a word with pattern xtn__ to mean "Drenched; drowned"
+impossible
+cost time: 70.48659372329712
+
+answer: h3. awakn
+Count: {'sure': 0, 'maybe': 0, 'impossible': 0}
+
+
+input: An agendum; something to be done: planx
+Evaluator response: The letter constraint is: 5 letters.
+Some possible words that mean "An agendum; something to be done":
+dossier (d o s s i e r): 7 letters, not 5
+goal (g o a l): 4 letters, not 5
+I cannot think of any words now. The given word is not a meaningful one with the constraint. It seems like a typo or misspelling
+impossible
+cost time: 58.06110382080078
+
+input: One who wires: wiret
+Evaluator response: The letter constraint is: 5 letters, letter 3 is i, letter 4 is r, letter 5 is t.
+Some possible words that mean "One who wires":
+electrician (e l e c t r i c i a n): 12 letters, not 5
+wirer (w i r e r): 5 letters, letter 3 is i, letter 4 is r, but it doesn't have -t at the end.
+wireman (w i r e m a n): 6 letters, not 5
+I cannot think of any words now. The given word "wiret" has an uncommon pattern and doesn't make sense to mean "One who wires", while the constraints are quite specific.
+impossible
+cost time: 98.5440456867218
+
+input: To stir up; to remove from office: waken
+Evaluator response: The letter constraint is: no specific letters mentioned.
+Some possible words that mean "To stir up; to remove from office":
+waken (w a k e n): 5 letters, not all letters are constrained by any pattern.
+maybe
+
+An animal living underground: _ _ n t g r
+The letter constraint is: 5 letters, letter 1 is _, letter 4 is n, letter 5 is r.
+Some possible words that mean "An animal living underground":
+mole (m o l e): 4 letters, not 5
+badger (b a d g e r): 6 letters, not 5
+I cannot think of any words now. o
+cost time: 87.81541275978088
+
+input: Mindful; conscious: pww__
+Evaluator response: The letter constraint is: 5 letters, letter 1 is p, letter 2 is w, letter 3 is w.
+Some possible words that mean "Mindful; conscious":
+aware (a w a r e): 5 letters, letter 1 is a, not p
+I cannot think of any words now. Only 3 letters are constrained, and it is extremely unlikely to have a word with pattern pww__ to mean "Mindful; conscious"
+impossible
+cost time: 61.296905279159546
+
+input: A gadget: lia__
+Evaluator response: The letter constraint is: 5 letters, letter 2 is l, letter 4 is i.
+Some possible words that mean "A gadget":
+gizmo (g i z m o): 6 letters, not 5
+gadget (g a d g e t): 7 letters, not 5
+I cannot think of any words now. 2 letters are constrained, and _ lia__ seems an uncommon pattern
+maybe
+cost time: 57.21564841270447
+
+input: Notched or uneven, as if gnawed away (cognate with "erode"): ark__
+Evaluator response: The letter constraint is: 5 letters, letter 2 is a, letter 3 is r, letter 4 is k.
+Some possible words that mean "Notched or uneven, as if gnawed away":
+frayed (f r a y e d): 6 letters, not 5
+I cannot think of any words now. 3 letters are constrained, and it is extremely unlikely to have a word with pattern ark__ to mean "Notched or uneven, as if gnawed away"
+impossible
+
+A type of flower: b _ e l _
+The letter constraint is: 5 letters, letter 1 is b, letter 2 is _, letter 4 is l.
+Some possible ways
+cost time: 94.99357199668884
+
+input: Not ever: nee__
+Evaluator response: The letter constraint is: 5 letters, letter 1 is n, letter 3 is e.
+Some possible words that mean "Not ever":
+never (n e v e r): 5 letters, letter 1 is n, letter 2 is e, not blank
+I cannot think of any other words now. 2 letters are constrained, and it seems unlikely to have a word with pattern nee__ to mean "Not ever"
+maybe
+cost time: 56.628148317337036
+
+input: Drenched; drowned: xtn__
+Evaluator response: The letter constraint is: 5 letters, letter 2 is x, letter 4 is t, letter 5 is n.
+Some possible words that mean "Drenched; drowned":
+dampen (d a m p e n): 6 letters, not 5
+submerge (s u b m e r g e): 7 letters, not 5
+I cannot think of any words now. 3 letters are constrained, and it is extremely unlikely to have a word with pattern xtn__ to mean "Drenched; drowned"
+impossible
+cost time: 72.61142897605896
+
+answer: h3. waken
+Count: {'sure': 0, 'maybe': 0, 'impossible': 0}
+
+
+now step: 3
+board:
+Current Board
+planx
+wiret
+exile
+_____
+_____
+
+
+
+Steps: 
+3
+Nodes:
+[{'id': 1, 'answer': 'h1. itemb', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 2, 'answer': 'h1. goalb', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 3, 'answer': 'h1. taskc', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 4, 'answer': 'h1. apple', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 5, 'answer': 'h1. issue', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 6, 'answer': 'h3. orate', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 7, 'answer': 'h3. pompq', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 8, 'answer': 'h2. locom', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 9, 'answer': 'h2. motor', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 10, 'answer': 'h2. steam', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 11, 'answer': 'h2. pearl', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 6, 'ancestor_value': 0.0}, {'id': 12, 'answer': 'h2. apple', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 6, 'ancestor_value': 0.0}, {'id': 13, 'answer': 'h2. banan', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 6, 'ancestor_value': 0.0}, {'id': 14, 'answer': 'h2. grape', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 6, 'ancestor_value': 0.0}, {'id': 15, 'answer': 'h2. raspb', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 6, 'ancestor_value': 0.0}, {'id': 16, 'answer': 'h5. ridic', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 11, 'ancestor_value': 0.0}, {'id': 17, 'answer': 'h2. analy', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 11, 'ancestor_value': 0.0}, {'id': 18, 'answer': 'h4. convn', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 11, 'ancestor_value': 0.0}, {'id': 19, 'answer': 'v1. ipoes', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 11, 'ancestor_value': 0.0}, {'id': 20, 'answer': 'v2. terni', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 11, 'ancestor_value': 0.0}, {'id': 21, 'answer': 'h4. venue', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 16, 'ancestor_value': 0.0}, {'id': 22, 'answer': 'h4. asaln', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 16, 'ancestor_value': 0.0}, {'id': 23, 'answer': 'h4. hallo', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 16, 'ancestor_value': 0.0}, {'id': 24, 'answer': 'h4. roomi', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 16, 'ancestor_value': 0.0}, {'id': 25, 'answer': 'h4. space', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 16, 'ancestor_value': 0.0}, {'id': 1, 'answer': 'h1. planx', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 2, 'answer': 'h1. dutyx', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 3, 'answer': 'h1. taskx', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 4, 'answer': 'h1. aimxz', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 5, 'answer': 'h1. jobxr', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 6, 'answer': 'h2. wiret', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 7, 'answer': 'h2. tapxr', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 8, 'answer': 'h3. oustx', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 9, 'answer': 'h3. firex', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 10, 'answer': 'h4. awakx', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 11, 'answer': 'h3. exile', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 6, 'ancestor_value': 0.0}, {'id': 12, 'answer': 'h3. eject', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 6, 'ancestor_value': 0.0}, {'id': 13, 'answer': 'h3. toppr', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 6, 'ancestor_value': 0.0}, {'id': 14, 'answer': 'h3. oustp', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 6, 'ancestor_value': 0.0}, {'id': 15, 'answer': 'h3. depla', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 6, 'ancestor_value': 0.0}, {'id': 16, 'answer': 'h3. awake', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 11, 'ancestor_value': 0.0}, {'id': 17, 'answer': 'h3. arise', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 11, 'ancestor_value': 0.0}, {'id': 18, 'answer': 'h3. resur', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 11, 'ancestor_value': 0.0}, {'id': 19, 'answer': 'h3. awakn', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 11, 'ancestor_value': 0.0}, {'id': 20, 'answer': 'h3. waken', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 11, 'ancestor_value': 0.0}]
+Selected node:
+{'id': 16, 'answer': 'h3. awake', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 11, 'ancestor_value': 0.0}
+
+
+Generator: 
+[('h4. ascen', 1), ('h4. ascen', 1), ('h4. ascen', 1), ('h4. ascen', 1), ('h4. ascen', 1)]
+Generator nodes:
+[{'id': 21, 'answer': 'h4. ascen', 'value': None, 'parent_node': 16, 'ancestor_value': 0.0}, {'id': 22, 'answer': 'h4. ascen', 'value': None, 'parent_node': 16, 'ancestor_value': 0.0}, {'id': 23, 'answer': 'h4. ascen', 'value': None, 'parent_node': 16, 'ancestor_value': 0.0}, {'id': 24, 'answer': 'h4. ascen', 'value': None, 'parent_node': 16, 'ancestor_value': 0.0}, {'id': 25, 'answer': 'h4. ascen', 'value': None, 'parent_node': 16, 'ancestor_value': 0.0}]
+cost time: 44.58129072189331
+
+
+input: An agendum; something to be done: planx
+Evaluator response: The letter constraint is: 5 letters, no specific letter constraints.
+Some possible words that mean "An agendum; something to be done":
+plan (p l a n): 4 letters, not 5
+agenda (a g e n d a): 6 letters, not 5
+I cannot think of any five-letter words with this specific meaning that also fit the letter constraint.
+impossible
+cost time: 137.43773913383484
+
+input: One who wires: wiret
+Evaluator response: The letter constraint is: 5 letters, no specific letters are constrained.
+Some possible words that mean "One who wires":
+electrician (e l e c t r i c i a n): 11 letters, not 5
+wirer (w r e r): 4 letters, not 5
+I cannot think of any words now. There is no common pattern or word meaning "One who wires" with exactly 5 letters.
+impossible
+cost time: 60.23480796813965
+
+input: To stir up; to remove from office: awake
+Evaluator response: The letter constraint is not specified.
+Some possible words that mean "To stir up; to remove from office":
+stir (s t i r): 4 letters, not 5
+awake (a w a k e): 5 letters, meaning "to stir up" and not related to removing someone from office
+remove (r e m o v e): 5 letters, means "to remove from office" but not related to stirring up
+There are multiple words that can fit the meanings mentioned without directly fitting a letter constraint. Therefore, it is possible.
+maybe
+
+An island with a mountain:i
+cost time: 76.79907870292664
+
+input: Ascended; awakened: ascen
+Evaluator response: The letter constraint is: 5 letters, no specific letter requirement.
+Some possible words that mean "Ascended; awakened":
+ascend (a s c e n d): 6 letters, not 5
+awake (a w a k e): 4 letters, not 5
+I cannot think of any words now. The constraint is too loose to have a specific meaning in this case
+maybe
+
+A person with a bad temper: _ t _ m _
+The letter constraint is: 5 letters, letter 1 is _, letter 3 is _, letter 4 is t, letter 5 is m.
+Some possible words that mean "A person with a bad temper":
+cr
+cost time: 89.3855848312378
+
+input: Mindful; conscious: pwaa_
+Evaluator response: The letter constraint is: 5 letters, letter 2 is p, letter 3 is w, letter 4 is a, letter 5 is a.
+Some possible words that mean "Mindful; conscious":
+aware (a w a r e): 5 letters, letter 1 is not p, letter 2 is a
+I cannot think of any words now. 4 letters are constrained, and it is extremely unlikely to have a word with pattern pwaa_ to mean "Mindful; conscious"
+impossible
+cost time: 67.39621376991272
+
+input: A gadget: liws_
+Evaluator response: The letter constraint is: 5 letters, letter 1 is l, letter 4 is i.
+Some possible words that mean "A gadget":
+device (d e v i c e): 6 letters, not 5
+widget (w i g t): 4 letters, not 5
+I cannot think of any words now. 2 letters are constrained, and _ liws_ seems a common pattern
+maybe
+
+A person who is skilled at understanding people's feelings: _ _ _ c _ h _
+The letter constraint is: 5 letters, letter 3 is _, letter 4 is c, letter 5 is h.
+Some possible words that mean "A person who is skilled at
+em
+cost time: 91.12843322753906
+
+input: Notched or uneven, as if gnawed away (cognate with "erode"): arac_
+Evaluator response: The letter constraint is: 5 letters, letter 1 is a, letter 4 is r.
+Some possible words that mean "Notched or uneven, as if gnawed away":
+abrade (a b r a d e): 6 letters, not 5
+erode (e r o d e): 5 letters, letter 1 is e, not a
+I cannot think of any words now. Only 2 letters are constrained and _arac_ seems an unusual pattern
+impossible
+cost time: 68.63746809959412
+
+input: Not ever: neke_
+Evaluator response: The letter constraint is: 5 letters, letter 1 is n, letter 2 is e, letter 3 is k.
+Some possible words that mean "Not ever":
+never (n e v e r): 5 letters, letter 1 is n, not e
+I cannot think of any words now. Only 3 letters are constrained, and it is unlikely to have a meaningful word with the given pattern neke_
+impossible
+cost time: 55.51343059539795
+
+input: Drenched; drowned: xten_
+Evaluator response: The letter constraint is: 5 letters, letter 2 is x, letter 3 is t, letter 5 is n.
+Some possible words that mean "Drenched; drowned":
+sodden (s o d d e n): 6 letters, not 5
+I cannot think of any words now. 4 letters are constrained, and _xten_ seems a common pattern for other words but not suitable here
+impossible
+cost time: 56.948647022247314
+
+answer: h4. ascen
+Count: {'sure': 0, 'maybe': 0, 'impossible': 0}
+
+
+input: An agendum; something to be done: planx
+Evaluator response: The letter constraint is: 5 letters.
+Some possible words that mean "An agendum; something to be done":
+program (p r o g r a m): 6 letters, not 5
+schedule (s c h e d u l e): 7 letters, not 5
+I cannot think of any words now. The given word planx does not fit the meaning and has no constraints, making it impossible to find an appropriate word for this case.
+impossible
+cost time: 62.300047397613525
+
+input: One who wires: wiret
+Evaluator response: The letter constraint is: 5 letters, letter 1 is w, letter 4 is e, letter 5 is t.
+Some possible words that mean "One who wires":
+electrician (e l e c t r i c i a n): 12 letters, not 5
+wirer (w i r e r): 6 letters, not 5
+I cannot think of any words now. 3 letters are constrained, and _ wiret does not seem to be a common pattern for such meaning
+impossible
+cost time: 67.73344898223877
+
+input: To stir up; to remove from office: awake
+Evaluator response: The letter constraint is not mentioned here. The given word "awake" does not fit the meaning "to stir up; to remove from office."
+impossible
+cost time: 23.05288314819336
+
+input: Ascended; awakened: ascen
+Evaluator response: The letter constraint is: 5 letters, letter 2 is c, letter 4 is e.
+Some possible words that mean "Ascended; awakened":
+awaken (a w a k e n): 5 letters, letter 1 is a, not s
+ascend (a s c e n d): 5 letters, letter 2 is s, not c
+I cannot think of any words now. 2 letters are constrained, and it seems almost impossible to find a meaningful word with pattern ascen to mean "Ascended; awakened"
+impossible
+cost time: 73.81736278533936
+
+input: Mindful; conscious: pwaa_
+Evaluator response: The letter constraint is: 5 letters, letter 1 is p, letter 3 is w.
+Some possible words that mean "Mindful; conscious":
+aware (a w a r e): 4 letters, not 5
+mindful (m i n d f u l): 7 letters, not 5
+I cannot think of any words now. Only 2 letters are constrained, and it is highly unlikely to have a meaningful word with pattern pwaa_
+impossible
+cost time: 62.36748719215393
+
+input: A gadget: liws_
+Evaluator response: The letter constraint is: 5 letters, letter 1 is l, letter 4 is i.
+Some possible words that mean "A gadget":
+widget (w i d g e t): 6 letters, not 5
+gizmo (g z m o): 4 letters, not 5
+I cannot think of any words now. Only 2 letters are constrained, and _ liws_ doesn't seem like a common pattern for a word meaning "A gadget"
+impossible
+cost time: 63.566046476364136
+
+input: Notched or uneven, as if gnawed away (cognate with "erode"): arac_
+Evaluator response: The letter constraint is: 5 letters, letter 1 is a, letter 4 is r.
+Some possible words that mean "Notched or uneven, as if gnawed away":
+abraded (a b r a d e d): 6 letters, not 5
+eroded (e r o s e d): 6 letters, not 5
+I cannot think of any words now. 2 letters are constrained, and it is extremely unlikely to have a word with pattern arac_ to mean "Notched or uneven, as if gnawed away"
+impossible
+
+A small, portable case for holding a gun: _ _ o _ n
+The letter constraint is: 5 letters, letter 1 isa
+cost time: 96.49201917648315
+
+input: Not ever: neke_
+Evaluator response: The letter constraint is: 5 letters, letter 3 is e.
+Some possible words that mean "Not ever":
+never (n e v e r): 5 letters, letter 3 is v, not e
+I cannot think of any other suitable words with the given constraints and meaning.
+impossible
+cost time: 39.79203176498413
+
+input: Drenched; drowned: xten_
+Evaluator response: The letter constraint is: 5 letters, letter 1 is x, letter 3 is t, letter 4 is e, letter 5 is n.
+Some possible words that mean "Drenched; drowned":
+soaked (s o a k e): 5 letters, letter 2 is s, not x
+wet (w e t): 3 letters, not 5
+I cannot think of any words now. 4 letters are constrained, and it is extremely unlikely to have a word with pattern xten_ to mean "Drenched; drowned"
+impossible
+cost time: 74.69055771827698
+
+answer: h4. ascen
+Count: {'sure': 0, 'maybe': 0, 'impossible': 0}
+
+
+input: An agendum; something to be done: planx
+Evaluator response: The letter constraint is: 5 letters, letter 1 is p, letter 3 is l.
+Some possible words that mean "An agendum; something to be done":
+program (p r o g r a m): 6 letters, not 5
+plan (p l a n): 4 letters, not 5
+I cannot think of any words now. The given word is misspelled and doesn't fit any common pattern for the meanings mentioned.
+impossible
+cost time: 63.20470690727234
+
+input: One who wires: wiret
+Evaluator response: The letter constraint is: 5 letters, letter 2 is i, letter 4 is r.
+Some possible words that mean "One who wires":
+electrician (e l e c t r i c i a n): 10 letters, not 5
+wirer (w i r e r): 5 letters, letter 2 is i, not e, letter 4 is r
+I cannot think of any words now. Only 2 letters are constrained and the given pattern does not seem to form a common word with that meaning
+maybe
+cost time: 69.96756434440613
+
+input: To stir up; to remove from office: awake
+Evaluator response: The letter constraint is: 5 letters, no specific letters are mentioned.
+Some possible words that mean "To stir up; to remove from office":
+rouse (r o u s e): 5 letters
+dismiss (d i s m i s): 6 letters, not 5
+I cannot think of any other words now. The given constraint does not match the intended meaning, but there are some alternative words that could fit different meanings.
+maybe
+cost time: 58.51413035392761
+
+input: Ascended; awakened: ascen
+Evaluator response: The letter constraint is: 5 letters, the word must start with 'ascend' and end with 'ed'.
+Some possible words that mean "Ascended; awakened":
+ascending (a s c e n d i n g): 9 letters, not 5
+awakening (a w a k e n i n g): 10 letters, not 5
+I cannot think of any words now. The given word is "ascen" which doesn't fit the given constraint and the context of 'Ascended; awakened'. It is impossible to find such a word with these constraints.
+impossible
+cost time: 79.28955292701721
+
+input: Mindful; conscious: pwaa_
+Evaluator response: The letter constraint is: 5 letters, letter 2 is w, letter 4 is a.
+Some possible words that mean "Mindful; conscious":
+aware (a w a r e): 5 letters, letter 1 is a, not p, letter 3 is missing
+I cannot think of any words now. Only 2 letters are constrained, and it is improbable to have a meaningful word with pattern pwaa_ to mean "Mindful; conscious"
+impossible
+cost time: 64.650151014328
+
+input: A gadget: liws_
+Evaluator response: The letter constraint is: 5 letters, letter 1 is l, letter 2 is i, letter 3 is w, letter 4 is s.
+Some possible words that mean "A gadget":
+widget (w i g d t): 6 letters, not 5
+I cannot think of any words now. The given word liws_ does not have any common pattern related to a gadget
+impossible
+cost time: 52.95019602775574
+
+input: Notched or uneven, as if gnawed away (cognate with "erode"): arac_
+Evaluator response: The letter constraint is: 5 letters, letter 2 is r, letter 4 is c.
+Some possible words that mean "Notched or uneven, as if gnawed away (cognate with 'erode')":
+abrade (a b r a d e): 6 letters, not 5
+I cannot think of any words now. 3 letters are constrained and there is no known word for the given meaning with pattern arac_
+impossible
+cost time: 63.74816060066223
+
+input: Not ever: neke_
+Evaluator response: The letter constraint is: 5 letters, letter 1 is n, letter 4 is e.
+Some possible words that mean "Not ever":
+never (n e v e r): 5 letters, letter 1 is n, not e
+I cannot think of any other meaningful word with the given pattern neke_ and the specified letter constraints.
+maybe
+cost time: 45.637446641922
+
+input: Drenched; drowned: xten_
+Evaluator response: The letter constraint is: 5 letters, letter 2 is t, letter 4 is e, letter 5 is n.
+Some possible words that mean "Drenched; drowned":
+soppy (s o p p y): 5 letters, not 5
+soaked (s o a k e): 5 letters, letter 1 is s, not x
+wet (w e t): 3 letters, not 5
+I cannot think of any words now. 3 letters are constrained, and it is extremely unlikely to have a word with pattern xten_ to mean "Drenched; drowned"
+impossible
+cost time: 81.44256520271301
+
+answer: h4. ascen
+Count: {'sure': 0, 'maybe': 0, 'impossible': 0}
+
+
+input: An agendum; something to be done: planx
+Evaluator response: The letter constraint is: 5 letters, no specific letter constraints.
+Some possible words that mean "An agendum; something to be done":
+schedule (s c h e d u l e): 7 letters, not 5
+plan (p l a n): 4 letters, not 5
+I cannot think of any suitable 5-letter word with the given meaning. The letter constraint was not considered as it did not exist for this case.
+impossible
+cost time: 60.04625868797302
+
+input: One who wires: wiret
+Evaluator response: The letter constraint is: 5 letters, letter 3 is t.
+Some possible words that mean "One who wires":
+wirer (w i r e r): 6 letters, not 5
+electrician (e l e c t r i c i a n): 12 letters, not 5
+I cannot think of any words now. The letter constraint is for letter 3 only, and it doesn't seem to fit any common word pattern meaning "One who wires"
+impossible
+cost time: 65.06318616867065
+
+input: To stir up; to remove from office: awake
+Evaluator response: The letter constraint is: no specific letter constraints mentioned.
+Some possible words that mean "To stir up; to remove from office":
+awake (a w a k e): 5 letters, but it doesn't fit the given meaning
+I cannot think of any other suitable words now.
+maybe
+cost time: 39.18381404876709
+
+input: Ascended; awakened: ascen
+Evaluator response: The letter constraint is: 5 letters, letter 1 is a, letter 2 is s, letter 4 is e.
+Some possible words that mean "Ascended; awakened":
+awaken (a w a k e n): 6 letters, not 5
+arise (a r i s e): 4 letters, not 5
+I cannot think of any words now. Only 2 letters are constrained, it is still likely
+maybe
+cost time: 59.49774193763733
+
+input: Mindful; conscious: pwaa_
+Evaluator response: The letter constraint is: 5 letters, letter 2 is w, letter 3 is a.
+Some possible words that mean "Mindful; conscious":
+aware (a w a r e): 5 letters, letter 2 is w, not p
+I cannot think of any words now. Only 2 letters are constrained, and _waa_ does not seem to be part of any meaningful word for the given meaning
+impossible
+
+A person who loves to read: b o k e n _
+The letter constraint is: 5 letters, letter 1 is b, letter 3 is o, letter 4 is k.
+Some possible words that mean "A person who loves to
+cost time: 87.57739281654358
+
+input: A gadget: liws_
+Evaluator response: The letter constraint is: 5 letters, letter 3 is i.
+Some possible words that mean "A gadget":
+widget (w i g e t): 6 letters, not 5
+I cannot think of any words now. Only 1 letter is constrained, and _iws_ does not seem to form a meaningful word related to gadgets
+impossible
+cost time: 48.06347846984863
+
+input: Notched or uneven, as if gnawed away (cognate with "erode"): arac_
+Evaluator response: The letter constraint is: 5 letters, letter 2 is r, letter 4 is c.
+Some possible words that mean "Notched or uneven, as if gnawed away":
+abrade (a b r a d e): 6 letters, not 5
+erode (e r o d e): 5 letters, letter 2 is e, not r
+I cannot think of any words now. Only 3 letters are constrained, and there might be some less common words with pattern arac_
+maybe
+cost time: 70.13156199455261
+
+input: Not ever: neke_
+Evaluator response: The letter constraint is: 5 letters, letter 1 is n, letter 3 is e, letter 4 is k.
+Some possible words that mean "Not ever":
+never (n e v e r): 5 letters, not 5
+I cannot think of any other words now. Only 3 letters are constrained, and it seems difficult to fit a meaningful word with pattern neke_ to mean "Not ever"
+impossible
+cost time: 55.602505922317505
+
+input: Drenched; drowned: xten_
+Evaluator response: The letter constraint is: 5 letters, letter 2 is x, letter 4 is t.
+Some possible words that mean "Drenched; drowned":
+sodden (s o d d e n): 5 letters, not 5 (has an additional 'o')
+I cannot think of any words now. 3 letters are constrained, and it is extremely unlikely to have a word with pattern xten_ to mean "Drenched; drowned"
+impossible
+cost time: 62.54911661148071
+
+answer: h4. ascen
+Count: {'sure': 0, 'maybe': 0, 'impossible': 0}
+
+
+input: An agendum; something to be done: planx
+Evaluator response: The letter constraint is: 5 letters.
+Some possible words that mean "An agendum; something to be done":
+project (p r o j e c t): 6 letters, not 5
+design (d e s i g n): 5 letters
+I cannot think of any words now. The given word planx does not fit the meaning or follow letter constraints
+impossible
+cost time: 50.864526987075806
+
+input: One who wires: wiret
+Evaluator response: The letter constraint is: 5 letters, letter 3 is i, letter 4 is r, letter 5 is e.
+Some possible words that mean "One who wires":
+electrician (e l e c t r i c i a n): 12 letters, not 5
+wirer (w i r e r): 5 letters, letter 3 is r, not i
+I cannot think of any other word now. Only the pattern itself doesn't imply "One who wires", but it does match partially with 'wirer'. It could be possible in a context or with some other constraints.
+maybe
+cost time: 81.37022805213928
+
+input: To stir up; to remove from office: awake
+Evaluator response: The letter constraint is: 5 letters, no specific letter constraints.
+Some possible words that mean "To stir up; to remove from office":
+rouse (r o u s e): 5 letters, similar meaning but not the same context as "stir up"
+remove (r e m o v e): 5 letters, similar meaning but not the same context as "to remove from office"
+awake is a single word fitting both meanings without any letter constraints. So, there exists a five letter word of some meaning that fits these letter constraints.
+yes
+cost time: 71.56489253044128
+
+input: Ascended; awakened: ascen
+Evaluator response: The letter constraint is: 5 letters, letter 1 is a, letter 2 is c, letter 3 is e, letter 4 is n.
+Some possible words that mean "Ascended; awakened":
+awake (a w a k e): 4 letters, not 5
+arise (a r i s e): 4 letters, not 5
+I cannot think of any words now. There are only 4 letters constrained, and it is very unlikely to find a meaningful word with the pattern ascen that fits both "Ascended" and "awakened".
+impossible
+cost time: 77.06080508232117
+
+input: Mindful; conscious: pwaa_
+Evaluator response: The letter constraint is: 5 letters, letter 1 is p, letter 4 is w.
+Some possible words that mean "Mindful; conscious":
+aware (a w a r e): 5 letters, not 5
+mind (m i n d): 4 letters, not 5
+I cannot think of any words now. 2 letters are constrained, and _ pwaa_ is not a common pattern
+impossible
+cost time: 56.68851089477539
+
+input: A gadget: liws_
+Evaluator response: The letter constraint is: 5 letters, letter 1 is l, letter 3 is i, letter 4 is w, letter 6 is s.
+Some possible words that mean "A gadget":
+gizmo (g i z m o): 5 letters, not 6
+I cannot think of any words now. 4 letters are constrained and the given pattern has an extra letter
+impossible
+cost time: 54.045711040496826
+
+input: Notched or uneven, as if gnawed away (cognate with "erode"): arac_
+Evaluator response: The letter constraint is: 5 letters, letter 1 is a, letter 4 is r.
+Some possible words that mean "Notched or uneven, as if gnawed away":
+fret (f r e t): 4 letters, not 5
+I cannot think of any words now. Only 2 letters are constrained, and it seems unlikely to find a word with pattern arac_ fitting this description
+impossible
+cost time: 58.1079216003418
+
+input: Not ever: neke_
+Evaluator response: The letter constraint is: 5 letters, letter 2 is e, letter 3 is k.
+Some possible words that mean "Not ever":
+never (n e v e r): 5 letters, letter 2 is e, not n, letter 3 is v, not k
+I cannot think of any other words now. 2 letters are constrained, and it is extremely unlikely to have a meaningful word with pattern neke_ to mean "Not ever"
+impossible
+cost time: 60.093628883361816
+
+input: Drenched; drowned: xten_
+Evaluator response: The letter constraint is: 5 letters, letter 2 is t, letter 4 is n.
+Some possible words that mean "Drenched; drowned":
+sodden (s o d d e n): 6 letters, not 5
+wet (w e t ): 3 letters, not 5
+I cannot think of any words now. 2 letters are constrained, and it is unlikely to have a word with pattern xten_ to mean "Drenched; drowned"
+maybe
+cost time: 66.70417547225952
+
+answer: h4. ascen
+Count: {'sure': 0, 'maybe': 0, 'impossible': 0}
+
+
+now step: 4
+board:
+Current Board
+planx
+wiret
+awake
+_____
+_____
+
+
+
+Steps: 
+4
+Nodes:
+[{'id': 1, 'answer': 'h1. itemb', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 2, 'answer': 'h1. goalb', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 3, 'answer': 'h1. taskc', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 4, 'answer': 'h1. apple', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 5, 'answer': 'h1. issue', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 6, 'answer': 'h3. orate', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 7, 'answer': 'h3. pompq', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 8, 'answer': 'h2. locom', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 9, 'answer': 'h2. motor', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 10, 'answer': 'h2. steam', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 11, 'answer': 'h2. pearl', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 6, 'ancestor_value': 0.0}, {'id': 12, 'answer': 'h2. apple', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 6, 'ancestor_value': 0.0}, {'id': 13, 'answer': 'h2. banan', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 6, 'ancestor_value': 0.0}, {'id': 14, 'answer': 'h2. grape', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 6, 'ancestor_value': 0.0}, {'id': 15, 'answer': 'h2. raspb', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 6, 'ancestor_value': 0.0}, {'id': 16, 'answer': 'h5. ridic', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 11, 'ancestor_value': 0.0}, {'id': 17, 'answer': 'h2. analy', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 11, 'ancestor_value': 0.0}, {'id': 18, 'answer': 'h4. convn', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 11, 'ancestor_value': 0.0}, {'id': 19, 'answer': 'v1. ipoes', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 11, 'ancestor_value': 0.0}, {'id': 20, 'answer': 'v2. terni', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 11, 'ancestor_value': 0.0}, {'id': 21, 'answer': 'h4. venue', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 16, 'ancestor_value': 0.0}, {'id': 22, 'answer': 'h4. asaln', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 16, 'ancestor_value': 0.0}, {'id': 23, 'answer': 'h4. hallo', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 16, 'ancestor_value': 0.0}, {'id': 24, 'answer': 'h4. roomi', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 16, 'ancestor_value': 0.0}, {'id': 25, 'answer': 'h4. space', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 16, 'ancestor_value': 0.0}, {'id': 1, 'answer': 'h1. planx', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 2, 'answer': 'h1. dutyx', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 3, 'answer': 'h1. taskx', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 4, 'answer': 'h1. aimxz', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 5, 'answer': 'h1. jobxr', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 6, 'answer': 'h2. wiret', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 7, 'answer': 'h2. tapxr', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 8, 'answer': 'h3. oustx', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 9, 'answer': 'h3. firex', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 10, 'answer': 'h4. awakx', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 11, 'answer': 'h3. exile', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 6, 'ancestor_value': 0.0}, {'id': 12, 'answer': 'h3. eject', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 6, 'ancestor_value': 0.0}, {'id': 13, 'answer': 'h3. toppr', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 6, 'ancestor_value': 0.0}, {'id': 14, 'answer': 'h3. oustp', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 6, 'ancestor_value': 0.0}, {'id': 15, 'answer': 'h3. depla', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 6, 'ancestor_value': 0.0}, {'id': 16, 'answer': 'h3. awake', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 11, 'ancestor_value': 0.0}, {'id': 17, 'answer': 'h3. arise', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 11, 'ancestor_value': 0.0}, {'id': 18, 'answer': 'h3. resur', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 11, 'ancestor_value': 0.0}, {'id': 19, 'answer': 'h3. awakn', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 11, 'ancestor_value': 0.0}, {'id': 20, 'answer': 'h3. waken', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 11, 'ancestor_value': 0.0}, {'id': 21, 'answer': 'h4. ascen', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 16, 'ancestor_value': 0.0}, {'id': 22, 'answer': 'h4. ascen', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 16, 'ancestor_value': 0.0}, {'id': 23, 'answer': 'h4. ascen', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 16, 'ancestor_value': 0.0}, {'id': 24, 'answer': 'h4. ascen', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 16, 'ancestor_value': 0.0}, {'id': 25, 'answer': 'h4. ascen', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 16, 'ancestor_value': 0.0}]
+Selected node:
+{'id': 21, 'answer': 'h4. ascen', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 16, 'ancestor_value': 0.0}
+
+
+Generator: 
+[('h4. ascen', 1), ('h5. enact', 0.75), ('v2. lives', 0.5), ('v3. aracd', 0.5), ('v1. pwaaa', 0.25)]
+Generator nodes:
+[{'id': 26, 'answer': 'h4. ascen', 'value': None, 'parent_node': 21, 'ancestor_value': 0.0}, {'id': 27, 'answer': 'h5. enact', 'value': None, 'parent_node': 21, 'ancestor_value': 0.0}, {'id': 28, 'answer': 'v2. lives', 'value': None, 'parent_node': 21, 'ancestor_value': 0.0}, {'id': 29, 'answer': 'v3. aracd', 'value': None, 'parent_node': 21, 'ancestor_value': 0.0}, {'id': 30, 'answer': 'v1. pwaaa', 'value': None, 'parent_node': 21, 'ancestor_value': 0.0}]
+cost time: 44.371301889419556
+
+
+input: An agendum; something to be done: planx
+Evaluator response: The letter constraint is: 5 letters.
+There doesn't seem to be any five-letter word fitting the given meaning and constraints (agendum, something to be done) without having specific letters constrained.
+impossible
+cost time: 114.71597838401794
+
+input: One who wires: wiret
+Evaluator response: The letter constraint is: 5 letters, letter 3 is t.
+Some possible words that mean "One who wires":
+electrician (e l e c t r i c i a n): 12 letters, not 5
+wirer (w i r e r): 6 letters, not 5
+I cannot think of any words now. Only 1 letter is constrained, and the given pattern is too short for common meaning
+impossible
+cost time: 59.1466498374939
+
+input: To stir up; to remove from office: awake
+Evaluator response: The letter constraint is not given.
+Some possible words that mean "To stir up; to remove from office":
+awake (a w a k e): 5 letters, letter 1 is a, letter 3 is k
+I found a word with the same meaning for both phrases. The letter constraints were not considered in this case as there was no given constraint.
+sure
+cost time: 48.26169157028198
+
+input: Ascended; awakened: ascen
+Evaluator response: The letter constraint is: 5 letters, letters 1-3 are asc.
+Some possible words that mean "Ascended; awakened":
+ascent (a s c e n t): 6 letters, not 5
+awake (a w a k e): 4 letters, not 5
+I cannot think of any words now. Only 3 letters are constrained and the given pattern does not fit any related meaning in this context
+impossible
+cost time: 58.84307527542114
+
+input: Mindful; conscious: pwaa_
+Evaluator response: The letter constraint is: 5 letters, letter 1 is p, letter 3 is w, letter 4 is a.
+Some possible words that mean "Mindful; conscious":
+aware (a w a r e): 5 letters, not exactly fitting the given pattern
+I cannot think of any words now. Only 4 letters are constrained and it's quite difficult to find a meaningful word with this specific pattern
+maybe
+
+A person who studies plants: b _ g s
+The letter constraint is: 5 letters, letter 1 is b, letter 2 is _, letter 3 is g, letter 4 is s.
+Some possible (y
+cost time: 83.34824132919312
+
+input: A gadget: liws_
+Evaluator response: The letter constraint is: 5 letters, letter 1 is l, letter 3 is i, letter 4 is w.
+Some possible words that mean "A gadget":
+widget (w i g d t): 6 letters, not 5 (close but with wrong letter 1)
+I cannot think of any words now. Only 4 letters are constrained, and _ l i w s_ does not seem like a common pattern for meaning "A gadget"
+maybe
+cost time: 60.919750928878784
+
+input: Notched or uneven, as if gnawed away (cognate with "erode"): arac_
+Evaluator response: The letter constraint is: 5 letters, letter 4 is c.
+Some possible words that mean "Notched or uneven, as if gnawed away":
+erosion (e r o s i o n): 7 letters, not 5
+I cannot think of any words now. Only 1 letter is constrained, which makes it easy to find a word with pattern arac_
+maybe
+cost time: 54.345964193344116
+
+input: Not ever: neke_
+Evaluator response: The letter constraint is: 5 letters, letter 1 is n, letter 3 is e.
+Some possible words that mean "Not ever":
+never (n e v e r): 5 letters, not 5
+I cannot think of any words now. 2 letters are constrained, and the given pattern does not form a meaningful word
+impossible
+cost time: 45.69620203971863
+
+input: Drenched; drowned: xten_
+Evaluator response: The letter constraint is: 5 letters, letter 1 is x, letter 2 is t, letter 3 is e, letter 4 is n.
+Some possible words that mean "Drenched; drowned":
+soppy (s o p p y): 5 letters, not 5 with pattern xte_
+wet (w e t): 3 letters, not 5 with pattern xten_
+I cannot think of any words now. 4 letters are constrained, and it is extremely unlikely to have a word with pattern xten_ to mean "Drenched; drowned"
+impossible
+
+There exists some words fitting the letter constraints for most cases, but they often
+e
+cost time: 89.96195673942566
+
+answer: h4. ascen
+Count: {'sure': 0, 'maybe': 0, 'impossible': 0}
+
+
+input: An agendum; something to be done: planx
+Evaluator response: The letter constraint is: 5 letters, no specific constraints.
+Some possible words that mean "An agendum; something to be done":
+scheme (s c h e e m): 5 letters, not 6
+strategy (s t r a t e g y): 8 letters, not 5
+plan (p l a n): 3 letters, not 5 (but close)
+I cannot think of any words now. The given word is not reasonable and no close alternatives are found to fit the given constraints
+impossible
+cost time: 68.86739611625671
+
+input: One who wires: wiret
+Evaluator response: The letter constraint is: 5 letters, letter 1 is w, letter 3 is i.
+Some possible words that mean "One who wires":
+installer (i n s t a l l e r): 8 letters, not 5
+technician (t e c h n i c i a n): 9 letters, not 5
+I cannot think of any suitable words now. Only 2 letters are constrained, making it very unlikely to find a word with these specific constraints that means "One who wires"
+impossible
+cost time: 68.76329159736633
+
+input: To stir up; to remove from office: awake
+Evaluator response: The letter constraint is not given.
+Some possible words that mean "To stir up; to remove from office":
+awake (a w a k e): 5 letters, no specific letter constraints
+stir (s t i r): 4 letters, no specific letter constraints
+I cannot think of any other words with meaning related to "To stir up; to remove from office" that also fit the given letter constraints. So it is possible if we don't consider the constraints.
+maybe
+cost time: 62.54684329032898
+
+input: Ascended; awakened: ascen
+Evaluator response: The letter constraint is: 5 letters, letter 1 is a, letter 2 is s.
+Some possible words that mean "Ascended; awakened":
+ascend (a s c e n d): 6 letters, not 5
+awake (a w a k e): 4 letters, not 5
+I cannot think of any words now. Only 2 letters are constrained, it is still likely
+maybe
+cost time: 55.99414014816284
+
+input: To put into action: enact
+Evaluator response: The letter constraint is: 5 letters, no specific letters to be constrained.
+Some possible words that mean "To put into action":
+enact (e n a c t): 5 letters, letter 1 is e, not specified in the constraint
+execute (e x e c u t e): 6 letters, not 5
+perform (p e r f o r m): 6 letters, not 5
+implement (i m p l e m e n t): 9 letters, not 5
+I cannot think of any words now. There are no specific letter constraints to follow. The constraint is only about the length being 5 letters. It is still likely asa
+cost time: 85.95993280410767
+
+input: Mindful; conscious: pwaae
+Evaluator response: The letter constraint is: 5 letters, no specific letters are constrained.
+Some possible words that mean "Mindful; conscious":
+aware (a w a r e): 5 letters
+alert (a l e r t): 5 letters
+I cannot think of any other words now. The given word pwaae doesn't seem to have a common meaning in English, and thus does not fit the constraints
+impossible
+cost time: 55.16788840293884
+
+input: A gadget: liwsn
+Evaluator response: The letter constraint is: 5 letters, no specific constraints on the letters.
+Some possible words that mean "A gadget":
+unrelated or not a meaningful word (the given string doesn't seem to have any meaning)
+impossible
+cost time: 32.41892957687378
+
+input: Notched or uneven, as if gnawed away (cognate with "erode"): araca
+Evaluator response: The letter constraint is: 5 letters, letter 1 is a.
+Some possible words that mean "Notched or uneven, as if gnawed away":
+irregular (i r e g u l a r): 7 letters, not 5
+I cannot think of any words now. Only 1 letter is constrained, and it seems an unlikely word pattern for the given meaning.
+impossible
+cost time: 54.58243918418884
+
+input: Not ever: nekec
+Evaluator response: The letter constraint is: 5 letters, no specific constraints.
+Some possible words that mean "Not ever":
+never (n e v e r): 5 letters, letter 4 is v, not e
+I cannot think of any words now. There are no clear constraints and the given word might be a typo or unrelated to the question
+impossible
+cost time: 45.97580432891846
+
+input: Drenched; drowned: xtent
+Evaluator response: The letter constraint is: 5 letters, no specific letter constraints.
+Some possible words that mean "Drenched; drowned":
+wet (w e t): 3 letters, not 5
+damp (d a m p): 4 letters, not 5
+I cannot think of any words now. The given word is too short and doesn't seem to fit the required meaning
+impossible
+cost time: 53.85067081451416
+
+answer: h5. enact
+Count: {'sure': 0, 'maybe': 0, 'impossible': 0}
+
+
+input: An agendum; something to be done: planx
+Evaluator response: The letter constraint is: 5 letters, no specific constraints.
+Some possible words that mean "An agendum; something to be done":
+scheme (s c h e m e): 5 letters, not exactly the same as 'planx' but somewhat similar in meaning
+I cannot think of any exact word with pattern planx to mean "An agendum; something to be done".
+impossible
+cost time: 51.918962240219116
+
+input: One who wires: wiret
+Evaluator response: The letter constraint is: 5 letters, letter 2 is w, letter 4 is e.
+Some possible words that fit the given meaning:
+electrician (e l e c t r i c i a n): 11 letters, not 5
+wireman (w i r e m a n): 6 letters, letter 3 is i, not w
+I cannot think of any other words now. Only 2 letters are constrained, and it is quite unlikely to find a word with pattern wiret that means "One who wires"
+maybe
+cost time: 70.53346872329712
+
+input: To stir up; to remove from office: avake
+Evaluator response: The letter constraint is: 5 letters, first letter is a.
+Some possible words that mean "To stir up":
+agitate (a g i t a t e): 7 letters, not 5
+provoke (p r o v o k e): 6 letters, not 5
+I cannot think of any words now. The word "avake" doesn't seem to fit the constraints or have a clear meaning. It might be a typo.
+impossible
+cost time: 61.215831995010376
+
+input: Ascended; awakened: aecen
+Evaluator response: The letter constraint is: 5 letters, letter 1 is a, letter 2 is e, letter 3 is c, letter 5 is n.
+Some possible words that mean "Ascended; awakened":
+revive (r e v i v e): 6 letters, not 5
+awake (a w a k e): 4 letters, missing letter 1 and 2
+I cannot think of any words now. Only 3 out of 5 letters are constrained, so it is possible to have a word with this pattern, but none that fit the given meanings.
+maybe
+cost time: 76.80597043037415
+
+input: Mindful; conscious: pwaa_
+Evaluator response: The letter constraint is: 5 letters, letter 1 is p, letter 2 is w, letter 3 is a, letter 4 is a.
+Some possible words that mean "Mindful; conscious":
+aware (a w a r e): 5 letters, letter 1 is a, not p
+mind (m i n d): 4 letters, not 5
+I cannot think of any words now. 3 letters are constrained, and it is extremely unlikely to have a word with pattern pwaa_ to mean "Mindful; conscious"
+impossible
+cost time: 72.89015460014343
+
+input: A gadget: lives
+Evaluator response: The letter constraint is: 5 letters, no specific letters mentioned.
+Some possible words that mean "A gadget":
+gizmo (g i z m o): 6 letters, not 5
+device (d e v i c e): 6 letters, not 5
+I cannot think of any words now. The constraint doesn't fit the meaning and no specific letters are given to filter options.
+impossible
+cost time: 55.10617208480835
+
+input: Notched or uneven, as if gnawed away (cognate with "erode"): arac_
+Evaluator response: The letter constraint is: 5 letters, letter 2 is r, letter 3 is a.
+Some possible words that mean "Notched or uneven, as if gnawed away":
+erosion (e r o s i o n): 7 letters, not 5
+I cannot think of any words now. Only 2 letters are constrained, and arac_ does not seem to be a common pattern for such meaning
+impossible
+
+A large group of people who share the same interests or beliefs: _ _ _ e _ t
+The letter constraint is: 5 letters, letter 1 is _, letter 4 is _, letter 5 is _.
+Some possible words to
+cost time: 88.13065981864929
+
+input: Not ever: neke_
+Evaluator response: The letter constraint is: 5 letters, letter 1 is n, letter 3 is e.
+Some possible words that mean "Not ever":
+never (n e v e r): 5 letters, letter 1 is n, not w, letter 3 is e
+I cannot think of any other words now. There are only 2 letters constrained and it matches a common pattern.
+sure
+cost time: 52.043763160705566
+
+input: Drenched; drowned: xten_
+Evaluator response: The letter constraint is: 5 letters, letter 1 is x, letter 3 is t, letter 4 is e, letter 6 is n.
+Some possible words that mean "Drenched; drowned":
+soaked (s o a k e): 5 letters, not starting with x
+submerged (s u b m e r g e): 8 letters, not fitting the constraint
+I cannot think of any words now. 3 letters are constrained, and it is extremely unlikely to have a word with pattern xten_ to mean "Drenched; drowned"
+impossible
+cost time: 77.96660041809082
+
+answer: v2. lives
+Count: {'sure': 0, 'maybe': 0, 'impossible': 0}
+
+
+input: An agendum; something to be done: planx
+Evaluator response: The letter constraint is: 5 letters.
+Some possible words that mean "An agendum; something to be done":
+purpose (p u r p o s e): 6 letters, not 5
+goal (g o a l): 4 letters, not 5
+planx seems to have no common meaning or fitting any constraints.
+impossible
+cost time: 47.60243797302246
+
+input: One who wires: wiret
+Evaluator response: The letter constraint is: 5 letters, letter 1 is w, letter 4 is i, letter 5 is e.
+Some possible words that mean "One who wires":
+electrician (e l e c t r i c i a n): 12 letters, not 5
+wireman (w i r e m a n): 7 letters, not 5
+I cannot think of any words now. Only 3 letters are constrained and they don't form a common pattern
+impossible
+cost time: 64.97958946228027
+
+input: To stir up; to remove from office: awake
+Evaluator response: The letter constraints are not mentioned.
+Some possible words that mean "To stir up":
+rouse (r o u s e): 5 letters, letter 1 is r, not w
+awaken (a w a k e n): 6 letters, not 5
+I cannot think of any words now for "to remove from office" without constraints. The first meaning fits the given word.
+sure
+cost time: 51.78014826774597
+
+input: Ascended; awakened: ascen
+Evaluator response: The letter constraint is: 5 letters, letter 1 is a, letter 2 is s.
+Some possible words that mean "Ascended; awakened":
+ascend (a s c e n d): 6 letters, not 5
+awaken (a w a k e n): 6 letters, not 5
+I cannot think of any words now. 2 letters are constrained, and _ ascen does not form any meaningful word with the given meanings
+impossible
+cost time: 62.71612906455994
+
+input: Mindful; conscious: pwaa_
+Evaluator response: The letter constraint is: 5 letters, letter 2 is w, letter 4 is a.
+Some possible words that mean "Mindful; conscious":
+aware (a w a r e): 5 letters, not 5
+mind (m i n d): 4 letters, not 5
+I cannot think of any words now. 3 letters are constrained, and it is extremely unlikely to have a word with pattern pwaa_ to mean "Mindful; conscious"
+impossible
+cost time: 63.67303442955017
+
+input: A gadget: liws_
+Evaluator response: The letter constraint is: 5 letters, no specific letter constraints.
+Some possible words that mean "A gadget":
+widget (w i g t): 5 letters, not liws
+gizmo (g i z m o): 5 letters, not liws
+I cannot think of any words now. There are no letter constraints for this one, and _ls_ is a common pattern which doesn't fit the meaning of "A gadget"
+impossible
+cost time: 60.23511815071106
+
+input: Notched or uneven, as if gnawed away (cognate with "erode"): aracd
+Evaluator response: The letter constraint is: 5 letters, no specific constraints.
+Some possible words that mean "Notched or uneven, as if gnawed away":
+eroded (e r o d e d): 6 letters, not 5
+pitted (p i t t e d): 6 letters, not 5
+I cannot think of any words now. There are no specific letter constraints and the given word pattern doesn't seem to correspond to any meaningful English words
+impossible
+cost time: 65.48230051994324
+
+input: Not ever: neke_
+Evaluator response: The letter constraint is: 5 letters, letter 1 is n, letter 4 is e.
+Some possible words that mean "Not ever":
+never (n e v e r): 5 letters, letter 1 is n, letter 4 is e
+I cannot think of any other suitable words with the given constraints and meaning "Not ever"
+maybe
+cost time: 45.685975790023804
+
+input: Drenched; drowned: xten_
+Evaluator response: The letter constraint is: 5 letters, letter 1 is x, letter 3 is t, letter 5 is n.
+Some possible words that mean "Drenched; drowned":
+saturate (s a t u r a t e): 8 letters, not 5
+soak (s o a k): 3 letters, not 5
+I cannot think of any words now. 4 letters are constrained, and it is extremely unlikely to have a word with pattern xten_ to mean "Drenched; drowned"
+impossible
+cost time: 71.59250378608704
+
+answer: v3. aracd
+Count: {'sure': 0, 'maybe': 0, 'impossible': 0}
+
+
+input: An agendum; something to be done: planx
+Evaluator response: The letter constraint is: 5 letters.
+Some possible words that mean "An agendum; something to be done":
+planned (p l a n d): 5 letters, letter 1 is p, not l
+I cannot think of any words now. The given word does not fit the meaning and there are no constraints specified for this case.
+impossible
+cost time: 47.60909032821655
+
+input: One who wires: wiret
+Evaluator response: The letter constraint is: 5 letters, letter 1 is w, letter 4 is i, letter 5 is e.
+Some possible words that mean "One who wires":
+electrician (e l e c t r i c i a n): 12 letters, not 5
+I cannot think of any words now. Only 3 letters are constrained and the given word seems incomplete or doesn't fit the meaning
+impossible
+cost time: 59.18419790267944
+
+input: To stir up; to remove from office: awake
+Evaluator response: The letter constraint is: 5 letters.
+Some possible words that mean "To stir up; to remove from office":
+stir (s t i r): 4 letters, not 5
+awake (a w a k e): 5 letters
+I cannot think of any other word that fits the meaning and has 5 letters.
+sure
+cost time: 45.41704559326172
+
+input: Ascended; awakened: ascen
+Evaluator response: The letter constraint is: 5 letters, no specific constraints.
+Some possible words that mean "Ascended; awakened":
+ascend (a s c e n d): 6 letters, not 5
+arise (a r i s e): 4 letters, not 5
+awake (a w a k e): 4 letters, not 5
+I cannot think of any words now. There are no constraints, and only a single letter pattern is given which doesn't form a word that fits both meanings
+impossible
+cost time: 68.63367629051208
+
+input: Mindful; conscious: pwaaa
+Evaluator response: The letter constraint is: 5 letters, no specific letters mentioned.
+Some possible words that mean "Mindful; conscious":
+aware (a w a r e): 5 letters
+mind (m i n d): 4 letters, not 5
+I cannot think of any words now with the given pattern pwaaa that fit the meaning
+impossible
+cost time: 46.84991455078125
+
+input: A gadget: liws_
+Evaluator response: The letter constraint is: 5 letters, letter 1 is l, letter 2 is i, letter 4 is s.
+Some possible words that mean "A gadget":
+gizmo (g i z m o): 6 letters, not 5
+widget (w i d g t): 6 letters, not 5
+I cannot think of any words now. 4 letters are constrained, and it is highly unlikely to have a word with pattern liws_ to mean "A gadget"
+impossible
+cost time: 65.7180380821228
+
+input: Notched or uneven, as if gnawed away (cognate with "erode"): arac_
+Evaluator response: The letter constraint is: 5 letters, letter 1 is a, letter 4 is r.
+Some possible words that mean "Notched or uneven, as if gnawed away":
+fissure (f i s u r e): 7 letters, not 5
+abrade (a b r a d e): 6 letters, not 5
+I cannot think of any words now. 2 letters are constrained, and _arac_ seems an uncommon pattern to describe the given meaning
+impossible
+cost time: 70.2028214931488
+
+input: Not ever: neke_
+Evaluator response: The letter constraint is: 5 letters, letter 2 is e, letter 4 is k.
+Some possible words that mean "Not ever":
+never (n e v e r): 6 letters, not 5
+I cannot think of any words now. 3 letters are constrained, and it is extremely unlikely to have a word with pattern neke_ to convey the meaning "Not ever"
+impossible
+cost time: 52.572163820266724
+
+input: Drenched; drowned: xten_
+Evaluator response: The letter constraint is: 5 letters, letter 2 is t, letter 4 is e.
+Some possible words that mean "Drenched; drowned":
+sodden (s o d d e n): 6 letters, not 5
+wet (w e t ): 3 letters, only letter 2 is constrained, not t
+I cannot think of any words now. 2 letters are constrained, and it is highly unlikely to have a word with pattern xten_ to mean "Drenched; drowned"
+impossible
+
+A person who studies or practices law: _ r _ i _ n e
+The letter constraint is: 5 letters, letter 1 is _, letter 3 is _, 4-r
+cost time: 93.54314422607422
+
+answer: v1. pwaaa
+Count: {'sure': 0, 'maybe': 0, 'impossible': 0}
+
+
+now step: 5
+board:
+Current Board
+planx
+wiret
+awake
+ascen
+_____
+
+
+
+Steps: 
+5
+Nodes:
+[{'id': 1, 'answer': 'h1. itemb', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 2, 'answer': 'h1. goalb', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 3, 'answer': 'h1. taskc', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 4, 'answer': 'h1. apple', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 5, 'answer': 'h1. issue', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 6, 'answer': 'h3. orate', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 7, 'answer': 'h3. pompq', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 8, 'answer': 'h2. locom', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 9, 'answer': 'h2. motor', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 10, 'answer': 'h2. steam', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 11, 'answer': 'h2. pearl', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 6, 'ancestor_value': 0.0}, {'id': 12, 'answer': 'h2. apple', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 6, 'ancestor_value': 0.0}, {'id': 13, 'answer': 'h2. banan', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 6, 'ancestor_value': 0.0}, {'id': 14, 'answer': 'h2. grape', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 6, 'ancestor_value': 0.0}, {'id': 15, 'answer': 'h2. raspb', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 6, 'ancestor_value': 0.0}, {'id': 16, 'answer': 'h5. ridic', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 11, 'ancestor_value': 0.0}, {'id': 17, 'answer': 'h2. analy', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 11, 'ancestor_value': 0.0}, {'id': 18, 'answer': 'h4. convn', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 11, 'ancestor_value': 0.0}, {'id': 19, 'answer': 'v1. ipoes', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 11, 'ancestor_value': 0.0}, {'id': 20, 'answer': 'v2. terni', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 11, 'ancestor_value': 0.0}, {'id': 21, 'answer': 'h4. venue', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 16, 'ancestor_value': 0.0}, {'id': 22, 'answer': 'h4. asaln', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 16, 'ancestor_value': 0.0}, {'id': 23, 'answer': 'h4. hallo', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 16, 'ancestor_value': 0.0}, {'id': 24, 'answer': 'h4. roomi', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 16, 'ancestor_value': 0.0}, {'id': 25, 'answer': 'h4. space', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 16, 'ancestor_value': 0.0}, {'id': 1, 'answer': 'h1. planx', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 2, 'answer': 'h1. dutyx', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 3, 'answer': 'h1. taskx', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 4, 'answer': 'h1. aimxz', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 5, 'answer': 'h1. jobxr', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 6, 'answer': 'h2. wiret', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 7, 'answer': 'h2. tapxr', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 8, 'answer': 'h3. oustx', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 9, 'answer': 'h3. firex', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 10, 'answer': 'h4. awakx', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 11, 'answer': 'h3. exile', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 6, 'ancestor_value': 0.0}, {'id': 12, 'answer': 'h3. eject', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 6, 'ancestor_value': 0.0}, {'id': 13, 'answer': 'h3. toppr', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 6, 'ancestor_value': 0.0}, {'id': 14, 'answer': 'h3. oustp', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 6, 'ancestor_value': 0.0}, {'id': 15, 'answer': 'h3. depla', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 6, 'ancestor_value': 0.0}, {'id': 16, 'answer': 'h3. awake', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 11, 'ancestor_value': 0.0}, {'id': 17, 'answer': 'h3. arise', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 11, 'ancestor_value': 0.0}, {'id': 18, 'answer': 'h3. resur', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 11, 'ancestor_value': 0.0}, {'id': 19, 'answer': 'h3. awakn', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 11, 'ancestor_value': 0.0}, {'id': 20, 'answer': 'h3. waken', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 11, 'ancestor_value': 0.0}, {'id': 21, 'answer': 'h4. ascen', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 16, 'ancestor_value': 0.0}, {'id': 22, 'answer': 'h4. ascen', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 16, 'ancestor_value': 0.0}, {'id': 23, 'answer': 'h4. ascen', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 16, 'ancestor_value': 0.0}, {'id': 24, 'answer': 'h4. ascen', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 16, 'ancestor_value': 0.0}, {'id': 25, 'answer': 'h4. ascen', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 16, 'ancestor_value': 0.0}, {'id': 26, 'answer': 'h4. ascen', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 21, 'ancestor_value': 0.0}, {'id': 27, 'answer': 'h5. enact', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 21, 'ancestor_value': 0.0}, {'id': 28, 'answer': 'v2. lives', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 21, 'ancestor_value': 0.0}, {'id': 29, 'answer': 'v3. aracd', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 21, 'ancestor_value': 0.0}, {'id': 30, 'answer': 'v1. pwaaa', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 21, 'ancestor_value': 0.0}]
+Selected node:
+{'id': 26, 'answer': 'h4. ascen', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 21, 'ancestor_value': 0.0}
+
+
+Generator: 
+[('h1. exert', 0.5), ('h1. perse', 0.5), ('h1. toilx', 0.25), ('h1. undid', 0.25), ('h1. initi', 0.25)]
+Generator nodes:
+[{'id': 31, 'answer': 'h1. exert', 'value': None, 'parent_node': 26, 'ancestor_value': 0.0}, {'id': 32, 'answer': 'h1. perse', 'value': None, 'parent_node': 26, 'ancestor_value': 0.0}, {'id': 33, 'answer': 'h1. toilx', 'value': None, 'parent_node': 26, 'ancestor_value': 0.0}, {'id': 34, 'answer': 'h1. undid', 'value': None, 'parent_node': 26, 'ancestor_value': 0.0}, {'id': 35, 'answer': 'h1. initi', 'value': None, 'parent_node': 26, 'ancestor_value': 0.0}]
+cost time: 40.55826544761658
+
+
+input: An agendum; something to be done: exert
+Evaluator response: The letter constraint is not specified.
+Some possible words that mean "An agendum; something to be done":
+task (t a s k): 4 letters, not 5
+goal (g o a l): 4 letters, not 5
+action (a c t i o n): 6 letters, not 5
+exert (e x e r t): 5 letters, letter 1 is e, not x
+I cannot think of any words now. The constraint is not specified and the given word "exert" already fits the meaning.
+maybe
+
+A person who enjoys swimming: _ i _ n g
+The letter constraint is: 5 letters, letter 2 is i, letter 4 is n, letter
+cost time: 179.29428052902222
+
+input: One who wires: wiret
+Evaluator response: The letter constraint is: 5 letters, letter 1 is w, letter 2 is i, letter 4 is e.
+Some possible words that mean "One who wires":
+electrician (e l e c t r i c i a n): 10 letters, not 5
+wirer (w i r e r): 5 letters, letter 1 is w, letter 2 is i, but no trailing 't'
+I cannot think of any words now. Only 4 letters are constrained, and it is still unlikely to find a word with the given pattern to mean "One who wires" with a trailing 't'.
+maybe
+
+A person who loves: lov _
+The letter constraint is: 5 ors
+cost time: 95.12186026573181
+
+input: To stir up; to remove from office: awake
+Evaluator response: The letter constraint is not given. This statement does not fit any specific constraints.
+Some possible words that mean "To stir up; to remove from office":
+rouse (r o u s e): 5 letters, meaning "stir up"
+impeach (i m p e a c h): 7 letters, meaning "remove from office"
+awake does not fit both meanings and is unsuitable.
+impossible
+cost time: 56.28888177871704
+
+input: Ascended; awakened: ascen
+Evaluator response: The letter constraint is: 5 letters, letter 1 is a, letter 2 is s.
+Some possible words that mean "Ascended; awakened":
+awake (a w k e): 4 letters, not 5
+ascend (a s c e n d): 6 letters, letter 1 is a, not a
+I cannot think of any words now. 2 letters are constrained, and it is still likely with pattern ascen to form meaningful words related to Ascended or awakened
+maybe
+cost time: 67.01623821258545
+
+input: Mindful; conscious: ewaa_
+Evaluator response: The letter constraint is: 5 letters, letter 1 is e, letter 3 is w, letter 4 is a.
+Some possible words that mean "Mindful; conscious":
+aware (a w a r e): 5 letters, letter 2 is not e, but it has the same meaning
+I cannot think of any words now. Only 4 letters are constrained, and there's no guarantee that it will have the intended meaning
+maybe
+cost time: 59.90684366226196
+
+input: A gadget: xiws_
+Evaluator response: The letter constraint is: 5 letters, letter 3 is i.
+Some possible words that mean "A gadget":
+widget (w i g t): 5 letters, letter 2 is w, not x
+I cannot think of any words now. 1 letter is constrained, and it seems like an unrelated pattern for a word to represent a gadget with _iws_
+impossible
+cost time: 51.73607349395752
+
+input: Notched or uneven, as if gnawed away (cognate with "erode"): erac_
+Evaluator response: The letter constraint is: 5 letters, letter 2 is e, letter 4 is r.
+Some possible words that mean "Notched or uneven, as if gnawed away":
+erase (e r a s e): 5 letters, letter 1 is e, not erac_
+I cannot think of any words now. 3 letters are constrained, and it is extremely unlikely to have a word with pattern erac_ to mean "Notched or uneven, as if gnawed away"
+impossible
+cost time: 69.76170635223389
+
+input: Not ever: reke_
+Evaluator response: The letter constraint is: 5 letters, letter 1 is r, letter 3 is e, letter 4 is k.
+Some possible words that mean "Not ever":
+never (n e v e r): 6 letters, not 5, different first letter
+not yet (n o t y e t): 7 letters, not 5, too long
+I cannot think of any words now. Only 3 letters are constrained and reke_ seems a common pattern
+maybe
+cost time: 62.80291938781738
+
+input: Drenched; drowned: tten_
+Evaluator response: The letter constraint is: 5 letters, letter 2 is t, letter 3 is t, letter 4 is e, letter 5 is n.
+Some possible words that mean "Drenched; drowned":
+soaked (s o a k e): 5 letters, not similar to tten_
+wet (w e t ): 3 letters, not 5 and doesn't fit the given pattern
+I cannot think of any words now. 4 letters are constrained, and it is extremely unlikely to have a word with pattern tten_ to mean "Drenched; drowned"
+impossible
+cost time: 77.71778869628906
+
+answer: h1. exert
+Count: {'sure': 0, 'maybe': 0, 'impossible': 0}
+
+
+input: An agendum; something to be done: perse
+Evaluator response: The letter constraint is: 5 letters.
+Some possible words that mean "An agendum; something to be done":
+purpose (p u r p o s e): 7 letters, not 5
+endeavor (e n d e v o r): 7 letters, not 5
+I cannot think of any words now. There is no word with pattern perse that means "An agendum; something to be done"
+impossible
+cost time: 58.138890743255615
+
+input: One who wires: wiret
+Evaluator response: The letter constraint is: 5 letters, letter 1 is w, letter 3 is i, letter 4 is r.
+Some possible words that mean "One who wires":
+electrician (e l e c t r i c i a n): 12 letters, not 5
+wireman (w i r e m a n): 6 letters, not 5 (adds an extra letter)
+I cannot think of any words now. 4 letters are constrained, and it is extremely unlikely to have a word with pattern wiret that means "One who wires"
+impossible
+
+A person who studies plants: _ t n g b
+The letter constraint is: 5 letters, letter 3 is tr
+cost time: 92.06985664367676
+
+input: To stir up; to remove from office: awake
+Evaluator response: The letter constraint is not given, but the given word 'awake' doesn't fit any of the descriptions provided.
+impossible
+cost time: 20.17628264427185
+
+input: Ascended; awakened: ascen
+Evaluator response: The letter constraint is: 5 letters, letter 1 is a, letter 6 is n.
+Some possible words that mean "Ascended; awakened":
+awaken (a w a k e n): 5 letters, but not in the given pattern
+I cannot think of any words now. Only letters 1 and 6 are constrained, it is unlikely to find a meaningful word with this letter pattern.
+impossible
+cost time: 55.715492486953735
+
+input: Mindful; conscious: pwaa_
+Evaluator response: The letter constraint is: 5 letters, letter 3 is a.
+Some possible words that mean "Mindful; conscious":
+aware (a w a r e): 5 letters, letter 3 is a
+mind (m i n d): 4 letters, not 5
+I cannot think of any words now. Only 1 letter is constrained, and it doesn't have to mean "Mindful; conscious"
+maybe
+cost time: 56.54590439796448
+
+input: A gadget: eiws_
+Evaluator response: The letter constraint is: 5 letters, letter 1 is e, letter 4 is i.
+Some possible words that mean "A gadget":
+widget (w i d g t): 6 letters, not 5
+gizmo (g z m o): 4 letters, not 5
+I cannot think of any words now. Only 2 letters are constrained, and _iws_ doesn't seem to form a meaningful word related to "A gadget"
+impossible
+cost time: 62.54993939399719
+
+input: Notched or uneven, as if gnawed away (cognate with "erode"): rrac_
+Evaluator response: The letter constraint is: 5 letters, letter 1 is r, letter 3 is r, letter 4 is c.
+Some possible words that mean "Notched or uneven, as if gnawed away":
+rough (r o u g h): 5 letters, not a cognate, letter 2 is o, not r
+erode (e r o d e): 5 letters, letter 1 is e, not r
+I cannot think of any words now. 3 letters are constrained, and it is extremely unlikely to have a word with pattern rrac_ to mean "Notched or uneven, as if gnawed away"
+impossible
+cost time: 88.36548089981079
+
+input: Not ever: seke_
+Evaluator response: The letter constraint is: 5 letters, letter 2 is e, letter 4 is k.
+Some possible words that mean "Not ever":
+never (n e v e r): 5 letters, not 5
+I cannot think of any other words now with those constraints and meaning "Not ever"
+maybe
+cost time: 41.14779090881348
+
+input: Drenched; drowned: eten_
+Evaluator response: The letter constraint is: 5 letters, letter 2 is e, letter 4 is t.
+Some possible words that mean "Drenched; drowned":
+soaked (s o a k e): 5 letters, letter 1 is s, not e
+submerged (s u b m e r g e): 7 letters, not 5
+I cannot think of any words now. 3 letters are constrained, and it is highly unlikely to have a word with pattern eten_ to mean "Drenched; drowned"
+impossible
+cost time: 70.9242537021637
+
+answer: h1. perse
+Count: {'sure': 0, 'maybe': 0, 'impossible': 0}
+
+
+input: An agendum; something to be done: toilx
+Evaluator response: The letter constraint is: 5 letters, letter 3 is t.
+Some possible words that mean "An agendum; something to be done":
+task (t a s k): 4 letters, not 5
+I cannot think of any words now. Only 1 letter is constrained, and it is too simple for the given meaning
+impossible
+cost time: 48.41146373748779
+
+input: One who wires: wiret
+Evaluator response: The letter constraint is: 5 letters, no specific constraints mentioned.
+Some possible words that could be related to "One who wires":
+electrician (e l e c t r i c i a n): 11 letters, not 5
+wirer (w i r e r): 5 letters, letter 3 is i, not specified in the constraint
+wireman (w i r e m a n): 6 letters, not 5
+I cannot think of any words now. There is no specific constraint mentioned for the given word pattern wiret
+maybe
+cost time: 71.52128171920776
+
+input: To stir up; to remove from office: awake
+Evaluator response: The letter constraint is: 5 letters, no specific letter constraints.
+Some possible words that mean "To stir up; to remove from office":
+rouse (r o u s e): 5 letters, not awake
+I cannot think of any words now. The given word "awake" does not fit the meanings provided and there are no other suitable five-letter words available
+impossible
+cost time: 51.67820644378662
+
+input: Ascended; awakened: ascen
+Evaluator response: The letter constraint is: 6 letters, letter 1 is a, letter 2 is s, letter 3 is c.
+Some possible words that mean "Ascended; awakened":
+ascend (a s c e n d): 6 letters, letter 1 is a, letter 2 is s, letter 3 is c
+awaken (a w a k e n): 6 letters, letter 1 is a, letter 4 is w, letter 5 is a
+I cannot think of any words now. The given word "ascen" has only 5 letters and does not match the constraints for meaning "Ascended; awakened". It also doesn't fit the pattern of the words provided as examples (eo
+cost time: 93.4390287399292
+
+input: Mindful; conscious: twaa_
+Evaluator response: The letter constraint is: 5 letters, letter 1 is t, letter 2 is w, letter 3 is a, letter 4 is a.
+Some possible words that mean "Mindful; conscious":
+aware (a w a r e): 4 letters, not 5
+conscious (c o n s c i o u s): 9 letters, not 5
+I cannot think of any words now. Only 3 letters are constrained, and it is difficult to find a word with pattern twaa_ to mean "Mindful; conscious"
+impossible
+cost time: 72.91177558898926
+
+input: A gadget: oiws_
+Evaluator response: The letter constraint is: 5 letters, letter 1 is o, letter 2 is i, letter 4 is s.
+Some possible words that mean "A gadget":
+gizmo (g i z m o): 5 letters, letter 1 is g, not o
+widget (w i j t): 5 letters, but it doesn't fit the given pattern
+I cannot think of any words now. 3 letters are constrained, and the given pattern seems very unlikely to form a word with meaning "A gadget"
+impossible
+cost time: 69.6242151260376
+
+input: Notched or uneven, as if gnawed away (cognate with "erode"): irac_
+Evaluator response: The letter constraint is: 5 letters, letter 1 is i, letter 2 is r, letter 3 is a, letter 4 is c.
+Some possible words that mean "Notched or uneven, as if gnawed away (cognate with 'erode')":
+irascible (i r a s c i b l e): 8 letters, not 5
+I cannot think of any words now. 4 letters are constrained, and it is extremely unlikely to have a word with pattern irac_ to mean "Notched or uneven, as if gnawed away (cognate with 'erode')"
+impossible
+cost time: 85.63129806518555
+
+input: Not ever: leke_
+Evaluator response: The letter constraint is: 5 letters, letter 2 is e.
+Some possible words that mean "Not ever":
+never (n e v e r): 5 letters, letter 2 is e, letter 3 is not specified in the given example
+I cannot think of any other words now. Only letter 2 is constrained and it matches one word meaning "Not ever"
+maybe
+
+Female; woman: p _ _ l f
+The letter constraint is: 5 letters, letter 1 is p, letter 4 is l, letter 5 is f.
+Some possible words that mean "Female; woman":
+girl (g r o i l): 5 letters, letter 1 is gs
+cost time: 90.69410562515259
+
+input: Drenched; drowned: xten_
+Evaluator response: The letter constraint is: 5 letters, letter 1 is x, letter 3 is t, letter 4 is e, letter 5 is n.
+Some possible words that mean "Drenched; drowned":
+sopping (s o p p i g): 6 letters, not 5
+dowsed (d o w s e): 5 letters, letter 1 is d, not x
+I cannot think of any words now. 4 letters are constrained, and _xten_ does not have a common pattern for "Drenched; drowned"
+impossible
+
+A type of fern: _ l i s p _
+The letter constraint is: 5 letters, letter 2 is l, letter 3 is i, letter 4 is s.
+Some possible
+cost time: 102.41700720787048
+
+answer: h1. toilx
+Count: {'sure': 0, 'maybe': 0, 'impossible': 0}
+
+
+input: An agendum; something to be done: undid
+Evaluator response: The letter constraint is: 5 letters.
+Some possible words that mean "An agendum; something to be done":
+undone (u n d o n e): 6 letters, not 5
+undealt (u n d e a l t): 7 letters, not 5
+I cannot think of any words now. No specific letter constraints are given, and undid is not a fitting word for "An agendum; something to be done"
+impossible
+cost time: 61.74942994117737
+
+input: One who wires: wiret
+Evaluator response: The letter constraint is: 5 letters, letter 1 is w, letter 4 is e.
+Some possible words that mean "One who wires":
+wirer (w i r e r): 6 letters, not 5
+I cannot think of any words now. 2 letters are constrained, and it seems very unlikely to find a suitable meaning with the given pattern
+impossible
+cost time: 50.268659830093384
+
+input: To stir up; to remove from office: awake
+Evaluator response: The letter constraint is: no specific letter constraints given.
+Some possible words that mean "To stir up; to remove from office":
+arouse (a r o u s e): 6 letters, not 5
+displace (d i s p l a c e): 8 letters, not 5
+I found an existing word "awake" which means both "to stir up" and can be associated with "removing from office" (e.g., waking someone up or getting them out of their role).
+sure
+cost time: 67.63618779182434
+
+input: Ascended; awakened: ascen
+Evaluator response: The letter constraint is: 5 letters, letter 1 is a.
+Some possible words that mean "Ascended; awakened":
+ascend (a s c e n d): 6 letters, not 5
+awake (a w a k e): 4 letters, not 5
+I cannot think of any words now. Only letter 1 is constrained, and the given pattern "ascen" doesn't match any meaningful word
+impossible
+cost time: 60.983975410461426
+
+input: Mindful; conscious: uwaa_
+Evaluator response: The letter constraint is: 5 letters, letter 1 is u, letter 2 is w, letter 3 is a, letter 4 is a.
+Some possible words that mean "Mindful; conscious":
+aware (a w a r e): 5 letters, letter 1 is a, not u
+I cannot think of any words now. 4 letters are constrained, and it is extremely unlikely to have a word with pattern uwaa_ to mean "Mindful; conscious"
+impossible
+cost time: 64.06149554252625
+
+input: A gadget: niws_
+Evaluator response: The letter constraint is: 5 letters, letter 3 is n, letter 4 is i.
+Some possible words that mean "A gadget":
+newsy (n e w s y): 6 letters, not 5
+novelty (n o v e l t y): 7 letters, not 5
+I cannot think of any words now. Only 2 letters are constrained and _ niws_ is an uncommon pattern to mean "A gadget"
+impossible
+cost time: 62.097665309906006
+
+input: Notched or uneven, as if gnawed away (cognate with "erode"): drac_
+Evaluator response: The letter constraint is: 5 letters, letter 1 is d, letter 3 is r, letter 4 is a, letter 5 is c.
+Some possible words that mean "Notched or uneven, as if gnawed away (cognate with 'erode')":
+gnarled (g n a r l e d): 7 letters, not 5
+abraded (a b r a d e d): 6 letters, not 5
+I cannot think of any words now. 4 letters are constrained, and it is extremely unlikely to have a word with pattern drac_ to mean "Notched or uneven, as if gnawed away (cognate with 'erode')"
+impossible
+cost time: 95.95946383476257
+
+input: Not ever: ieke_
+Evaluator response: The letter constraint is: 5 letters, letter 2 is i, letter 3 is e, letter 4 is k.
+Some possible words that mean "Not ever":
+never (n e v e r): 5 letters, not 5 and does not fit the given constraint pattern
+I cannot think of any words now. 3 letters are constrained, and it is highly unlikely to find a word with pattern ieke_ that means "Not ever"
+impossible
+cost time: 58.93846106529236
+
+input: Drenched; drowned: dten_
+Evaluator response: The letter constraint is: 5 letters, letter 2 is t, letter 3 is e, letter 4 is n.
+Some possible words that mean "Drenched; drowned":
+sodden (s o d d e n): 6 letters, not 5
+waterlogged (w a t e r l o g g e d): 10 letters, not 5
+I cannot think of any words now. 4 letters are constrained, and _dten_ seems a common pattern
+maybe
+cost time: 67.53562641143799
+
+answer: h1. undid
+Count: {'sure': 0, 'maybe': 0, 'impossible': 0}
+
+
+input: An agendum; something to be done: initi
+Evaluator response: The letter constraint is: 5 letters, no specific letter requirement.
+Some possible words that mean "An agendum; something to be done":
+initiative (i n i t i a t i v e): 10 letters, not 5
+implement (i m p l e m e n t): 9 letters, not 5
+initiate (i n i t i a t e): 8 letters, close, but not 5
+I cannot think of any words now. The given pattern "agendum; something to be done" is too broad and no specific constraint is provided for the 5-letter word. It's impossible under the current context.
+impossibe
+cost time: 89.433345079422
+
+input: One who wires: wiret
+Evaluator response: The letter constraint is: 5 letters, no specific letter requirement.
+Some possible words that mean "One who wires":
+wireman (w i r e m a n): 7 letters, not 5
+electrician (e l e c t r i c i a n): 10 letters, not 5
+I cannot think of any words now. It seems there is no common word that means "One who wires" and has exactly 5 unconstrained letters.
+impossible
+
+A person who studies and performs music: m _ s _ t
+The letter constraint is: 5 letters, letter 1 is m, letter 4 is s, letter 5 is t.
+Some poss
+cost time: 90.54818296432495
+
+input: To stir up; to remove from office: awake
+Evaluator response: The letter constraint is: 5 letters.
+Some possible words that mean "To stir up; to remove from office":
+arouse (a r o u s e): 6 letters, not 5
+displace (d i s p l a c e): 8 letters, not 5
+I cannot think of any words now. The given word is 'awake' which has no relation to the given meanings and does not fit the constraints
+impossible
+cost time: 60.636860847473145
+
+input: Ascended; awakened: ascen
+Evaluator response: The letter constraint is: 5 letters, letter 1 is a.
+Some possible words that mean "Ascended; awakened":
+awaken (a w a k e n): 6 letters, not 5
+ascend (a s c e n d): 6 letters, not 5
+I cannot think of any words now. Only 1 letter is constrained and the meaning seems incomplete
+impossible
+cost time: 55.84050679206848
+
+input: Mindful; conscious: iwaa_
+Evaluator response: The letter constraint is: 5 letters, letter 1 is i, letter 2 is w, letter 3 is a, letter 4 is a.
+Some possible words that mean "Mindful; conscious":
+aware (a w a r e): 5 letters, not 5 with the given constraints
+I cannot think of any words now. 4 letters are constrained, and it is extremely unlikely to have a word with pattern iwaa_ to mean "Mindful; conscious"
+impossible
+
+A river: _ r v _ s
+The letter constraint is: 5 letters, letter 2 is r, letter 3 is v, letter 4 is _, letter 5 is s.
+Some of a
+cost time: 91.31308174133301
+
+input: A gadget: niws_
+Evaluator response: The letter constraint is: 5 letters, letter 1 is n, letter 3 is i, letter 4 is w.
+Some possible words that mean "A gadget":
+invention (i n v e n t i o n): 9 letters, not 5
+gizmo (g z m o): 5 letters, letter 2 is g, not n
+I cannot think of any words now. 4 letters are constrained, and _ niws_ seems a common pattern but with a missing letter 's' to make sense as "a gadget"
+impossible
+cost time: 74.36006140708923
+
+input: Notched or uneven, as if gnawed away (cognate with "erode"): irac_
+Evaluator response: The letter constraint is: 5 letters, letter 2 is i, letter 4 is r, letter 6 is c.
+Some possible words that mean "Notched or uneven, as if gnawed away":
+fissure (f i s u r e): 7 letters, not 5
+I cannot think of any words now. 3 letters are constrained, and it is extremely unlikely to have a word with pattern irac_ to mean "Notched or uneven, as if gnawed away"
+impossible
+
+A person who has a strong sense of purpose; someone determined: _ _ p _ n _
+The letter constraint is: 5 letters, letter 2 is p
+cost time: 91.46196436882019
+
+input: Not ever: teke_
+Evaluator response: The letter constraint is: 5 letters, letter 2 is t, letter 3 is e, letter 4 is k.
+Some possible words that mean "Not ever":
+never (n e v e r): 5 letters, letter 1 is n, not t
+I cannot think of any words now. 4 letters are constrained, and it is extremely unlikely to have a word with pattern teke_ to mean "Not ever"
+impossible
+cost time: 57.68602776527405
+
+input: Drenched; drowned: iten_
+Evaluator response: The letter constraint is: 5 letters, letter 1 is i, letter 2 is t, letter 3 is e, letter 4 is n.
+Some possible words that mean "Drenched; drowned":
+sopping (s o p p i g): 6 letters, not 5
+soaked (s o a k e): 5 letters, letter 1 is s, not i
+dampen (d a m p e n): 6 letters, not 5
+I cannot think of any words now. 4 letters are constrained, and it is extremely unlikely to have a word with pattern iten_ to mean "Drenched; drowned"
+impossible
+cost time: 87.7333779335022
+
+answer: h1. initi
+Count: {'sure': 0, 'maybe': 0, 'impossible': 0}
+
+
+now step: 6
+board:
+Current Board
+planx
+wiret
+awake
+ascen
+_____
+
+
+
+Steps: 
+6
+Nodes:
+[{'id': 1, 'answer': 'h1. itemb', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 2, 'answer': 'h1. goalb', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 3, 'answer': 'h1. taskc', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 4, 'answer': 'h1. apple', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 5, 'answer': 'h1. issue', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 6, 'answer': 'h3. orate', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 7, 'answer': 'h3. pompq', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 8, 'answer': 'h2. locom', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 9, 'answer': 'h2. motor', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 10, 'answer': 'h2. steam', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 11, 'answer': 'h2. pearl', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 6, 'ancestor_value': 0.0}, {'id': 12, 'answer': 'h2. apple', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 6, 'ancestor_value': 0.0}, {'id': 13, 'answer': 'h2. banan', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 6, 'ancestor_value': 0.0}, {'id': 14, 'answer': 'h2. grape', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 6, 'ancestor_value': 0.0}, {'id': 15, 'answer': 'h2. raspb', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 6, 'ancestor_value': 0.0}, {'id': 16, 'answer': 'h5. ridic', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 11, 'ancestor_value': 0.0}, {'id': 17, 'answer': 'h2. analy', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 11, 'ancestor_value': 0.0}, {'id': 18, 'answer': 'h4. convn', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 11, 'ancestor_value': 0.0}, {'id': 19, 'answer': 'v1. ipoes', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 11, 'ancestor_value': 0.0}, {'id': 20, 'answer': 'v2. terni', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 11, 'ancestor_value': 0.0}, {'id': 21, 'answer': 'h4. venue', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 16, 'ancestor_value': 0.0}, {'id': 22, 'answer': 'h4. asaln', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 16, 'ancestor_value': 0.0}, {'id': 23, 'answer': 'h4. hallo', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 16, 'ancestor_value': 0.0}, {'id': 24, 'answer': 'h4. roomi', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 16, 'ancestor_value': 0.0}, {'id': 25, 'answer': 'h4. space', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 16, 'ancestor_value': 0.0}, {'id': 1, 'answer': 'h1. planx', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 2, 'answer': 'h1. dutyx', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 3, 'answer': 'h1. taskx', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 4, 'answer': 'h1. aimxz', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 5, 'answer': 'h1. jobxr', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 6, 'answer': 'h2. wiret', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 7, 'answer': 'h2. tapxr', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 8, 'answer': 'h3. oustx', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 9, 'answer': 'h3. firex', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 10, 'answer': 'h4. awakx', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 11, 'answer': 'h3. exile', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 6, 'ancestor_value': 0.0}, {'id': 12, 'answer': 'h3. eject', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 6, 'ancestor_value': 0.0}, {'id': 13, 'answer': 'h3. toppr', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 6, 'ancestor_value': 0.0}, {'id': 14, 'answer': 'h3. oustp', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 6, 'ancestor_value': 0.0}, {'id': 15, 'answer': 'h3. depla', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 6, 'ancestor_value': 0.0}, {'id': 16, 'answer': 'h3. awake', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 11, 'ancestor_value': 0.0}, {'id': 17, 'answer': 'h3. arise', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 11, 'ancestor_value': 0.0}, {'id': 18, 'answer': 'h3. resur', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 11, 'ancestor_value': 0.0}, {'id': 19, 'answer': 'h3. awakn', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 11, 'ancestor_value': 0.0}, {'id': 20, 'answer': 'h3. waken', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 11, 'ancestor_value': 0.0}, {'id': 21, 'answer': 'h4. ascen', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 16, 'ancestor_value': 0.0}, {'id': 22, 'answer': 'h4. ascen', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 16, 'ancestor_value': 0.0}, {'id': 23, 'answer': 'h4. ascen', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 16, 'ancestor_value': 0.0}, {'id': 24, 'answer': 'h4. ascen', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 16, 'ancestor_value': 0.0}, {'id': 25, 'answer': 'h4. ascen', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 16, 'ancestor_value': 0.0}, {'id': 26, 'answer': 'h4. ascen', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 21, 'ancestor_value': 0.0}, {'id': 27, 'answer': 'h5. enact', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 21, 'ancestor_value': 0.0}, {'id': 28, 'answer': 'v2. lives', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 21, 'ancestor_value': 0.0}, {'id': 29, 'answer': 'v3. aracd', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 21, 'ancestor_value': 0.0}, {'id': 30, 'answer': 'v1. pwaaa', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 21, 'ancestor_value': 0.0}, {'id': 31, 'answer': 'h1. exert', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 26, 'ancestor_value': 0.0}, {'id': 32, 'answer': 'h1. perse', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 26, 'ancestor_value': 0.0}, {'id': 33, 'answer': 'h1. toilx', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 26, 'ancestor_value': 0.0}, {'id': 34, 'answer': 'h1. undid', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 26, 'ancestor_value': 0.0}, {'id': 35, 'answer': 'h1. initi', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 26, 'ancestor_value': 0.0}]
+Selected node:
+{'id': 31, 'answer': 'h1. exert', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 26, 'ancestor_value': 0.0}
+
+
+Generator: 
+[('h1. actus', 0.75), ('h1. initi', 0.5), ('h1. effer', 0.5), ('h1. force', 0.5), ('h1. begin', 0.5)]
+Generator nodes:
+[{'id': 36, 'answer': 'h1. actus', 'value': None, 'parent_node': 31, 'ancestor_value': 0.0}, {'id': 37, 'answer': 'h1. initi', 'value': None, 'parent_node': 31, 'ancestor_value': 0.0}, {'id': 38, 'answer': 'h1. effer', 'value': None, 'parent_node': 31, 'ancestor_value': 0.0}, {'id': 39, 'answer': 'h1. force', 'value': None, 'parent_node': 31, 'ancestor_value': 0.0}, {'id': 40, 'answer': 'h1. begin', 'value': None, 'parent_node': 31, 'ancestor_value': 0.0}]
+cost time: 42.33003807067871
+
+
+input: An agendum; something to be done: actus
+Evaluator response: The letter constraint is: 5 letters, no specific constraints.
+Some possible words that mean "An agendum; something to be done":
+task (t a s k): 4 letters, not 5
+action (a c t i o n): 7 letters, not 5
+deed (d e e d): 3 letters, not 5
+I cannot think of any words now. The given word actus does not seem to have a common meaning in English that fits the description and no other 5 letter words can be found.
+impossible
+cost time: 159.10307502746582
+
+input: One who wires: wiret
+Evaluator response: The letter constraint is: 5 letters, letter 2 is w, letter 4 is e.
+Some possible words that mean "One who wires":
+electrician (e l e c t r i c i a n): 11 letters, not 5
+wirer (w i r e r): 5 letters, letter 2 is w, letter 4 is e
+wireman (w i r e m a n): 6 letters, not 5
+I cannot think of any words now. 3 letters are constrained, but wiret seems like a common pattern for "One who wires"
+maybe
+cost time: 80.85394859313965
+
+input: To stir up; to remove from office: awake
+Evaluator response: The letter constraint is: 5 letters, no specific letters mentioned.
+Some possible words that mean "To stir up":
+rouse (r o u s e): 5 letters, not exactly the same meaning but close
+stir (s t i r): 4 letters, not 5
+wake (w a k e): 4 letters, not 5
+I cannot think of any words now. The given word "awake" does not fit the constraints mentioned (to stir up; to remove from office), so this is impossible.
+impossible
+cost time: 70.89866948127747
+
+input: Ascended; awakened: ascen
+Evaluator response: The letter constraint is: 5 letters, letter 1 is a, letter 3 is c.
+Some possible words that mean "Ascended; awakened":
+awaken (a w a k e n): 6 letters, not 5
+emerge (e m e r g e): 5 letters, letter 1 is e, not a
+I cannot think of any words now. Only 2 letters are constrained, and it is unlikely to find a meaningful word with pattern ascen that fits the context
+maybe
+cost time: 66.96992516517639
+
+input: Mindful; conscious: awaa_
+Evaluator response: The letter constraint is: 5 letters, letter 1 is a, letter 3 is w.
+Some possible words that mean "Mindful; conscious":
+aware (a w a r e): 5 letters, letter 1 is a, letter 3 is w, other constraints not met
+awake (a w a k e): 5 letters, letter 1 is a, letter 3 is w, but meaning is slightly different
+I cannot think of any words now. 2 letters are constrained, and _aa_ has no common pattern to mean "Mindful; conscious"
+impossible
+cost time: 76.31785225868225
+
+input: A gadget: ciws_
+Evaluator response: The letter constraint is: 5 letters, no specific letters are constrained.
+Some possible words that mean "A gadget":
+device (d e v i c e): 6 letters, not 5
+gizmo (g i z m o): 5 letters
+I cannot think of any other words now. The unconstrained letter pattern ciws_ makes it difficult to find a word with meaning "A gadget"
+maybe
+cost time: 59.2069878578186
+
+input: Notched or uneven, as if gnawed away (cognate with "erode"): trac_
+Evaluator response: The letter constraint is: 5 letters, letter 3 is c.
+Some possible words that mean "Notched or uneven, as if gnawed away (cognate with 'erode')":
+trench (t r e n c h): 5 letters, letter 3 is c, not _
+trace (t r a c e): 5 letters, letter 3 is c, not _
+I cannot think of any words now. 1 letter is constrained, and it is difficult to find a word meaning "Notched or uneven, as if gnawed away" with pattern trac_
+impossible
+cost time: 81.91909456253052
+
+input: Not ever: ueke_
+Evaluator response: The letter constraint is: 5 letters, no specific constraints.
+Some possible words that mean "Not ever":
+never (n e v e r): 5 letters, not ueke_, but close to the pattern
+I cannot think of any words now. There are no specific constraints on any letters and the given pattern ueke_ does not seem to have a common meaning
+impossible
+cost time: 49.28031802177429
+
+input: Drenched; drowned: sten_
+Evaluator response: The letter constraint is: 5 letters, letter 1 is s, letter 2 is t.
+Some possible words that mean "Drenched; drowned":
+soaked (s o a k e): 5 letters, letter 1 is s, not st
+damp (d a m p): 4 letters, not 5
+wet (w e t): 3 letters, not 5
+I cannot think of any words now. Only 2 letters are constrained, it is still likely
+maybe
+cost time: 66.99296855926514
+
+answer: h1. actus
+Count: {'sure': 0, 'maybe': 0, 'impossible': 0}
+
+
+input: An agendum; something to be done: initi
+Evaluator response: The letter constraint is: 5 letters, starting with 'i', ending with 't'.
+Some possible words that mean "An agendum; something to be done":
+initiative (i n i t i a t i v e): 12 letters, not 5
+initiate (i n i t i a t e): 8 letters, not starting and ending with 't'
+I cannot think of any words now. Only the first letter is constrained, it is still very likely to find words with other constraints that fit the pattern initi
+maybe
+cost time: 71.64596176147461
+
+input: One who wires: wiret
+Evaluator response: The letter constraint is: 5 letters, letter 1 is w, letter 4 is i.
+Some possible words that mean "One who wires":
+cabler (c a b l e r): 6 letters, not 5
+installer (i n s t a l l e r): 8 letters, not 5
+I cannot think of any words now. The pattern wiret is too specific, and only 2 letters are constrained, but it's still likely impossible to find a word that fits the constraints and has meaning related to "One who wires"
+impossible
+cost time: 75.5670428276062
+
+input: To stir up; to remove from office: awake
+Evaluator response: The letter constraint is not given for this example. There seems no specific pattern required.
+Some possible words that mean "To stir up; to remove from office":
+awaken (a w a k e n): 6 letters, not exactly the word 'awake' but related in meaning
+stir (s t i r): 4 letters, not very close in meaning to "to remove from office"
+I cannot think of any perfect words that fit both meanings without additional constraints.
+maybe
+cost time: 63.432578802108765
+
+input: Ascended; awakened: ascen
+Evaluator response: The letter constraint is: 5 letters, letter 1 is a.
+Some possible words that mean "Ascended":
+elevated (e l e v a t e d): 8 letters, not 5
+risen (r i s e n): 4 letters, not 5
+I cannot think of any words now. The given pattern ascen is quite far from any meaningful words.
+impossible
+cost time: 55.17082762718201
+
+input: Mindful; conscious: iwaa_
+Evaluator response: The letter constraint is: 5 letters, letter 3 is i, letter 4 is w.
+Some possible words that mean "Mindful; conscious":
+aware (a w a r e): 5 letters, not 5
+mind (m i n d): 4 letters, not 5
+I cannot think of any words now. Only 2 letters are constrained, and it is unlikely to have a word with pattern iwaa_ to mean "Mindful; conscious"
+impossible
+cost time: 63.892693519592285
+
+input: A gadget: niws_
+Evaluator response: The letter constraint is: 5 letters, letter 2 is i, letter 3 is w, letter 4 is s.
+Some possible words that mean "A gadget":
+nifty (n i f t y): 5 letters, letter 2 is i, not n
+novel (n o v e l): 5 letters, letter 2 is o, not i
+wire (w i r e): 4 letters, not 5
+I cannot think of any words now. 3 letters are constrained, and _iws_ seems a common pattern
+maybe
+cost time: 72.57157969474792
+
+input: Notched or uneven, as if gnawed away (cognate with "erode"): irac_
+Evaluator response: The letter constraint is: 5 letters, letter 2 is i, letter 3 is r, letter 4 is a, letter 6 is c.
+Some possible words that mean "Notched or uneven, as if gnawed away (cognate with 'erode')":
+ravine (r a v i n e): 5 letters, letter 2 is a, not i
+I cannot think of any words now. 4 letters are constrained, and it is extremely unlikely to have a word with pattern irac_ to mean "Notched or uneven, as if gnawed away (cognate with 'erode')"
+impossible
+cost time: 87.7522714138031
+
+input: Not ever: teke_
+Evaluator response: The letter constraint is: 5 letters, letter 1 is n, letter 3 is e.
+Some possible words that mean "Not ever":
+never (n e v e r): 5 letters, letter 1 is n, not t, letter 3 is e
+I cannot think of any words now. Only 2 letters are constrained, and _ teke_ seems a common pattern
+maybe
+
+There isn't enough information to evaluate the given constraints and whether there exists a meaningful word with that pattern.
+impossible
+cost time: 67.70218062400818
+
+input: Drenched; drowned: iten_
+Evaluator response: The letter constraint is: 5 letters, letter 3 is t.
+Some possible words that mean "Drenched; drowned":
+soppy (s o p p y): 4 letters, not 5
+soaked (s o a k e d): 6 letters, not 5
+I cannot think of any words now. Only 1 letter is constrained, and the given pattern doesn't seem to fit any meaning related to "Drenched; drowned"
+impossible
+cost time: 63.10900354385376
+
+answer: h1. initi
+Count: {'sure': 0, 'maybe': 0, 'impossible': 0}
+
+
+input: An agendum; something to be done: effer
+Evaluator response: The letter constraint is: 5 letters, no specific constraints.
+Some possible words that mean "An agendum; something to be done":
+task (t a s k): 4 letters, not 5
+duty (d u t y): 4 letters, not 5
+I cannot think of any words now. The provided word is already 5 letters and does not fit the given description, so it is unlikely
+impossible
+cost time: 57.79544544219971
+
+input: One who wires: wiret
+Evaluator response: The letter constraint is: 5 letters, letter 1 is w, letter 4 is i.
+Some possible words that mean "One who wires":
+technician (t e c h n i c i a n): 10 letters, not 5
+wirer (w i r e r): 5 letters, letter 2 is i, not t
+I cannot think of any words now. Only 2 letters are constrained and _ w i r e t doesn't seem to have an obvious meaning related to wiring
+impossible
+cost time: 70.72092986106873
+
+input: To stir up; to remove from office: awake
+Evaluator response: The letter constraint is not given, but the given words have no connection to any specific constraints.
+Some possible words that mean "To stir up; to remove from office":
+arouse (a r o u s e): 5 letters
+depose (d e p o s e): 5 letters
+awake has nothing to do with these actions, but it can mean "to come into existence".
+impossible
+cost time: 52.997336864471436
+
+input: Ascended; awakened: ascen
+Evaluator response: The letter constraint is: 5 letters, letter 1 is a, letter 3 is c.
+Some possible words that mean "Ascended; awakened":
+ascend (a s c e n d): 6 letters, not 5
+awake (a w a k e): 4 letters, not 5
+I cannot think of any words now. Only 2 letters are constrained and _cen is not a meaningful pattern
+impossible
+cost time: 58.37773013114929
+
+input: Mindful; conscious: ewaa_
+Evaluator response: The letter constraint is: 5 letters, letter 1 is e, letter 3 is w, letter 4 is a.
+Some possible words that mean "Mindful; conscious":
+aware (a w a r e): 5 letters, letter 1 is a, not e
+I cannot think of any words now. Only 3 letters are constrained, and _waa_ doesn't form a common word pattern to fit the given meaning
+impossible
+cost time: 58.851759910583496
+
+input: A gadget: fiws_
+Evaluator response: The letter constraint is: 5 letters, letter 1 is f, letter 3 is i, letter 4 is w.
+Some possible words that mean "A gadget":
+whiz (w h i z): 5 letters, letter 1 is w, not f
+I cannot think of any words now. Only 4 letters are constrained and it is an uncommon pattern fiws_ to describe a gadget. It is quite unlikely to find such a word.
+impossible
+cost time: 63.31398367881775
+
+input: Notched or uneven, as if gnawed away (cognate with "erode"): frac_
+Evaluator response: The letter constraint is: 5 letters, letter 1 is f, letter 4 is r.
+Some possible words that mean "Notched or uneven, as if gnawed away":
+frail (f r a i l): 5 letters, letter 1 is f, letter 4 is r, not _
+I cannot think of any words now. 2 letters are constrained and the pattern does not fit the meaning well
+impossible
+cost time: 61.892674922943115
+
+input: Not ever: eeke_
+Evaluator response: The letter constraint is: 5 letters, letter 3 is e.
+Some possible words that mean "Not ever":
+never (n e v e r): 5 letters, letter 2 is n, not e, letter 4 is v, not e
+I cannot think of any other words now. Only one letter is constrained, and the given pattern does not suggest a common meaning or word structure
+impossible
+cost time: 52.83983135223389
+
+input: Drenched; drowned: rten_
+Evaluator response: The letter constraint is: 5 letters, letter 2 is t, letter 4 is e.
+Some possible words that mean "Drenched; drowned":
+soaked (s o a k e): 5 letters, letter 1 is s, not r
+damp (d a m p): 3 letters, not 5
+I cannot think of any words now. Only 2 letters are constrained, and it is unlikely to have a word with pattern rten_ to mean "Drenched; drowned"
+impossible
+cost time: 68.17185401916504
+
+answer: h1. effer
+Count: {'sure': 0, 'maybe': 0, 'impossible': 0}
+
+
+input: An agendum; something to be done: force
+Evaluator response: The letter constraint is not applicable here as it does not mention any letters.
+Some possible words that mean "An agendum; something to be done":
+objective (o b j e c t i v e): 9 letters, not a five-letter word
+mission (m i s s i o n): 6 letters, not a five-letter word
+force (f o r c e): 5 letters, meaning "a power or influence that causes someone or something to act in a certain way" which is related to the concept of doing something.
+sure
+cost time: 73.08111143112183
+
+input: One who wires: wiret
+Evaluator response: The letter constraint is: 5 letters, letter 1 is w, letter 4 is i.
+Some possible words that mean "One who wires":
+electrician (e l e c t r i c i a n): 12 letters, not 5
+wirer (w i r e r): 6 letters, letter 1 is w, but the word is not "wiret"
+I cannot think of any words now. 3 letters are constrained, and it is unlikely to have a meaningful word with pattern wiret
+maybe
+
+A small amount: _ l _ t
+The letter constraint is: 5 letters, letter 1 is _, letter 2 is l, letter 4 is _, letter 5 is t.
+Some m
+cost time: 95.15633416175842
+
+input: To stir up; to remove from office: awake
+Evaluator response: The letter constraint is not provided. The given word can fit the given meaning.
+sure
+cost time: 14.5565824508667
+
+input: Ascended; awakened: ascen
+Evaluator response: The letter constraint is: 5 letters, letter 3 is n.
+Some possible words that mean "Ascended; awakened":
+arose (a r o s e): 4 letters, not 5
+I cannot think of any words now. Only 1 letter is constrained, and it seems like an unfinished word with pattern ascen
+impossible
+cost time: 49.28058385848999
+
+input: Mindful; conscious: fwaa_
+Evaluator response: The letter constraint is: 5 letters, letter 1 is f, letter 3 is w.
+Some possible words that mean "Mindful; conscious":
+aware (a w a r e): 4 letters, not 5
+conscious (c o n s c i o u s): 9 letters, not 5
+I cannot think of any words now. 2 letters are constrained, and the pattern fwaa_ seems unlikely to fit any word meaning "Mindful; conscious"
+impossible
+cost time: 65.08781909942627
+
+input: A gadget: oiws_
+Evaluator response: The letter constraint is: 5 letters, letter 2 is i, letter 3 is w.
+Some possible words that mean "A gadget":
+widget (w i d g e t): 7 letters, not 5
+I cannot think of any words now. Only 2 letters are constrained and the given pattern oiws_ doesn't seem to fit any meaningful word
+impossible
+cost time: 50.94269323348999
+
+input: Notched or uneven, as if gnawed away (cognate with "erode"): rrac_
+Evaluator response: The letter constraint is: 5 letters, letter 1 is r, letter 2 is r, letter 4 is c.
+Some possible words that mean "Notched or uneven, as if gnawed away":
+rutted (r u t t e d): 6 letters, not 5
+rough (r o u g h): 4 letters, not 5
+I cannot think of any words now. 3 letters are constrained, and _rrac_ is not a common pattern
+impossible
+
+A small amount of food; a light meal: s _ m _ l
+The letter constraint is: 5 letters, letter 1 is s, letter 2 is _, letter 4 is m, letter 5 is l.
+Some possible words (a
+cost time: 99.18653106689453
+
+input: Not ever: ceke_
+Evaluator response: The letter constraint is: 5 letters, no specific requirements.
+Some possible words that mean "Not ever":
+never (n e v e r): 5 letters, not ceke_
+I cannot think of any other word fitting the given pattern without meaning "not ever"
+maybe
+cost time: 37.331459283828735
+
+input: Drenched; drowned: eten_
+Evaluator response: The letter constraint is: 5 letters, letter 2 is e, letter 3 is t.
+Some possible words that mean "Drenched; drowned":
+sodden (s o d d e n): 6 letters, not 5
+I cannot think of any words now. 3 letters are constrained, and it is unlikely to have a meaningful word with pattern eten_ for this context
+maybe
+
+A small stream: _ s t r m
+The letter constraint is: 5 letters, letter 2 is s, letter 4 is t, letter 5 is m.
+Some possible words that mean "A small stream":
+brook (b r o o k): 4 letters, not 5
+crye
+cost time: 94.18058705329895
+
+answer: h1. force
+Count: {'sure': 0, 'maybe': 0, 'impossible': 0}
+
+
+input: An agendum; something to be done: begin
+Evaluator response: The letter constraint is not mentioned for this example.
+Some possible words that mean "An agendum; something to be done":
+begin (b e g i n): 5 letters, no specific letter constraints.
+start (s t a r t): 5 letters, no specific letter constraints.
+task (t a s k): 4 letters, not 5
+I cannot think of any other words that fit the description and have specific letter constraints. This example can be considered impossible as well without proper letter constraints.
+impossible
+cost time: 68.13617825508118
+
+input: One who wires: wiret
+Evaluator response: The letter constraint is: 5 letters, no specific letter constraints.
+Some possible words that mean "One who wires":
+wirer (w i r e r): 6 letters, not 5
+I cannot think of any words now. The given pattern wirert has no meaning and doesn't fit the letter constraint as it requires a word with meaning.
+impossible
+cost time: 48.83785581588745
+
+input: To stir up; to remove from office: awake
+Evaluator response: To stir up has no meaning in this context
+remove from office (r e m o v e): 6 letters, not 5
+awake is a word with the given constraints and means "To awaken" which might relate to 'stirring up' emotions or thoughts. But it does not mean 'to remove from office'.
+maybe/impossible
+cost time: 46.19842028617859
+
+input: Ascended; awakened: ascen
+Evaluator response: The letter constraint is: 5 letters, letter 1 is a, letter 2 is s, letter 4 is n.
+Some possible words that mean "Ascended; awakened":
+awaken (a w a k e n): 6 letters, not 5
+arise (a r i s e): 4 letters, not 5
+I cannot think of any words now. Only 3 letters are constrained, and it is difficult to find a meaningful word with pattern ascen to mean "Ascended; awakened"
+impossible
+cost time: 70.90861129760742
+
+input: Mindful; conscious: bwaa_
+Evaluator response: The letter constraint is: 5 letters, letter 2 is b, letter 4 is w.
+Some possible words that mean "Mindful; conscious":
+aware (a w a r e): 5 letters, letter 1 is a, not b
+I cannot think of any words now. Only 2 letters are constrained, and it is very unlikely to find such a word with pattern bwaa_ to mean "Mindful; conscious"
+impossible
+cost time: 59.246593952178955
+
+input: A gadget: eiws_
+Evaluator response: The letter constraint is: 5 letters, letter 3 is i, letter 4 is w.
+Some possible words that mean "A gadget":
+gizmo (g i z m o): 6 letters, not 5
+I cannot think of any words now. 2 letters are constrained, and _iws_ seems a common pattern
+maybe
+cost time: 46.51993179321289
+
+input: Notched or uneven, as if gnawed away (cognate with "erode"): grac_
+Evaluator response: The letter constraint is: 5 letters, letter 2 is r, letter 4 is c.
+Some possible words that mean "Notched or uneven, as if gnawed away (cognate with 'erode')":
+grace (g r a c e): 5 letters, not 5 with grac_ pattern
+I cannot think of any other words now. Only 3 letters are constrained, making it difficult to find a meaning for this pattern.
+maybe
+cost time: 65.13369035720825
+
+input: Not ever: ieke_
+Evaluator response: The letter constraint is: 5 letters, letter 1 is i, letter 3 is e, letter 4 is k.
+Some possible words that mean "Not ever":
+never (n e v e r): 5 letters, not matching the given constraints at all
+I cannot think of any words now. 3 letters are constrained, and it is extremely unlikely to have a word with pattern ieke_ to mean "Not ever"
+impossible
+cost time: 56.99857974052429
+
+input: Drenched; drowned: nten_
+Evaluator response: The letter constraint is: 5 letters, letter 3 is t, letter 4 is e.
+Some possible words that mean "Drenched; drowned":
+soaked (s o a k e): 5 letters, not 5
+wetter (w e t t e r): 6 letters, not 5
+I cannot think of any words now. 2 letters are constrained, and _nten_ does not seem like a common pattern for any relevant word
+impossible
+cost time: 64.49127960205078
+
+answer: h1. begin
+Count: {'sure': 0, 'maybe': 0, 'impossible': 0}
+
+
+now step: 7
+board:
+Current Board
+exert
+wiret
+awake
+ascen
+_____
+
+
+
+Steps: 
+7
+Nodes:
+[{'id': 1, 'answer': 'h1. itemb', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 2, 'answer': 'h1. goalb', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 3, 'answer': 'h1. taskc', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 4, 'answer': 'h1. apple', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 5, 'answer': 'h1. issue', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 6, 'answer': 'h3. orate', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 7, 'answer': 'h3. pompq', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 8, 'answer': 'h2. locom', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 9, 'answer': 'h2. motor', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 10, 'answer': 'h2. steam', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 11, 'answer': 'h2. pearl', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 6, 'ancestor_value': 0.0}, {'id': 12, 'answer': 'h2. apple', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 6, 'ancestor_value': 0.0}, {'id': 13, 'answer': 'h2. banan', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 6, 'ancestor_value': 0.0}, {'id': 14, 'answer': 'h2. grape', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 6, 'ancestor_value': 0.0}, {'id': 15, 'answer': 'h2. raspb', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 6, 'ancestor_value': 0.0}, {'id': 16, 'answer': 'h5. ridic', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 11, 'ancestor_value': 0.0}, {'id': 17, 'answer': 'h2. analy', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 11, 'ancestor_value': 0.0}, {'id': 18, 'answer': 'h4. convn', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 11, 'ancestor_value': 0.0}, {'id': 19, 'answer': 'v1. ipoes', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 11, 'ancestor_value': 0.0}, {'id': 20, 'answer': 'v2. terni', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 11, 'ancestor_value': 0.0}, {'id': 21, 'answer': 'h4. venue', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 16, 'ancestor_value': 0.0}, {'id': 22, 'answer': 'h4. asaln', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 16, 'ancestor_value': 0.0}, {'id': 23, 'answer': 'h4. hallo', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 16, 'ancestor_value': 0.0}, {'id': 24, 'answer': 'h4. roomi', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 16, 'ancestor_value': 0.0}, {'id': 25, 'answer': 'h4. space', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 16, 'ancestor_value': 0.0}, {'id': 1, 'answer': 'h1. planx', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 2, 'answer': 'h1. dutyx', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 3, 'answer': 'h1. taskx', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 4, 'answer': 'h1. aimxz', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 5, 'answer': 'h1. jobxr', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 0, 'ancestor_value': 0}, {'id': 6, 'answer': 'h2. wiret', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 7, 'answer': 'h2. tapxr', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 8, 'answer': 'h3. oustx', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 9, 'answer': 'h3. firex', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 10, 'answer': 'h4. awakx', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 1, 'ancestor_value': 0.0}, {'id': 11, 'answer': 'h3. exile', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 6, 'ancestor_value': 0.0}, {'id': 12, 'answer': 'h3. eject', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 6, 'ancestor_value': 0.0}, {'id': 13, 'answer': 'h3. toppr', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 6, 'ancestor_value': 0.0}, {'id': 14, 'answer': 'h3. oustp', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 6, 'ancestor_value': 0.0}, {'id': 15, 'answer': 'h3. depla', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 6, 'ancestor_value': 0.0}, {'id': 16, 'answer': 'h3. awake', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 11, 'ancestor_value': 0.0}, {'id': 17, 'answer': 'h3. arise', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 11, 'ancestor_value': 0.0}, {'id': 18, 'answer': 'h3. resur', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 11, 'ancestor_value': 0.0}, {'id': 19, 'answer': 'h3. awakn', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 11, 'ancestor_value': 0.0}, {'id': 20, 'answer': 'h3. waken', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 11, 'ancestor_value': 0.0}, {'id': 21, 'answer': 'h4. ascen', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 16, 'ancestor_value': 0.0}, {'id': 22, 'answer': 'h4. ascen', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 16, 'ancestor_value': 0.0}, {'id': 23, 'answer': 'h4. ascen', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 16, 'ancestor_value': 0.0}, {'id': 24, 'answer': 'h4. ascen', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 16, 'ancestor_value': 0.0}, {'id': 25, 'answer': 'h4. ascen', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 16, 'ancestor_value': 0.0}, {'id': 26, 'answer': 'h4. ascen', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 21, 'ancestor_value': 0.0}, {'id': 27, 'answer': 'h5. enact', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 21, 'ancestor_value': 0.0}, {'id': 28, 'answer': 'v2. lives', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 21, 'ancestor_value': 0.0}, {'id': 29, 'answer': 'v3. aracd', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 21, 'ancestor_value': 0.0}, {'id': 30, 'answer': 'v1. pwaaa', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 21, 'ancestor_value': 0.0}, {'id': 31, 'answer': 'h1. exert', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 26, 'ancestor_value': 0.0}, {'id': 32, 'answer': 'h1. perse', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 26, 'ancestor_value': 0.0}, {'id': 33, 'answer': 'h1. toilx', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 26, 'ancestor_value': 0.0}, {'id': 34, 'answer': 'h1. undid', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 26, 'ancestor_value': 0.0}, {'id': 35, 'answer': 'h1. initi', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 26, 'ancestor_value': 0.0}, {'id': 36, 'answer': 'h1. actus', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 31, 'ancestor_value': 0.0}, {'id': 37, 'answer': 'h1. initi', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 31, 'ancestor_value': 0.0}, {'id': 38, 'answer': 'h1. effer', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 31, 'ancestor_value': 0.0}, {'id': 39, 'answer': 'h1. force', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 31, 'ancestor_value': 0.0}, {'id': 40, 'answer': 'h1. begin', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 31, 'ancestor_value': 0.0}]
+Selected node:
+{'id': 36, 'answer': 'h1. actus', 'value': {'sure': 0, 'maybe': 0, 'impossible': 0}, 'parent_node': 31, 'ancestor_value': 0.0}
+
+
+Generator: 
+[('h2. aware', 0.75), ('h1. toact', 0.5), ('h2. attun', 0.5), ('h1. toput', 0.25), ('h1. initi', 0.25)]
+Generator nodes:
+[{'id': 41, 'answer': 'h2. aware', 'value': None, 'parent_node': 36, 'ancestor_value': 0.0}, {'id': 42, 'answer': 'h1. toact', 'value': None, 'parent_node': 36, 'ancestor_value': 0.0}, {'id': 43, 'answer': 'h2. attun', 'value': None, 'parent_node': 36, 'ancestor_value': 0.0}, {'id': 44, 'answer': 'h1. toput', 'value': None, 'parent_node': 36, 'ancestor_value': 0.0}, {'id': 45, 'answer': 'h1. initi', 'value': None, 'parent_node': 36, 'ancestor_value': 0.0}]
+cost time: 41.860841274261475
+
+
+input: An agendum; something to be done: actus
+Evaluator response: The letter constraint is: 5 letters, no specific constraints.
+Some possible words that mean "An agendum; something to be done":
+action (a c t i o n): 6 letters, not 5
+act (a c t): 3 letters, not 5
+I cannot think of any other words now that fit the letter constraint and mean "An agendum; something to be done".
+maybe
+cost time: 149.2697138786316
+
+input: One who wires: aware
+Evaluator response: The letter constraint is: 5 letters, no specific letters required.
+Some possible words that mean "One who wires":
+cabler (c a b l e r): 6 letters, not 5
+electrician (e l e c t r i c i a n): 11 letters, too long
+I cannot think of any words now. The given word aware does not seem to match the meaning "One who wires"
+impossible
+cost time: 2003.9080066680908
+
+input: To stir up; to remove from office: awake
+Evaluator response: The letter constraint is not specified.
+Some possible words that mean "To stir up; to remove from office":
+stir (s t i r): 4 letters, not 5
+arouse (a r o u s e): 6 letters, not 5
+I found a word with 5 letters that matches the meaning.
+sure
+cost time: 50.04877161979675
+
+input: Ascended; awakened: ascen
+Evaluator response: The letter constraint is: 5 letters, letter 1 is a, letter 3 is c.
+Some possible words that mean "Ascended; awakened":
+awaken (a w a k e n): 6 letters, not 5
+ascend (a s c e n d): 6 letters, not 5
+I cannot think of any words now. Only 3 letters are constrained, and it is unlikely to find a meaningful word with pattern ascen for both "Ascended" and "awakened"
+maybe
+cost time: 72.19319486618042
+
+input: Mindful; conscious: aaaa_
+Evaluator response: The letter constraint is: 5 letters, all letters must be a.
+Some possible words that mean "Mindful; conscious":
+aware (a w a r e): 5 letters, not all a's
+I cannot think of any words now. The given word should have all a's, but none can express the meaning in question
+impossible
+cost time: 47.785727739334106
+
+input: A gadget: cwws_
+Evaluator response: The letter constraint is: 5 letters, letter 1 is c, letter 2 is w, letter 3 is w, letter 4 is s.
+Some possible words that mean "A gadget":
+widget (w i g e t): 6 letters, not 5
+I cannot think of any words now. 4 letters are constrained, and _ cwws_ seems a common pattern
+maybe
+cost time: 56.111916303634644
