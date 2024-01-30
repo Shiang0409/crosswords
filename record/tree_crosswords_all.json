@@ -1,0 +1,2660 @@
+[
+    {
+        "id": 2,
+        "steps": [
+            {
+                "step": 0,
+                "nodes": [
+                    {
+                        "id": 6,
+                        "answer": "h1. buddy",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 0,
+                            "impossible": 0
+                        },
+                        "parent_node": 0,
+                        "ancestor_value": 0
+                    },
+                    {
+                        "id": 10,
+                        "answer": "h1. guyon",
+                        "value": {
+                            "sure": 0,
+                            "maybe": 1,
+                            "impossible": 0
+                        },
+                        "parent_node": 0,
+                        "ancestor_value": 0
+                    },
+                    {
+                        "id": 7,
+                        "answer": "h1. apple",
+                        "value": {
+                            "sure": 0,
+                            "maybe": 0,
+                            "impossible": 1
+                        },
+                        "parent_node": 0,
+                        "ancestor_value": 0
+                    },
+                    {
+                        "id": 8,
+                        "answer": "h1. chapo",
+                        "value": {
+                            "sure": 0,
+                            "maybe": 0,
+                            "impossible": 1
+                        },
+                        "parent_node": 0,
+                        "ancestor_value": 0
+                    },
+                    {
+                        "id": 9,
+                        "answer": "h1. combo",
+                        "value": {
+                            "sure": 0,
+                            "maybe": 0,
+                            "impossible": 1
+                        },
+                        "parent_node": 0,
+                        "ancestor_value": 0
+                    }
+                ],
+                "selected_node": {
+                    "id": 0,
+                    "answer": null,
+                    "value": null,
+                    "parent_node": null,
+                    "ancestor_value": null
+                },
+                "is_back": false
+            },
+            {
+                "step": 1,
+                "nodes": [
+                    {
+                        "id": 6,
+                        "answer": "h1. buddy",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 0,
+                            "impossible": 0
+                        },
+                        "parent_node": 0,
+                        "ancestor_value": 0
+                    },
+                    {
+                        "id": 10,
+                        "answer": "h1. guyon",
+                        "value": {
+                            "sure": 0,
+                            "maybe": 1,
+                            "impossible": 0
+                        },
+                        "parent_node": 0,
+                        "ancestor_value": 0
+                    },
+                    {
+                        "id": 7,
+                        "answer": "h1. apple",
+                        "value": {
+                            "sure": 0,
+                            "maybe": 0,
+                            "impossible": 1
+                        },
+                        "parent_node": 0,
+                        "ancestor_value": 0
+                    },
+                    {
+                        "id": 8,
+                        "answer": "h1. chapo",
+                        "value": {
+                            "sure": 0,
+                            "maybe": 0,
+                            "impossible": 1
+                        },
+                        "parent_node": 0,
+                        "ancestor_value": 0
+                    },
+                    {
+                        "id": 9,
+                        "answer": "h1. combo",
+                        "value": {
+                            "sure": 0,
+                            "maybe": 0,
+                            "impossible": 1
+                        },
+                        "parent_node": 0,
+                        "ancestor_value": 0
+                    },
+                    {
+                        "id": 17,
+                        "answer": "h2. event",
+                        "value": {
+                            "sure": 2,
+                            "maybe": 1,
+                            "impossible": 4
+                        },
+                        "parent_node": 6,
+                        "ancestor_value": 20.0
+                    },
+                    {
+                        "id": 19,
+                        "answer": "h2. ideaa",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 5,
+                            "impossible": 1
+                        },
+                        "parent_node": 6,
+                        "ancestor_value": 20.0
+                    },
+                    {
+                        "id": 16,
+                        "answer": "h2. issue",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 3,
+                            "impossible": 3
+                        },
+                        "parent_node": 6,
+                        "ancestor_value": 20.0
+                    },
+                    {
+                        "id": 18,
+                        "answer": "h2. topic",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 2,
+                            "impossible": 4
+                        },
+                        "parent_node": 6,
+                        "ancestor_value": 20.0
+                    },
+                    {
+                        "id": 20,
+                        "answer": "h2. worka",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 2,
+                            "impossible": 4
+                        },
+                        "parent_node": 6,
+                        "ancestor_value": 20.0
+                    }
+                ],
+                "selected_node": {
+                    "id": 6,
+                    "answer": "h1. buddy",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 0,
+                        "impossible": 0
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                "is_back": false
+            },
+            {
+                "step": 2,
+                "nodes": [
+                    {
+                        "id": 6,
+                        "answer": "h1. buddy",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 0,
+                            "impossible": 0
+                        },
+                        "parent_node": 0,
+                        "ancestor_value": 0
+                    },
+                    {
+                        "id": 10,
+                        "answer": "h1. guyon",
+                        "value": {
+                            "sure": 0,
+                            "maybe": 1,
+                            "impossible": 0
+                        },
+                        "parent_node": 0,
+                        "ancestor_value": 0
+                    },
+                    {
+                        "id": 7,
+                        "answer": "h1. apple",
+                        "value": {
+                            "sure": 0,
+                            "maybe": 0,
+                            "impossible": 1
+                        },
+                        "parent_node": 0,
+                        "ancestor_value": 0
+                    },
+                    {
+                        "id": 8,
+                        "answer": "h1. chapo",
+                        "value": {
+                            "sure": 0,
+                            "maybe": 0,
+                            "impossible": 1
+                        },
+                        "parent_node": 0,
+                        "ancestor_value": 0
+                    },
+                    {
+                        "id": 9,
+                        "answer": "h1. combo",
+                        "value": {
+                            "sure": 0,
+                            "maybe": 0,
+                            "impossible": 1
+                        },
+                        "parent_node": 0,
+                        "ancestor_value": 0
+                    },
+                    {
+                        "id": 17,
+                        "answer": "h2. event",
+                        "value": {
+                            "sure": 2,
+                            "maybe": 1,
+                            "impossible": 4
+                        },
+                        "parent_node": 6,
+                        "ancestor_value": 20.0
+                    },
+                    {
+                        "id": 19,
+                        "answer": "h2. ideaa",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 5,
+                            "impossible": 1
+                        },
+                        "parent_node": 6,
+                        "ancestor_value": 20.0
+                    },
+                    {
+                        "id": 16,
+                        "answer": "h2. issue",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 3,
+                            "impossible": 3
+                        },
+                        "parent_node": 6,
+                        "ancestor_value": 20.0
+                    },
+                    {
+                        "id": 18,
+                        "answer": "h2. topic",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 2,
+                            "impossible": 4
+                        },
+                        "parent_node": 6,
+                        "ancestor_value": 20.0
+                    },
+                    {
+                        "id": 20,
+                        "answer": "h2. worka",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 2,
+                            "impossible": 4
+                        },
+                        "parent_node": 6,
+                        "ancestor_value": 20.0
+                    },
+                    {
+                        "id": 24,
+                        "answer": "h3. input",
+                        "value": {
+                            "sure": 2,
+                            "maybe": 4,
+                            "impossible": 2
+                        },
+                        "parent_node": 17,
+                        "ancestor_value": 61.004
+                    },
+                    {
+                        "id": 23,
+                        "answer": "h2. thing",
+                        "value": {
+                            "sure": 2,
+                            "maybe": 3,
+                            "impossible": 2
+                        },
+                        "parent_node": 17,
+                        "ancestor_value": 61.004
+                    },
+                    {
+                        "id": 22,
+                        "answer": "h5. centi",
+                        "value": {
+                            "sure": 2,
+                            "maybe": 1,
+                            "impossible": 5
+                        },
+                        "parent_node": 17,
+                        "ancestor_value": 61.004
+                    },
+                    {
+                        "id": 25,
+                        "answer": "h4. besie",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 3,
+                            "impossible": 4
+                        },
+                        "parent_node": 17,
+                        "ancestor_value": 61.004
+                    },
+                    {
+                        "id": 21,
+                        "answer": "v1. amish",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 2,
+                            "impossible": 4
+                        },
+                        "parent_node": 17,
+                        "ancestor_value": 61.004
+                    }
+                ],
+                "selected_node": {
+                    "id": 17,
+                    "answer": "h2. event",
+                    "value": {
+                        "sure": 2,
+                        "maybe": 1,
+                        "impossible": 4
+                    },
+                    "parent_node": 6,
+                    "ancestor_value": 20.0
+                },
+                "is_back": false
+            },
+            {
+                "step": 3,
+                "nodes": [
+                    {
+                        "id": 6,
+                        "answer": "h1. buddy",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 0,
+                            "impossible": 0
+                        },
+                        "parent_node": 0,
+                        "ancestor_value": 0
+                    },
+                    {
+                        "id": 10,
+                        "answer": "h1. guyon",
+                        "value": {
+                            "sure": 0,
+                            "maybe": 1,
+                            "impossible": 0
+                        },
+                        "parent_node": 0,
+                        "ancestor_value": 0
+                    },
+                    {
+                        "id": 7,
+                        "answer": "h1. apple",
+                        "value": {
+                            "sure": 0,
+                            "maybe": 0,
+                            "impossible": 1
+                        },
+                        "parent_node": 0,
+                        "ancestor_value": 0
+                    },
+                    {
+                        "id": 8,
+                        "answer": "h1. chapo",
+                        "value": {
+                            "sure": 0,
+                            "maybe": 0,
+                            "impossible": 1
+                        },
+                        "parent_node": 0,
+                        "ancestor_value": 0
+                    },
+                    {
+                        "id": 9,
+                        "answer": "h1. combo",
+                        "value": {
+                            "sure": 0,
+                            "maybe": 0,
+                            "impossible": 1
+                        },
+                        "parent_node": 0,
+                        "ancestor_value": 0
+                    },
+                    {
+                        "id": 17,
+                        "answer": "h2. event",
+                        "value": {
+                            "sure": 2,
+                            "maybe": 1,
+                            "impossible": 4
+                        },
+                        "parent_node": 6,
+                        "ancestor_value": 20.0
+                    },
+                    {
+                        "id": 19,
+                        "answer": "h2. ideaa",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 5,
+                            "impossible": 1
+                        },
+                        "parent_node": 6,
+                        "ancestor_value": 20.0
+                    },
+                    {
+                        "id": 16,
+                        "answer": "h2. issue",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 3,
+                            "impossible": 3
+                        },
+                        "parent_node": 6,
+                        "ancestor_value": 20.0
+                    },
+                    {
+                        "id": 18,
+                        "answer": "h2. topic",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 2,
+                            "impossible": 4
+                        },
+                        "parent_node": 6,
+                        "ancestor_value": 20.0
+                    },
+                    {
+                        "id": 20,
+                        "answer": "h2. worka",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 2,
+                            "impossible": 4
+                        },
+                        "parent_node": 6,
+                        "ancestor_value": 20.0
+                    },
+                    {
+                        "id": 24,
+                        "answer": "h3. input",
+                        "value": {
+                            "sure": 2,
+                            "maybe": 4,
+                            "impossible": 2
+                        },
+                        "parent_node": 17,
+                        "ancestor_value": 61.004
+                    },
+                    {
+                        "id": 23,
+                        "answer": "h2. thing",
+                        "value": {
+                            "sure": 2,
+                            "maybe": 3,
+                            "impossible": 2
+                        },
+                        "parent_node": 17,
+                        "ancestor_value": 61.004
+                    },
+                    {
+                        "id": 22,
+                        "answer": "h5. centi",
+                        "value": {
+                            "sure": 2,
+                            "maybe": 1,
+                            "impossible": 5
+                        },
+                        "parent_node": 17,
+                        "ancestor_value": 61.004
+                    },
+                    {
+                        "id": 25,
+                        "answer": "h4. besie",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 3,
+                            "impossible": 4
+                        },
+                        "parent_node": 17,
+                        "ancestor_value": 61.004
+                    },
+                    {
+                        "id": 21,
+                        "answer": "v1. amish",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 2,
+                            "impossible": 4
+                        },
+                        "parent_node": 17,
+                        "ancestor_value": 61.004
+                    },
+                    {
+                        "id": 31,
+                        "answer": "h3. siege",
+                        "value": {
+                            "sure": 3,
+                            "maybe": 2,
+                            "impossible": 3
+                        },
+                        "parent_node": 24,
+                        "ancestor_value": 105.006
+                    },
+                    {
+                        "id": 33,
+                        "answer": "h3. tobes",
+                        "value": {
+                            "sure": 2,
+                            "maybe": 2,
+                            "impossible": 4
+                        },
+                        "parent_node": 24,
+                        "ancestor_value": 105.006
+                    },
+                    {
+                        "id": 34,
+                        "answer": "h3. assuq",
+                        "value": {
+                            "sure": 2,
+                            "maybe": 2,
+                            "impossible": 4
+                        },
+                        "parent_node": 24,
+                        "ancestor_value": 105.006
+                    },
+                    {
+                        "id": 32,
+                        "answer": "h3. block",
+                        "value": {
+                            "sure": 2,
+                            "maybe": 1,
+                            "impossible": 5
+                        },
+                        "parent_node": 24,
+                        "ancestor_value": 105.006
+                    },
+                    {
+                        "id": 35,
+                        "answer": "h3. press",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 5,
+                            "impossible": 1
+                        },
+                        "parent_node": 24,
+                        "ancestor_value": 105.006
+                    }
+                ],
+                "selected_node": {
+                    "id": 24,
+                    "answer": "h3. input",
+                    "value": {
+                        "sure": 2,
+                        "maybe": 4,
+                        "impossible": 2
+                    },
+                    "parent_node": 17,
+                    "ancestor_value": 61.004
+                },
+                "is_back": false
+            },
+            {
+                "step": 4,
+                "nodes": [
+                    {
+                        "id": 6,
+                        "answer": "h1. buddy",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 0,
+                            "impossible": 0
+                        },
+                        "parent_node": 0,
+                        "ancestor_value": 0
+                    },
+                    {
+                        "id": 10,
+                        "answer": "h1. guyon",
+                        "value": {
+                            "sure": 0,
+                            "maybe": 1,
+                            "impossible": 0
+                        },
+                        "parent_node": 0,
+                        "ancestor_value": 0
+                    },
+                    {
+                        "id": 7,
+                        "answer": "h1. apple",
+                        "value": {
+                            "sure": 0,
+                            "maybe": 0,
+                            "impossible": 1
+                        },
+                        "parent_node": 0,
+                        "ancestor_value": 0
+                    },
+                    {
+                        "id": 8,
+                        "answer": "h1. chapo",
+                        "value": {
+                            "sure": 0,
+                            "maybe": 0,
+                            "impossible": 1
+                        },
+                        "parent_node": 0,
+                        "ancestor_value": 0
+                    },
+                    {
+                        "id": 9,
+                        "answer": "h1. combo",
+                        "value": {
+                            "sure": 0,
+                            "maybe": 0,
+                            "impossible": 1
+                        },
+                        "parent_node": 0,
+                        "ancestor_value": 0
+                    },
+                    {
+                        "id": 17,
+                        "answer": "h2. event",
+                        "value": {
+                            "sure": 2,
+                            "maybe": 1,
+                            "impossible": 4
+                        },
+                        "parent_node": 6,
+                        "ancestor_value": 20.0
+                    },
+                    {
+                        "id": 19,
+                        "answer": "h2. ideaa",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 5,
+                            "impossible": 1
+                        },
+                        "parent_node": 6,
+                        "ancestor_value": 20.0
+                    },
+                    {
+                        "id": 16,
+                        "answer": "h2. issue",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 3,
+                            "impossible": 3
+                        },
+                        "parent_node": 6,
+                        "ancestor_value": 20.0
+                    },
+                    {
+                        "id": 18,
+                        "answer": "h2. topic",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 2,
+                            "impossible": 4
+                        },
+                        "parent_node": 6,
+                        "ancestor_value": 20.0
+                    },
+                    {
+                        "id": 20,
+                        "answer": "h2. worka",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 2,
+                            "impossible": 4
+                        },
+                        "parent_node": 6,
+                        "ancestor_value": 20.0
+                    },
+                    {
+                        "id": 24,
+                        "answer": "h3. input",
+                        "value": {
+                            "sure": 2,
+                            "maybe": 4,
+                            "impossible": 2
+                        },
+                        "parent_node": 17,
+                        "ancestor_value": 61.004
+                    },
+                    {
+                        "id": 23,
+                        "answer": "h2. thing",
+                        "value": {
+                            "sure": 2,
+                            "maybe": 3,
+                            "impossible": 2
+                        },
+                        "parent_node": 17,
+                        "ancestor_value": 61.004
+                    },
+                    {
+                        "id": 22,
+                        "answer": "h5. centi",
+                        "value": {
+                            "sure": 2,
+                            "maybe": 1,
+                            "impossible": 5
+                        },
+                        "parent_node": 17,
+                        "ancestor_value": 61.004
+                    },
+                    {
+                        "id": 25,
+                        "answer": "h4. besie",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 3,
+                            "impossible": 4
+                        },
+                        "parent_node": 17,
+                        "ancestor_value": 61.004
+                    },
+                    {
+                        "id": 21,
+                        "answer": "v1. amish",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 2,
+                            "impossible": 4
+                        },
+                        "parent_node": 17,
+                        "ancestor_value": 61.004
+                    },
+                    {
+                        "id": 31,
+                        "answer": "h3. siege",
+                        "value": {
+                            "sure": 3,
+                            "maybe": 2,
+                            "impossible": 3
+                        },
+                        "parent_node": 24,
+                        "ancestor_value": 105.006
+                    },
+                    {
+                        "id": 33,
+                        "answer": "h3. tobes",
+                        "value": {
+                            "sure": 2,
+                            "maybe": 2,
+                            "impossible": 4
+                        },
+                        "parent_node": 24,
+                        "ancestor_value": 105.006
+                    },
+                    {
+                        "id": 34,
+                        "answer": "h3. assuq",
+                        "value": {
+                            "sure": 2,
+                            "maybe": 2,
+                            "impossible": 4
+                        },
+                        "parent_node": 24,
+                        "ancestor_value": 105.006
+                    },
+                    {
+                        "id": 32,
+                        "answer": "h3. block",
+                        "value": {
+                            "sure": 2,
+                            "maybe": 1,
+                            "impossible": 5
+                        },
+                        "parent_node": 24,
+                        "ancestor_value": 105.006
+                    },
+                    {
+                        "id": 35,
+                        "answer": "h3. press",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 5,
+                            "impossible": 1
+                        },
+                        "parent_node": 24,
+                        "ancestor_value": 105.006
+                    },
+                    {
+                        "id": 47,
+                        "answer": "h4. toatt",
+                        "value": {
+                            "sure": 2,
+                            "maybe": 1,
+                            "impossible": 6
+                        },
+                        "parent_node": 31,
+                        "ancestor_value": 167.00900000000001
+                    },
+                    {
+                        "id": 48,
+                        "answer": "h4. tobeg",
+                        "value": {
+                            "sure": 2,
+                            "maybe": 1,
+                            "impossible": 6
+                        },
+                        "parent_node": 31,
+                        "ancestor_value": 167.00900000000001
+                    },
+                    {
+                        "id": 49,
+                        "answer": "h4. tobei",
+                        "value": {
+                            "sure": 2,
+                            "maybe": 1,
+                            "impossible": 6
+                        },
+                        "parent_node": 31,
+                        "ancestor_value": 167.00900000000001
+                    },
+                    {
+                        "id": 50,
+                        "answer": "h4. tober",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 2,
+                            "impossible": 6
+                        },
+                        "parent_node": 31,
+                        "ancestor_value": 167.00900000000001
+                    },
+                    {
+                        "id": 46,
+                        "answer": "h4. tobes",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 1,
+                            "impossible": 7
+                        },
+                        "parent_node": 31,
+                        "ancestor_value": 167.00900000000001
+                    }
+                ],
+                "selected_node": {
+                    "id": 31,
+                    "answer": "h3. siege",
+                    "value": {
+                        "sure": 3,
+                        "maybe": 2,
+                        "impossible": 3
+                    },
+                    "parent_node": 24,
+                    "ancestor_value": 105.006
+                },
+                "is_back": true
+            },
+            {
+                "step": 4,
+                "nodes": [
+                    {
+                        "id": 6,
+                        "answer": "h1. buddy",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 0,
+                            "impossible": 0
+                        },
+                        "parent_node": 0,
+                        "ancestor_value": 0
+                    },
+                    {
+                        "id": 10,
+                        "answer": "h1. guyon",
+                        "value": {
+                            "sure": 0,
+                            "maybe": 1,
+                            "impossible": 0
+                        },
+                        "parent_node": 0,
+                        "ancestor_value": 0
+                    },
+                    {
+                        "id": 7,
+                        "answer": "h1. apple",
+                        "value": {
+                            "sure": 0,
+                            "maybe": 0,
+                            "impossible": 1
+                        },
+                        "parent_node": 0,
+                        "ancestor_value": 0
+                    },
+                    {
+                        "id": 8,
+                        "answer": "h1. chapo",
+                        "value": {
+                            "sure": 0,
+                            "maybe": 0,
+                            "impossible": 1
+                        },
+                        "parent_node": 0,
+                        "ancestor_value": 0
+                    },
+                    {
+                        "id": 9,
+                        "answer": "h1. combo",
+                        "value": {
+                            "sure": 0,
+                            "maybe": 0,
+                            "impossible": 1
+                        },
+                        "parent_node": 0,
+                        "ancestor_value": 0
+                    },
+                    {
+                        "id": 17,
+                        "answer": "h2. event",
+                        "value": {
+                            "sure": 2,
+                            "maybe": 1,
+                            "impossible": 4
+                        },
+                        "parent_node": 6,
+                        "ancestor_value": 20.0
+                    },
+                    {
+                        "id": 19,
+                        "answer": "h2. ideaa",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 5,
+                            "impossible": 1
+                        },
+                        "parent_node": 6,
+                        "ancestor_value": 20.0
+                    },
+                    {
+                        "id": 16,
+                        "answer": "h2. issue",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 3,
+                            "impossible": 3
+                        },
+                        "parent_node": 6,
+                        "ancestor_value": 20.0
+                    },
+                    {
+                        "id": 18,
+                        "answer": "h2. topic",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 2,
+                            "impossible": 4
+                        },
+                        "parent_node": 6,
+                        "ancestor_value": 20.0
+                    },
+                    {
+                        "id": 20,
+                        "answer": "h2. worka",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 2,
+                            "impossible": 4
+                        },
+                        "parent_node": 6,
+                        "ancestor_value": 20.0
+                    },
+                    {
+                        "id": 24,
+                        "answer": "h3. input",
+                        "value": {
+                            "sure": 2,
+                            "maybe": 4,
+                            "impossible": 2
+                        },
+                        "parent_node": 17,
+                        "ancestor_value": 61.004
+                    },
+                    {
+                        "id": 23,
+                        "answer": "h2. thing",
+                        "value": {
+                            "sure": 2,
+                            "maybe": 3,
+                            "impossible": 2
+                        },
+                        "parent_node": 17,
+                        "ancestor_value": 61.004
+                    },
+                    {
+                        "id": 22,
+                        "answer": "h5. centi",
+                        "value": {
+                            "sure": 2,
+                            "maybe": 1,
+                            "impossible": 5
+                        },
+                        "parent_node": 17,
+                        "ancestor_value": 61.004
+                    },
+                    {
+                        "id": 25,
+                        "answer": "h4. besie",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 3,
+                            "impossible": 4
+                        },
+                        "parent_node": 17,
+                        "ancestor_value": 61.004
+                    },
+                    {
+                        "id": 21,
+                        "answer": "v1. amish",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 2,
+                            "impossible": 4
+                        },
+                        "parent_node": 17,
+                        "ancestor_value": 61.004
+                    },
+                    {
+                        "id": 31,
+                        "answer": "h3. siege",
+                        "value": {
+                            "sure": 3,
+                            "maybe": 2,
+                            "impossible": 3
+                        },
+                        "parent_node": 24,
+                        "ancestor_value": 105.006
+                    },
+                    {
+                        "id": 33,
+                        "answer": "h3. tobes",
+                        "value": {
+                            "sure": 2,
+                            "maybe": 2,
+                            "impossible": 4
+                        },
+                        "parent_node": 24,
+                        "ancestor_value": 105.006
+                    },
+                    {
+                        "id": 34,
+                        "answer": "h3. assuq",
+                        "value": {
+                            "sure": 2,
+                            "maybe": 2,
+                            "impossible": 4
+                        },
+                        "parent_node": 24,
+                        "ancestor_value": 105.006
+                    },
+                    {
+                        "id": 32,
+                        "answer": "h3. block",
+                        "value": {
+                            "sure": 2,
+                            "maybe": 1,
+                            "impossible": 5
+                        },
+                        "parent_node": 24,
+                        "ancestor_value": 105.006
+                    },
+                    {
+                        "id": 35,
+                        "answer": "h3. press",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 5,
+                            "impossible": 1
+                        },
+                        "parent_node": 24,
+                        "ancestor_value": 105.006
+                    },
+                    {
+                        "id": 47,
+                        "answer": "h4. toatt",
+                        "value": {
+                            "sure": 2,
+                            "maybe": 1,
+                            "impossible": 6
+                        },
+                        "parent_node": 31,
+                        "ancestor_value": 167.00900000000001
+                    },
+                    {
+                        "id": 48,
+                        "answer": "h4. tobeg",
+                        "value": {
+                            "sure": 2,
+                            "maybe": 1,
+                            "impossible": 6
+                        },
+                        "parent_node": 31,
+                        "ancestor_value": 167.00900000000001
+                    },
+                    {
+                        "id": 49,
+                        "answer": "h4. tobei",
+                        "value": {
+                            "sure": 2,
+                            "maybe": 1,
+                            "impossible": 6
+                        },
+                        "parent_node": 31,
+                        "ancestor_value": 167.00900000000001
+                    },
+                    {
+                        "id": 50,
+                        "answer": "h4. tober",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 2,
+                            "impossible": 6
+                        },
+                        "parent_node": 31,
+                        "ancestor_value": 167.00900000000001
+                    },
+                    {
+                        "id": 46,
+                        "answer": "h4. tobes",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 1,
+                            "impossible": 7
+                        },
+                        "parent_node": 31,
+                        "ancestor_value": 167.00900000000001
+                    },
+                    {
+                        "id": 54,
+                        "answer": "h4. tobes",
+                        "value": {
+                            "sure": 2,
+                            "maybe": 0,
+                            "impossible": 7
+                        },
+                        "parent_node": 33,
+                        "ancestor_value": 147.01
+                    },
+                    {
+                        "id": 55,
+                        "answer": "h5. money",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 2,
+                            "impossible": 6
+                        },
+                        "parent_node": 33,
+                        "ancestor_value": 147.01
+                    },
+                    {
+                        "id": 53,
+                        "answer": "v1. beamv",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 1,
+                            "impossible": 6
+                        },
+                        "parent_node": 33,
+                        "ancestor_value": 147.01
+                    },
+                    {
+                        "id": 51,
+                        "answer": "v2. vogue",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 0,
+                            "impossible": 7
+                        },
+                        "parent_node": 33,
+                        "ancestor_value": 147.01
+                    },
+                    {
+                        "id": 52,
+                        "answer": "h5. moreh",
+                        "value": {
+                            "sure": 0,
+                            "maybe": 3,
+                            "impossible": 6
+                        },
+                        "parent_node": 33,
+                        "ancestor_value": 147.01
+                    }
+                ],
+                "selected_node": {
+                    "id": 33,
+                    "answer": "h3. tobes",
+                    "value": {
+                        "sure": 2,
+                        "maybe": 2,
+                        "impossible": 4
+                    },
+                    "parent_node": 24,
+                    "ancestor_value": 105.006
+                },
+                "is_back": true
+            },
+            {
+                "step": 4,
+                "nodes": [
+                    {
+                        "id": 6,
+                        "answer": "h1. buddy",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 0,
+                            "impossible": 0
+                        },
+                        "parent_node": 0,
+                        "ancestor_value": 0
+                    },
+                    {
+                        "id": 10,
+                        "answer": "h1. guyon",
+                        "value": {
+                            "sure": 0,
+                            "maybe": 1,
+                            "impossible": 0
+                        },
+                        "parent_node": 0,
+                        "ancestor_value": 0
+                    },
+                    {
+                        "id": 7,
+                        "answer": "h1. apple",
+                        "value": {
+                            "sure": 0,
+                            "maybe": 0,
+                            "impossible": 1
+                        },
+                        "parent_node": 0,
+                        "ancestor_value": 0
+                    },
+                    {
+                        "id": 8,
+                        "answer": "h1. chapo",
+                        "value": {
+                            "sure": 0,
+                            "maybe": 0,
+                            "impossible": 1
+                        },
+                        "parent_node": 0,
+                        "ancestor_value": 0
+                    },
+                    {
+                        "id": 9,
+                        "answer": "h1. combo",
+                        "value": {
+                            "sure": 0,
+                            "maybe": 0,
+                            "impossible": 1
+                        },
+                        "parent_node": 0,
+                        "ancestor_value": 0
+                    },
+                    {
+                        "id": 17,
+                        "answer": "h2. event",
+                        "value": {
+                            "sure": 2,
+                            "maybe": 1,
+                            "impossible": 4
+                        },
+                        "parent_node": 6,
+                        "ancestor_value": 20.0
+                    },
+                    {
+                        "id": 19,
+                        "answer": "h2. ideaa",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 5,
+                            "impossible": 1
+                        },
+                        "parent_node": 6,
+                        "ancestor_value": 20.0
+                    },
+                    {
+                        "id": 16,
+                        "answer": "h2. issue",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 3,
+                            "impossible": 3
+                        },
+                        "parent_node": 6,
+                        "ancestor_value": 20.0
+                    },
+                    {
+                        "id": 18,
+                        "answer": "h2. topic",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 2,
+                            "impossible": 4
+                        },
+                        "parent_node": 6,
+                        "ancestor_value": 20.0
+                    },
+                    {
+                        "id": 20,
+                        "answer": "h2. worka",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 2,
+                            "impossible": 4
+                        },
+                        "parent_node": 6,
+                        "ancestor_value": 20.0
+                    },
+                    {
+                        "id": 24,
+                        "answer": "h3. input",
+                        "value": {
+                            "sure": 2,
+                            "maybe": 4,
+                            "impossible": 2
+                        },
+                        "parent_node": 17,
+                        "ancestor_value": 61.004
+                    },
+                    {
+                        "id": 23,
+                        "answer": "h2. thing",
+                        "value": {
+                            "sure": 2,
+                            "maybe": 3,
+                            "impossible": 2
+                        },
+                        "parent_node": 17,
+                        "ancestor_value": 61.004
+                    },
+                    {
+                        "id": 22,
+                        "answer": "h5. centi",
+                        "value": {
+                            "sure": 2,
+                            "maybe": 1,
+                            "impossible": 5
+                        },
+                        "parent_node": 17,
+                        "ancestor_value": 61.004
+                    },
+                    {
+                        "id": 25,
+                        "answer": "h4. besie",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 3,
+                            "impossible": 4
+                        },
+                        "parent_node": 17,
+                        "ancestor_value": 61.004
+                    },
+                    {
+                        "id": 21,
+                        "answer": "v1. amish",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 2,
+                            "impossible": 4
+                        },
+                        "parent_node": 17,
+                        "ancestor_value": 61.004
+                    },
+                    {
+                        "id": 31,
+                        "answer": "h3. siege",
+                        "value": {
+                            "sure": 3,
+                            "maybe": 2,
+                            "impossible": 3
+                        },
+                        "parent_node": 24,
+                        "ancestor_value": 105.006
+                    },
+                    {
+                        "id": 33,
+                        "answer": "h3. tobes",
+                        "value": {
+                            "sure": 2,
+                            "maybe": 2,
+                            "impossible": 4
+                        },
+                        "parent_node": 24,
+                        "ancestor_value": 105.006
+                    },
+                    {
+                        "id": 34,
+                        "answer": "h3. assuq",
+                        "value": {
+                            "sure": 2,
+                            "maybe": 2,
+                            "impossible": 4
+                        },
+                        "parent_node": 24,
+                        "ancestor_value": 105.006
+                    },
+                    {
+                        "id": 32,
+                        "answer": "h3. block",
+                        "value": {
+                            "sure": 2,
+                            "maybe": 1,
+                            "impossible": 5
+                        },
+                        "parent_node": 24,
+                        "ancestor_value": 105.006
+                    },
+                    {
+                        "id": 35,
+                        "answer": "h3. press",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 5,
+                            "impossible": 1
+                        },
+                        "parent_node": 24,
+                        "ancestor_value": 105.006
+                    },
+                    {
+                        "id": 47,
+                        "answer": "h4. toatt",
+                        "value": {
+                            "sure": 2,
+                            "maybe": 1,
+                            "impossible": 6
+                        },
+                        "parent_node": 31,
+                        "ancestor_value": 167.00900000000001
+                    },
+                    {
+                        "id": 48,
+                        "answer": "h4. tobeg",
+                        "value": {
+                            "sure": 2,
+                            "maybe": 1,
+                            "impossible": 6
+                        },
+                        "parent_node": 31,
+                        "ancestor_value": 167.00900000000001
+                    },
+                    {
+                        "id": 49,
+                        "answer": "h4. tobei",
+                        "value": {
+                            "sure": 2,
+                            "maybe": 1,
+                            "impossible": 6
+                        },
+                        "parent_node": 31,
+                        "ancestor_value": 167.00900000000001
+                    },
+                    {
+                        "id": 50,
+                        "answer": "h4. tober",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 2,
+                            "impossible": 6
+                        },
+                        "parent_node": 31,
+                        "ancestor_value": 167.00900000000001
+                    },
+                    {
+                        "id": 46,
+                        "answer": "h4. tobes",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 1,
+                            "impossible": 7
+                        },
+                        "parent_node": 31,
+                        "ancestor_value": 167.00900000000001
+                    },
+                    {
+                        "id": 54,
+                        "answer": "h4. tobes",
+                        "value": {
+                            "sure": 2,
+                            "maybe": 0,
+                            "impossible": 7
+                        },
+                        "parent_node": 33,
+                        "ancestor_value": 147.01
+                    },
+                    {
+                        "id": 55,
+                        "answer": "h5. money",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 2,
+                            "impossible": 6
+                        },
+                        "parent_node": 33,
+                        "ancestor_value": 147.01
+                    },
+                    {
+                        "id": 53,
+                        "answer": "v1. beamv",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 1,
+                            "impossible": 6
+                        },
+                        "parent_node": 33,
+                        "ancestor_value": 147.01
+                    },
+                    {
+                        "id": 51,
+                        "answer": "v2. vogue",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 0,
+                            "impossible": 7
+                        },
+                        "parent_node": 33,
+                        "ancestor_value": 147.01
+                    },
+                    {
+                        "id": 52,
+                        "answer": "h5. moreh",
+                        "value": {
+                            "sure": 0,
+                            "maybe": 3,
+                            "impossible": 6
+                        },
+                        "parent_node": 33,
+                        "ancestor_value": 147.01
+                    },
+                    {
+                        "id": 60,
+                        "answer": "h5. outed",
+                        "value": {
+                            "sure": 0,
+                            "maybe": 4,
+                            "impossible": 5
+                        },
+                        "parent_node": 34,
+                        "ancestor_value": 147.01
+                    },
+                    {
+                        "id": 56,
+                        "answer": "h1. besie",
+                        "value": {
+                            "sure": 0,
+                            "maybe": 2,
+                            "impossible": 6
+                        },
+                        "parent_node": 34,
+                        "ancestor_value": 147.01
+                    },
+                    {
+                        "id": 58,
+                        "answer": "h1. besig",
+                        "value": {
+                            "sure": 0,
+                            "maybe": 2,
+                            "impossible": 6
+                        },
+                        "parent_node": 34,
+                        "ancestor_value": 147.01
+                    },
+                    {
+                        "id": 57,
+                        "answer": "h4. amish",
+                        "value": {
+                            "sure": 0,
+                            "maybe": 0,
+                            "impossible": 9
+                        },
+                        "parent_node": 34,
+                        "ancestor_value": 147.01
+                    },
+                    {
+                        "id": 59,
+                        "answer": "h4. haiti",
+                        "value": {
+                            "sure": 0,
+                            "maybe": 0,
+                            "impossible": 9
+                        },
+                        "parent_node": 34,
+                        "ancestor_value": 147.01
+                    }
+                ],
+                "selected_node": {
+                    "id": 34,
+                    "answer": "h3. assuq",
+                    "value": {
+                        "sure": 2,
+                        "maybe": 2,
+                        "impossible": 4
+                    },
+                    "parent_node": 24,
+                    "ancestor_value": 105.006
+                },
+                "is_back": true
+            },
+            {
+                "step": 4,
+                "nodes": [
+                    {
+                        "id": 6,
+                        "answer": "h1. buddy",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 0,
+                            "impossible": 0
+                        },
+                        "parent_node": 0,
+                        "ancestor_value": 0
+                    },
+                    {
+                        "id": 10,
+                        "answer": "h1. guyon",
+                        "value": {
+                            "sure": 0,
+                            "maybe": 1,
+                            "impossible": 0
+                        },
+                        "parent_node": 0,
+                        "ancestor_value": 0
+                    },
+                    {
+                        "id": 7,
+                        "answer": "h1. apple",
+                        "value": {
+                            "sure": 0,
+                            "maybe": 0,
+                            "impossible": 1
+                        },
+                        "parent_node": 0,
+                        "ancestor_value": 0
+                    },
+                    {
+                        "id": 8,
+                        "answer": "h1. chapo",
+                        "value": {
+                            "sure": 0,
+                            "maybe": 0,
+                            "impossible": 1
+                        },
+                        "parent_node": 0,
+                        "ancestor_value": 0
+                    },
+                    {
+                        "id": 9,
+                        "answer": "h1. combo",
+                        "value": {
+                            "sure": 0,
+                            "maybe": 0,
+                            "impossible": 1
+                        },
+                        "parent_node": 0,
+                        "ancestor_value": 0
+                    },
+                    {
+                        "id": 17,
+                        "answer": "h2. event",
+                        "value": {
+                            "sure": 2,
+                            "maybe": 1,
+                            "impossible": 4
+                        },
+                        "parent_node": 6,
+                        "ancestor_value": 20.0
+                    },
+                    {
+                        "id": 19,
+                        "answer": "h2. ideaa",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 5,
+                            "impossible": 1
+                        },
+                        "parent_node": 6,
+                        "ancestor_value": 20.0
+                    },
+                    {
+                        "id": 16,
+                        "answer": "h2. issue",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 3,
+                            "impossible": 3
+                        },
+                        "parent_node": 6,
+                        "ancestor_value": 20.0
+                    },
+                    {
+                        "id": 18,
+                        "answer": "h2. topic",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 2,
+                            "impossible": 4
+                        },
+                        "parent_node": 6,
+                        "ancestor_value": 20.0
+                    },
+                    {
+                        "id": 20,
+                        "answer": "h2. worka",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 2,
+                            "impossible": 4
+                        },
+                        "parent_node": 6,
+                        "ancestor_value": 20.0
+                    },
+                    {
+                        "id": 24,
+                        "answer": "h3. input",
+                        "value": {
+                            "sure": 2,
+                            "maybe": 4,
+                            "impossible": 2
+                        },
+                        "parent_node": 17,
+                        "ancestor_value": 61.004
+                    },
+                    {
+                        "id": 23,
+                        "answer": "h2. thing",
+                        "value": {
+                            "sure": 2,
+                            "maybe": 3,
+                            "impossible": 2
+                        },
+                        "parent_node": 17,
+                        "ancestor_value": 61.004
+                    },
+                    {
+                        "id": 22,
+                        "answer": "h5. centi",
+                        "value": {
+                            "sure": 2,
+                            "maybe": 1,
+                            "impossible": 5
+                        },
+                        "parent_node": 17,
+                        "ancestor_value": 61.004
+                    },
+                    {
+                        "id": 25,
+                        "answer": "h4. besie",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 3,
+                            "impossible": 4
+                        },
+                        "parent_node": 17,
+                        "ancestor_value": 61.004
+                    },
+                    {
+                        "id": 21,
+                        "answer": "v1. amish",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 2,
+                            "impossible": 4
+                        },
+                        "parent_node": 17,
+                        "ancestor_value": 61.004
+                    },
+                    {
+                        "id": 31,
+                        "answer": "h3. siege",
+                        "value": {
+                            "sure": 3,
+                            "maybe": 2,
+                            "impossible": 3
+                        },
+                        "parent_node": 24,
+                        "ancestor_value": 105.006
+                    },
+                    {
+                        "id": 33,
+                        "answer": "h3. tobes",
+                        "value": {
+                            "sure": 2,
+                            "maybe": 2,
+                            "impossible": 4
+                        },
+                        "parent_node": 24,
+                        "ancestor_value": 105.006
+                    },
+                    {
+                        "id": 34,
+                        "answer": "h3. assuq",
+                        "value": {
+                            "sure": 2,
+                            "maybe": 2,
+                            "impossible": 4
+                        },
+                        "parent_node": 24,
+                        "ancestor_value": 105.006
+                    },
+                    {
+                        "id": 32,
+                        "answer": "h3. block",
+                        "value": {
+                            "sure": 2,
+                            "maybe": 1,
+                            "impossible": 5
+                        },
+                        "parent_node": 24,
+                        "ancestor_value": 105.006
+                    },
+                    {
+                        "id": 35,
+                        "answer": "h3. press",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 5,
+                            "impossible": 1
+                        },
+                        "parent_node": 24,
+                        "ancestor_value": 105.006
+                    },
+                    {
+                        "id": 47,
+                        "answer": "h4. toatt",
+                        "value": {
+                            "sure": 2,
+                            "maybe": 1,
+                            "impossible": 6
+                        },
+                        "parent_node": 31,
+                        "ancestor_value": 167.00900000000001
+                    },
+                    {
+                        "id": 48,
+                        "answer": "h4. tobeg",
+                        "value": {
+                            "sure": 2,
+                            "maybe": 1,
+                            "impossible": 6
+                        },
+                        "parent_node": 31,
+                        "ancestor_value": 167.00900000000001
+                    },
+                    {
+                        "id": 49,
+                        "answer": "h4. tobei",
+                        "value": {
+                            "sure": 2,
+                            "maybe": 1,
+                            "impossible": 6
+                        },
+                        "parent_node": 31,
+                        "ancestor_value": 167.00900000000001
+                    },
+                    {
+                        "id": 50,
+                        "answer": "h4. tober",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 2,
+                            "impossible": 6
+                        },
+                        "parent_node": 31,
+                        "ancestor_value": 167.00900000000001
+                    },
+                    {
+                        "id": 46,
+                        "answer": "h4. tobes",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 1,
+                            "impossible": 7
+                        },
+                        "parent_node": 31,
+                        "ancestor_value": 167.00900000000001
+                    },
+                    {
+                        "id": 54,
+                        "answer": "h4. tobes",
+                        "value": {
+                            "sure": 2,
+                            "maybe": 0,
+                            "impossible": 7
+                        },
+                        "parent_node": 33,
+                        "ancestor_value": 147.01
+                    },
+                    {
+                        "id": 55,
+                        "answer": "h5. money",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 2,
+                            "impossible": 6
+                        },
+                        "parent_node": 33,
+                        "ancestor_value": 147.01
+                    },
+                    {
+                        "id": 53,
+                        "answer": "v1. beamv",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 1,
+                            "impossible": 6
+                        },
+                        "parent_node": 33,
+                        "ancestor_value": 147.01
+                    },
+                    {
+                        "id": 51,
+                        "answer": "v2. vogue",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 0,
+                            "impossible": 7
+                        },
+                        "parent_node": 33,
+                        "ancestor_value": 147.01
+                    },
+                    {
+                        "id": 52,
+                        "answer": "h5. moreh",
+                        "value": {
+                            "sure": 0,
+                            "maybe": 3,
+                            "impossible": 6
+                        },
+                        "parent_node": 33,
+                        "ancestor_value": 147.01
+                    },
+                    {
+                        "id": 60,
+                        "answer": "h5. outed",
+                        "value": {
+                            "sure": 0,
+                            "maybe": 4,
+                            "impossible": 5
+                        },
+                        "parent_node": 34,
+                        "ancestor_value": 147.01
+                    },
+                    {
+                        "id": 56,
+                        "answer": "h1. besie",
+                        "value": {
+                            "sure": 0,
+                            "maybe": 2,
+                            "impossible": 6
+                        },
+                        "parent_node": 34,
+                        "ancestor_value": 147.01
+                    },
+                    {
+                        "id": 58,
+                        "answer": "h1. besig",
+                        "value": {
+                            "sure": 0,
+                            "maybe": 2,
+                            "impossible": 6
+                        },
+                        "parent_node": 34,
+                        "ancestor_value": 147.01
+                    },
+                    {
+                        "id": 57,
+                        "answer": "h4. amish",
+                        "value": {
+                            "sure": 0,
+                            "maybe": 0,
+                            "impossible": 9
+                        },
+                        "parent_node": 34,
+                        "ancestor_value": 147.01
+                    },
+                    {
+                        "id": 59,
+                        "answer": "h4. haiti",
+                        "value": {
+                            "sure": 0,
+                            "maybe": 0,
+                            "impossible": 9
+                        },
+                        "parent_node": 34,
+                        "ancestor_value": 147.01
+                    },
+                    {
+                        "id": 100,
+                        "answer": "h4. tobes",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 1,
+                            "impossible": 7
+                        },
+                        "parent_node": 32,
+                        "ancestor_value": 146.011
+                    },
+                    {
+                        "id": 99,
+                        "answer": "h4. tobar",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 0,
+                            "impossible": 8
+                        },
+                        "parent_node": 32,
+                        "ancestor_value": 146.011
+                    },
+                    {
+                        "id": 98,
+                        "answer": "h4. toass",
+                        "value": {
+                            "sure": 0,
+                            "maybe": 3,
+                            "impossible": 6
+                        },
+                        "parent_node": 32,
+                        "ancestor_value": 146.011
+                    },
+                    {
+                        "id": 97,
+                        "answer": "h4. toatt",
+                        "value": {
+                            "sure": 0,
+                            "maybe": 1,
+                            "impossible": 8
+                        },
+                        "parent_node": 32,
+                        "ancestor_value": 146.011
+                    },
+                    {
+                        "id": 96,
+                        "answer": "h4. tobes",
+                        "value": {
+                            "sure": 0,
+                            "maybe": 0,
+                            "impossible": 9
+                        },
+                        "parent_node": 32,
+                        "ancestor_value": 146.011
+                    }
+                ],
+                "selected_node": {
+                    "id": 32,
+                    "answer": "h3. block",
+                    "value": {
+                        "sure": 2,
+                        "maybe": 1,
+                        "impossible": 5
+                    },
+                    "parent_node": 24,
+                    "ancestor_value": 105.006
+                },
+                "is_back": true
+            },
+            {
+                "step": 4,
+                "nodes": [
+                    {
+                        "id": 6,
+                        "answer": "h1. buddy",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 0,
+                            "impossible": 0
+                        },
+                        "parent_node": 0,
+                        "ancestor_value": 0
+                    },
+                    {
+                        "id": 10,
+                        "answer": "h1. guyon",
+                        "value": {
+                            "sure": 0,
+                            "maybe": 1,
+                            "impossible": 0
+                        },
+                        "parent_node": 0,
+                        "ancestor_value": 0
+                    },
+                    {
+                        "id": 7,
+                        "answer": "h1. apple",
+                        "value": {
+                            "sure": 0,
+                            "maybe": 0,
+                            "impossible": 1
+                        },
+                        "parent_node": 0,
+                        "ancestor_value": 0
+                    },
+                    {
+                        "id": 8,
+                        "answer": "h1. chapo",
+                        "value": {
+                            "sure": 0,
+                            "maybe": 0,
+                            "impossible": 1
+                        },
+                        "parent_node": 0,
+                        "ancestor_value": 0
+                    },
+                    {
+                        "id": 9,
+                        "answer": "h1. combo",
+                        "value": {
+                            "sure": 0,
+                            "maybe": 0,
+                            "impossible": 1
+                        },
+                        "parent_node": 0,
+                        "ancestor_value": 0
+                    },
+                    {
+                        "id": 17,
+                        "answer": "h2. event",
+                        "value": {
+                            "sure": 2,
+                            "maybe": 1,
+                            "impossible": 4
+                        },
+                        "parent_node": 6,
+                        "ancestor_value": 20.0
+                    },
+                    {
+                        "id": 19,
+                        "answer": "h2. ideaa",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 5,
+                            "impossible": 1
+                        },
+                        "parent_node": 6,
+                        "ancestor_value": 20.0
+                    },
+                    {
+                        "id": 16,
+                        "answer": "h2. issue",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 3,
+                            "impossible": 3
+                        },
+                        "parent_node": 6,
+                        "ancestor_value": 20.0
+                    },
+                    {
+                        "id": 18,
+                        "answer": "h2. topic",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 2,
+                            "impossible": 4
+                        },
+                        "parent_node": 6,
+                        "ancestor_value": 20.0
+                    },
+                    {
+                        "id": 20,
+                        "answer": "h2. worka",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 2,
+                            "impossible": 4
+                        },
+                        "parent_node": 6,
+                        "ancestor_value": 20.0
+                    },
+                    {
+                        "id": 24,
+                        "answer": "h3. input",
+                        "value": {
+                            "sure": 2,
+                            "maybe": 4,
+                            "impossible": 2
+                        },
+                        "parent_node": 17,
+                        "ancestor_value": 61.004
+                    },
+                    {
+                        "id": 23,
+                        "answer": "h2. thing",
+                        "value": {
+                            "sure": 2,
+                            "maybe": 3,
+                            "impossible": 2
+                        },
+                        "parent_node": 17,
+                        "ancestor_value": 61.004
+                    },
+                    {
+                        "id": 22,
+                        "answer": "h5. centi",
+                        "value": {
+                            "sure": 2,
+                            "maybe": 1,
+                            "impossible": 5
+                        },
+                        "parent_node": 17,
+                        "ancestor_value": 61.004
+                    },
+                    {
+                        "id": 25,
+                        "answer": "h4. besie",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 3,
+                            "impossible": 4
+                        },
+                        "parent_node": 17,
+                        "ancestor_value": 61.004
+                    },
+                    {
+                        "id": 21,
+                        "answer": "v1. amish",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 2,
+                            "impossible": 4
+                        },
+                        "parent_node": 17,
+                        "ancestor_value": 61.004
+                    },
+                    {
+                        "id": 31,
+                        "answer": "h3. siege",
+                        "value": {
+                            "sure": 3,
+                            "maybe": 2,
+                            "impossible": 3
+                        },
+                        "parent_node": 24,
+                        "ancestor_value": 105.006
+                    },
+                    {
+                        "id": 33,
+                        "answer": "h3. tobes",
+                        "value": {
+                            "sure": 2,
+                            "maybe": 2,
+                            "impossible": 4
+                        },
+                        "parent_node": 24,
+                        "ancestor_value": 105.006
+                    },
+                    {
+                        "id": 34,
+                        "answer": "h3. assuq",
+                        "value": {
+                            "sure": 2,
+                            "maybe": 2,
+                            "impossible": 4
+                        },
+                        "parent_node": 24,
+                        "ancestor_value": 105.006
+                    },
+                    {
+                        "id": 32,
+                        "answer": "h3. block",
+                        "value": {
+                            "sure": 2,
+                            "maybe": 1,
+                            "impossible": 5
+                        },
+                        "parent_node": 24,
+                        "ancestor_value": 105.006
+                    },
+                    {
+                        "id": 35,
+                        "answer": "h3. press",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 5,
+                            "impossible": 1
+                        },
+                        "parent_node": 24,
+                        "ancestor_value": 105.006
+                    },
+                    {
+                        "id": 47,
+                        "answer": "h4. toatt",
+                        "value": {
+                            "sure": 2,
+                            "maybe": 1,
+                            "impossible": 6
+                        },
+                        "parent_node": 31,
+                        "ancestor_value": 167.00900000000001
+                    },
+                    {
+                        "id": 48,
+                        "answer": "h4. tobeg",
+                        "value": {
+                            "sure": 2,
+                            "maybe": 1,
+                            "impossible": 6
+                        },
+                        "parent_node": 31,
+                        "ancestor_value": 167.00900000000001
+                    },
+                    {
+                        "id": 49,
+                        "answer": "h4. tobei",
+                        "value": {
+                            "sure": 2,
+                            "maybe": 1,
+                            "impossible": 6
+                        },
+                        "parent_node": 31,
+                        "ancestor_value": 167.00900000000001
+                    },
+                    {
+                        "id": 50,
+                        "answer": "h4. tober",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 2,
+                            "impossible": 6
+                        },
+                        "parent_node": 31,
+                        "ancestor_value": 167.00900000000001
+                    },
+                    {
+                        "id": 46,
+                        "answer": "h4. tobes",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 1,
+                            "impossible": 7
+                        },
+                        "parent_node": 31,
+                        "ancestor_value": 167.00900000000001
+                    },
+                    {
+                        "id": 54,
+                        "answer": "h4. tobes",
+                        "value": {
+                            "sure": 2,
+                            "maybe": 0,
+                            "impossible": 7
+                        },
+                        "parent_node": 33,
+                        "ancestor_value": 147.01
+                    },
+                    {
+                        "id": 55,
+                        "answer": "h5. money",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 2,
+                            "impossible": 6
+                        },
+                        "parent_node": 33,
+                        "ancestor_value": 147.01
+                    },
+                    {
+                        "id": 53,
+                        "answer": "v1. beamv",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 1,
+                            "impossible": 6
+                        },
+                        "parent_node": 33,
+                        "ancestor_value": 147.01
+                    },
+                    {
+                        "id": 51,
+                        "answer": "v2. vogue",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 0,
+                            "impossible": 7
+                        },
+                        "parent_node": 33,
+                        "ancestor_value": 147.01
+                    },
+                    {
+                        "id": 52,
+                        "answer": "h5. moreh",
+                        "value": {
+                            "sure": 0,
+                            "maybe": 3,
+                            "impossible": 6
+                        },
+                        "parent_node": 33,
+                        "ancestor_value": 147.01
+                    },
+                    {
+                        "id": 60,
+                        "answer": "h5. outed",
+                        "value": {
+                            "sure": 0,
+                            "maybe": 4,
+                            "impossible": 5
+                        },
+                        "parent_node": 34,
+                        "ancestor_value": 147.01
+                    },
+                    {
+                        "id": 56,
+                        "answer": "h1. besie",
+                        "value": {
+                            "sure": 0,
+                            "maybe": 2,
+                            "impossible": 6
+                        },
+                        "parent_node": 34,
+                        "ancestor_value": 147.01
+                    },
+                    {
+                        "id": 58,
+                        "answer": "h1. besig",
+                        "value": {
+                            "sure": 0,
+                            "maybe": 2,
+                            "impossible": 6
+                        },
+                        "parent_node": 34,
+                        "ancestor_value": 147.01
+                    },
+                    {
+                        "id": 57,
+                        "answer": "h4. amish",
+                        "value": {
+                            "sure": 0,
+                            "maybe": 0,
+                            "impossible": 9
+                        },
+                        "parent_node": 34,
+                        "ancestor_value": 147.01
+                    },
+                    {
+                        "id": 59,
+                        "answer": "h4. haiti",
+                        "value": {
+                            "sure": 0,
+                            "maybe": 0,
+                            "impossible": 9
+                        },
+                        "parent_node": 34,
+                        "ancestor_value": 147.01
+                    },
+                    {
+                        "id": 100,
+                        "answer": "h4. tobes",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 1,
+                            "impossible": 7
+                        },
+                        "parent_node": 32,
+                        "ancestor_value": 146.011
+                    },
+                    {
+                        "id": 99,
+                        "answer": "h4. tobar",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 0,
+                            "impossible": 8
+                        },
+                        "parent_node": 32,
+                        "ancestor_value": 146.011
+                    },
+                    {
+                        "id": 98,
+                        "answer": "h4. toass",
+                        "value": {
+                            "sure": 0,
+                            "maybe": 3,
+                            "impossible": 6
+                        },
+                        "parent_node": 32,
+                        "ancestor_value": 146.011
+                    },
+                    {
+                        "id": 97,
+                        "answer": "h4. toatt",
+                        "value": {
+                            "sure": 0,
+                            "maybe": 1,
+                            "impossible": 8
+                        },
+                        "parent_node": 32,
+                        "ancestor_value": 146.011
+                    },
+                    {
+                        "id": 96,
+                        "answer": "h4. tobes",
+                        "value": {
+                            "sure": 0,
+                            "maybe": 0,
+                            "impossible": 9
+                        },
+                        "parent_node": 32,
+                        "ancestor_value": 146.011
+                    },
+                    {
+                        "id": 117,
+                        "answer": "h5. moreh",
+                        "value": {
+                            "sure": 1,
+                            "maybe": 1,
+                            "impossible": 8
+                        },
+                        "parent_node": 35,
+                        "ancestor_value": 130.007
+                    },
+                    {
+                        "id": 116,
+                        "answer": "h5. moref",
+                        "value": {
+                            "sure": 0,
+                            "maybe": 4,
+                            "impossible": 6
+                        },
+                        "parent_node": 35,
+                        "ancestor_value": 130.007
+                    },
+                    {
+                        "id": 118,
+                        "answer": "h5. morem",
+                        "value": {
+                            "sure": 0,
+                            "maybe": 2,
+                            "impossible": 8
+                        },
+                        "parent_node": 35,
+                        "ancestor_value": 130.007
+                    },
+                    {
+                        "id": 119,
+                        "answer": "h5. moren",
+                        "value": {
+                            "sure": 0,
+                            "maybe": 2,
+                            "impossible": 8
+                        },
+                        "parent_node": 35,
+                        "ancestor_value": 130.007
+                    },
+                    {
+                        "id": 120,
+                        "answer": "h5. moreo",
+                        "value": {
+                            "sure": 0,
+                            "maybe": 2,
+                            "impossible": 8
+                        },
+                        "parent_node": 35,
+                        "ancestor_value": 130.007
+                    }
+                ],
+                "selected_node": {
+                    "id": 35,
+                    "answer": "h3. press",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 5,
+                        "impossible": 1
+                    },
+                    "parent_node": 24,
+                    "ancestor_value": 105.006
+                },
+                "is_back": true
+            }
+        ],
+        "answer": [
+            "b",
+            "e",
+            "s",
+            "i",
+            "e",
+            "e",
+            "o",
+            "e",
+            "n",
+            "t",
+            "p",
+            "r",
+            "e",
+            "s",
+            "s",
+            "t",
+            "o",
+            "b",
+            "e",
+            "s",
+            "m",
+            "o",
+            "r",
+            "e",
+            "f"
+        ],
+        "correct": null,
+        "cost time": 25574.817484617233
+    }
+]

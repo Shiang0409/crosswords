@@ -3,6 +3,7 @@ import json
 import parameters
 import llm_function
 from dfs import *
+from sphere import *
 import record_function as record
 import re
 import time
@@ -23,13 +24,18 @@ if __name__ == '__main__':
         record.Init_record_file(parameters.json_file_name, '')
         crosswords.env.reset() # 重置填字遊戲環境
         nodes = [{'id': crosswords.env.get_id(), 'answer': None, 'value': None, 'parent_node': None, 'ancestor_value': None}] # 初始節點，沒有答案
-        #call dfs
-        start_time = time.time()
-        loc = dfs(llm, nodes)
-        end_time = time.time()
+        #call algorithm
+        if parameters.algorithm_method == 'dfs':
+            start_time = time.time()
+            loc = dfs(llm, nodes)
+            end_time = time.time()
+        elif parameters.algorithm_method == 'sphere':
+            start_time = time.time()
+            loc = sphere(llm, nodes)
+            end_time = time.time()
         # record
         loc['id'] = parameters.idx
-        #loc['T/F'] = acc.Acc(parameters.data_path_crosswords, loc['answer'], i)
+        acc.Acc(loc['answer'], i+1)
         loc['cost time'] = end_time - start_time
         locs.append(loc)
         record.Record_json(parameters.json_file_name, loc)

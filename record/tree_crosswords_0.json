@@ -1,0 +1,1634 @@
+{
+    "id": 0,
+    "steps": [
+        {
+            "step": 0,
+            "nodes": [
+                {
+                    "id": 5,
+                    "answer": "h1. dutyc",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 1,
+                        "impossible": 0
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 1,
+                    "answer": "h1. apple",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 1
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 2,
+                    "answer": "h1. taska",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 1
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 3,
+                    "answer": "h1. goalb",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 1
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 4,
+                    "answer": "h1. ideaa",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 1
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                }
+            ],
+            "selected_node": {
+                "id": 0,
+                "answer": null,
+                "value": null,
+                "parent_node": null,
+                "ancestor_value": null
+            },
+            "is_back": false
+        },
+        {
+            "step": 1,
+            "nodes": [
+                {
+                    "id": 5,
+                    "answer": "h1. dutyc",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 1,
+                        "impossible": 0
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 1,
+                    "answer": "h1. apple",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 1
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 2,
+                    "answer": "h1. taska",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 1
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 3,
+                    "answer": "h1. goalb",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 1
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 4,
+                    "answer": "h1. ideaa",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 1
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 9,
+                    "answer": "h4. forum",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 2,
+                        "impossible": 4
+                    },
+                    "parent_node": 5,
+                    "ancestor_value": 1.0
+                },
+                {
+                    "id": 10,
+                    "answer": "h5. scoff",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 1,
+                        "impossible": 5
+                    },
+                    "parent_node": 5,
+                    "ancestor_value": 1.0
+                },
+                {
+                    "id": 6,
+                    "answer": "v1. build",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 0,
+                        "impossible": 1
+                    },
+                    "parent_node": 5,
+                    "ancestor_value": 1.0
+                },
+                {
+                    "id": 7,
+                    "answer": "h2. locom",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 1,
+                        "impossible": 6
+                    },
+                    "parent_node": 5,
+                    "ancestor_value": 1.0
+                },
+                {
+                    "id": 8,
+                    "answer": "h3. orate",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 6
+                    },
+                    "parent_node": 5,
+                    "ancestor_value": 1.0
+                }
+            ],
+            "selected_node": {
+                "id": 5,
+                "answer": "h1. dutyc",
+                "value": {
+                    "sure": 0,
+                    "maybe": 1,
+                    "impossible": 0
+                },
+                "parent_node": 0,
+                "ancestor_value": 0
+            },
+            "is_back": false
+        },
+        {
+            "step": 2,
+            "nodes": [
+                {
+                    "id": 5,
+                    "answer": "h1. dutyc",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 1,
+                        "impossible": 0
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 1,
+                    "answer": "h1. apple",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 1
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 2,
+                    "answer": "h1. taska",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 1
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 3,
+                    "answer": "h1. goalb",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 1
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 4,
+                    "answer": "h1. ideaa",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 1
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 9,
+                    "answer": "h4. forum",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 2,
+                        "impossible": 4
+                    },
+                    "parent_node": 5,
+                    "ancestor_value": 1.0
+                },
+                {
+                    "id": 10,
+                    "answer": "h5. scoff",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 1,
+                        "impossible": 5
+                    },
+                    "parent_node": 5,
+                    "ancestor_value": 1.0
+                },
+                {
+                    "id": 6,
+                    "answer": "v1. build",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 0,
+                        "impossible": 1
+                    },
+                    "parent_node": 5,
+                    "ancestor_value": 1.0
+                },
+                {
+                    "id": 7,
+                    "answer": "h2. locom",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 1,
+                        "impossible": 6
+                    },
+                    "parent_node": 5,
+                    "ancestor_value": 1.0
+                },
+                {
+                    "id": 8,
+                    "answer": "h3. orate",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 6
+                    },
+                    "parent_node": 5,
+                    "ancestor_value": 1.0
+                },
+                {
+                    "id": 12,
+                    "answer": "h3. orate",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 3,
+                        "impossible": 4
+                    },
+                    "parent_node": 9,
+                    "ancestor_value": 23.004
+                },
+                {
+                    "id": 13,
+                    "answer": "h5. deris",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 2,
+                        "impossible": 5
+                    },
+                    "parent_node": 9,
+                    "ancestor_value": 23.004
+                },
+                {
+                    "id": 11,
+                    "answer": "h4. salon",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 1,
+                        "impossible": 5
+                    },
+                    "parent_node": 9,
+                    "ancestor_value": 23.004
+                },
+                {
+                    "id": 14,
+                    "answer": "h2. actin",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 0,
+                        "impossible": 7
+                    },
+                    "parent_node": 9,
+                    "ancestor_value": 23.004
+                },
+                {
+                    "id": 15,
+                    "answer": "v1. heapd",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 6
+                    },
+                    "parent_node": 9,
+                    "ancestor_value": 23.004
+                }
+            ],
+            "selected_node": {
+                "id": 9,
+                "answer": "h4. forum",
+                "value": {
+                    "sure": 1,
+                    "maybe": 2,
+                    "impossible": 4
+                },
+                "parent_node": 5,
+                "ancestor_value": 1.0
+            },
+            "is_back": false
+        },
+        {
+            "step": 3,
+            "nodes": [
+                {
+                    "id": 5,
+                    "answer": "h1. dutyc",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 1,
+                        "impossible": 0
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 1,
+                    "answer": "h1. apple",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 1
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 2,
+                    "answer": "h1. taska",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 1
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 3,
+                    "answer": "h1. goalb",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 1
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 4,
+                    "answer": "h1. ideaa",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 1
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 9,
+                    "answer": "h4. forum",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 2,
+                        "impossible": 4
+                    },
+                    "parent_node": 5,
+                    "ancestor_value": 1.0
+                },
+                {
+                    "id": 10,
+                    "answer": "h5. scoff",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 1,
+                        "impossible": 5
+                    },
+                    "parent_node": 5,
+                    "ancestor_value": 1.0
+                },
+                {
+                    "id": 6,
+                    "answer": "v1. build",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 0,
+                        "impossible": 1
+                    },
+                    "parent_node": 5,
+                    "ancestor_value": 1.0
+                },
+                {
+                    "id": 7,
+                    "answer": "h2. locom",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 1,
+                        "impossible": 6
+                    },
+                    "parent_node": 5,
+                    "ancestor_value": 1.0
+                },
+                {
+                    "id": 8,
+                    "answer": "h3. orate",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 6
+                    },
+                    "parent_node": 5,
+                    "ancestor_value": 1.0
+                },
+                {
+                    "id": 12,
+                    "answer": "h3. orate",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 3,
+                        "impossible": 4
+                    },
+                    "parent_node": 9,
+                    "ancestor_value": 23.004
+                },
+                {
+                    "id": 13,
+                    "answer": "h5. deris",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 2,
+                        "impossible": 5
+                    },
+                    "parent_node": 9,
+                    "ancestor_value": 23.004
+                },
+                {
+                    "id": 11,
+                    "answer": "h4. salon",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 1,
+                        "impossible": 5
+                    },
+                    "parent_node": 9,
+                    "ancestor_value": 23.004
+                },
+                {
+                    "id": 14,
+                    "answer": "h2. actin",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 0,
+                        "impossible": 7
+                    },
+                    "parent_node": 9,
+                    "ancestor_value": 23.004
+                },
+                {
+                    "id": 15,
+                    "answer": "v1. heapd",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 6
+                    },
+                    "parent_node": 9,
+                    "ancestor_value": 23.004
+                },
+                {
+                    "id": 20,
+                    "answer": "h2. appro",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 3,
+                        "impossible": 5
+                    },
+                    "parent_node": 12,
+                    "ancestor_value": 46.008
+                },
+                {
+                    "id": 17,
+                    "answer": "h2. asset",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 1,
+                        "impossible": 7
+                    },
+                    "parent_node": 12,
+                    "ancestor_value": 46.008
+                },
+                {
+                    "id": 18,
+                    "answer": "h2. arise",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 1,
+                        "impossible": 7
+                    },
+                    "parent_node": 12,
+                    "ancestor_value": 46.008
+                },
+                {
+                    "id": 16,
+                    "answer": "h2. analy",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 0,
+                        "impossible": 8
+                    },
+                    "parent_node": 12,
+                    "ancestor_value": 46.008
+                },
+                {
+                    "id": 19,
+                    "answer": "h2. await",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 0,
+                        "impossible": 8
+                    },
+                    "parent_node": 12,
+                    "ancestor_value": 46.008
+                }
+            ],
+            "selected_node": {
+                "id": 12,
+                "answer": "h3. orate",
+                "value": {
+                    "sure": 1,
+                    "maybe": 3,
+                    "impossible": 4
+                },
+                "parent_node": 9,
+                "ancestor_value": 23.004
+            },
+            "is_back": true
+        },
+        {
+            "step": 3,
+            "nodes": [
+                {
+                    "id": 5,
+                    "answer": "h1. dutyc",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 1,
+                        "impossible": 0
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 1,
+                    "answer": "h1. apple",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 1
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 2,
+                    "answer": "h1. taska",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 1
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 3,
+                    "answer": "h1. goalb",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 1
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 4,
+                    "answer": "h1. ideaa",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 1
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 9,
+                    "answer": "h4. forum",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 2,
+                        "impossible": 4
+                    },
+                    "parent_node": 5,
+                    "ancestor_value": 1.0
+                },
+                {
+                    "id": 10,
+                    "answer": "h5. scoff",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 1,
+                        "impossible": 5
+                    },
+                    "parent_node": 5,
+                    "ancestor_value": 1.0
+                },
+                {
+                    "id": 6,
+                    "answer": "v1. build",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 0,
+                        "impossible": 1
+                    },
+                    "parent_node": 5,
+                    "ancestor_value": 1.0
+                },
+                {
+                    "id": 7,
+                    "answer": "h2. locom",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 1,
+                        "impossible": 6
+                    },
+                    "parent_node": 5,
+                    "ancestor_value": 1.0
+                },
+                {
+                    "id": 8,
+                    "answer": "h3. orate",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 6
+                    },
+                    "parent_node": 5,
+                    "ancestor_value": 1.0
+                },
+                {
+                    "id": 12,
+                    "answer": "h3. orate",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 3,
+                        "impossible": 4
+                    },
+                    "parent_node": 9,
+                    "ancestor_value": 23.004
+                },
+                {
+                    "id": 13,
+                    "answer": "h5. deris",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 2,
+                        "impossible": 5
+                    },
+                    "parent_node": 9,
+                    "ancestor_value": 23.004
+                },
+                {
+                    "id": 11,
+                    "answer": "h4. salon",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 1,
+                        "impossible": 5
+                    },
+                    "parent_node": 9,
+                    "ancestor_value": 23.004
+                },
+                {
+                    "id": 14,
+                    "answer": "h2. actin",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 0,
+                        "impossible": 7
+                    },
+                    "parent_node": 9,
+                    "ancestor_value": 23.004
+                },
+                {
+                    "id": 15,
+                    "answer": "v1. heapd",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 6
+                    },
+                    "parent_node": 9,
+                    "ancestor_value": 23.004
+                },
+                {
+                    "id": 20,
+                    "answer": "h2. appro",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 3,
+                        "impossible": 5
+                    },
+                    "parent_node": 12,
+                    "ancestor_value": 46.008
+                },
+                {
+                    "id": 17,
+                    "answer": "h2. asset",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 1,
+                        "impossible": 7
+                    },
+                    "parent_node": 12,
+                    "ancestor_value": 46.008
+                },
+                {
+                    "id": 18,
+                    "answer": "h2. arise",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 1,
+                        "impossible": 7
+                    },
+                    "parent_node": 12,
+                    "ancestor_value": 46.008
+                },
+                {
+                    "id": 16,
+                    "answer": "h2. analy",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 0,
+                        "impossible": 8
+                    },
+                    "parent_node": 12,
+                    "ancestor_value": 46.008
+                },
+                {
+                    "id": 19,
+                    "answer": "h2. await",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 0,
+                        "impossible": 8
+                    },
+                    "parent_node": 12,
+                    "ancestor_value": 46.008
+                },
+                {
+                    "id": 21,
+                    "answer": "h2. analy",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 1,
+                        "impossible": 7
+                    },
+                    "parent_node": 13,
+                    "ancestor_value": 45.009
+                },
+                {
+                    "id": 22,
+                    "answer": "h2. analy",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 1,
+                        "impossible": 7
+                    },
+                    "parent_node": 13,
+                    "ancestor_value": 45.009
+                },
+                {
+                    "id": 23,
+                    "answer": "h2. appra",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 1,
+                        "impossible": 7
+                    },
+                    "parent_node": 13,
+                    "ancestor_value": 45.009
+                },
+                {
+                    "id": 24,
+                    "answer": "h2. assay",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 2,
+                        "impossible": 7
+                    },
+                    "parent_node": 13,
+                    "ancestor_value": 45.009
+                },
+                {
+                    "id": 25,
+                    "answer": "h2. engin",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 1,
+                        "impossible": 8
+                    },
+                    "parent_node": 13,
+                    "ancestor_value": 45.009
+                }
+            ],
+            "selected_node": {
+                "id": 13,
+                "answer": "h5. deris",
+                "value": {
+                    "sure": 1,
+                    "maybe": 2,
+                    "impossible": 5
+                },
+                "parent_node": 9,
+                "ancestor_value": 23.004
+            },
+            "is_back": true
+        },
+        {
+            "step": 3,
+            "nodes": [
+                {
+                    "id": 5,
+                    "answer": "h1. dutyc",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 1,
+                        "impossible": 0
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 1,
+                    "answer": "h1. apple",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 1
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 2,
+                    "answer": "h1. taska",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 1
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 3,
+                    "answer": "h1. goalb",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 1
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 4,
+                    "answer": "h1. ideaa",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 1
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 9,
+                    "answer": "h4. forum",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 2,
+                        "impossible": 4
+                    },
+                    "parent_node": 5,
+                    "ancestor_value": 1.0
+                },
+                {
+                    "id": 10,
+                    "answer": "h5. scoff",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 1,
+                        "impossible": 5
+                    },
+                    "parent_node": 5,
+                    "ancestor_value": 1.0
+                },
+                {
+                    "id": 6,
+                    "answer": "v1. build",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 0,
+                        "impossible": 1
+                    },
+                    "parent_node": 5,
+                    "ancestor_value": 1.0
+                },
+                {
+                    "id": 7,
+                    "answer": "h2. locom",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 1,
+                        "impossible": 6
+                    },
+                    "parent_node": 5,
+                    "ancestor_value": 1.0
+                },
+                {
+                    "id": 8,
+                    "answer": "h3. orate",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 6
+                    },
+                    "parent_node": 5,
+                    "ancestor_value": 1.0
+                },
+                {
+                    "id": 12,
+                    "answer": "h3. orate",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 3,
+                        "impossible": 4
+                    },
+                    "parent_node": 9,
+                    "ancestor_value": 23.004
+                },
+                {
+                    "id": 13,
+                    "answer": "h5. deris",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 2,
+                        "impossible": 5
+                    },
+                    "parent_node": 9,
+                    "ancestor_value": 23.004
+                },
+                {
+                    "id": 11,
+                    "answer": "h4. salon",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 1,
+                        "impossible": 5
+                    },
+                    "parent_node": 9,
+                    "ancestor_value": 23.004
+                },
+                {
+                    "id": 14,
+                    "answer": "h2. actin",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 0,
+                        "impossible": 7
+                    },
+                    "parent_node": 9,
+                    "ancestor_value": 23.004
+                },
+                {
+                    "id": 15,
+                    "answer": "v1. heapd",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 6
+                    },
+                    "parent_node": 9,
+                    "ancestor_value": 23.004
+                },
+                {
+                    "id": 20,
+                    "answer": "h2. appro",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 3,
+                        "impossible": 5
+                    },
+                    "parent_node": 12,
+                    "ancestor_value": 46.008
+                },
+                {
+                    "id": 17,
+                    "answer": "h2. asset",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 1,
+                        "impossible": 7
+                    },
+                    "parent_node": 12,
+                    "ancestor_value": 46.008
+                },
+                {
+                    "id": 18,
+                    "answer": "h2. arise",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 1,
+                        "impossible": 7
+                    },
+                    "parent_node": 12,
+                    "ancestor_value": 46.008
+                },
+                {
+                    "id": 16,
+                    "answer": "h2. analy",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 0,
+                        "impossible": 8
+                    },
+                    "parent_node": 12,
+                    "ancestor_value": 46.008
+                },
+                {
+                    "id": 19,
+                    "answer": "h2. await",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 0,
+                        "impossible": 8
+                    },
+                    "parent_node": 12,
+                    "ancestor_value": 46.008
+                },
+                {
+                    "id": 21,
+                    "answer": "h2. analy",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 1,
+                        "impossible": 7
+                    },
+                    "parent_node": 13,
+                    "ancestor_value": 45.009
+                },
+                {
+                    "id": 22,
+                    "answer": "h2. analy",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 1,
+                        "impossible": 7
+                    },
+                    "parent_node": 13,
+                    "ancestor_value": 45.009
+                },
+                {
+                    "id": 23,
+                    "answer": "h2. appra",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 1,
+                        "impossible": 7
+                    },
+                    "parent_node": 13,
+                    "ancestor_value": 45.009
+                },
+                {
+                    "id": 24,
+                    "answer": "h2. assay",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 2,
+                        "impossible": 7
+                    },
+                    "parent_node": 13,
+                    "ancestor_value": 45.009
+                },
+                {
+                    "id": 25,
+                    "answer": "h2. engin",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 1,
+                        "impossible": 8
+                    },
+                    "parent_node": 13,
+                    "ancestor_value": 45.009
+                },
+                {
+                    "id": 28,
+                    "answer": "h3. pompj",
+                    "value": {
+                        "sure": 2,
+                        "maybe": 4,
+                        "impossible": 4
+                    },
+                    "parent_node": 11,
+                    "ancestor_value": 44.009
+                },
+                {
+                    "id": 30,
+                    "answer": "h3. magnf",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 2,
+                        "impossible": 7
+                    },
+                    "parent_node": 11,
+                    "ancestor_value": 44.009
+                },
+                {
+                    "id": 29,
+                    "answer": "h3. stent",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 1,
+                        "impossible": 8
+                    },
+                    "parent_node": 11,
+                    "ancestor_value": 44.009
+                },
+                {
+                    "id": 26,
+                    "answer": "h3. pretz",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 1,
+                        "impossible": 7
+                    },
+                    "parent_node": 11,
+                    "ancestor_value": 44.009
+                },
+                {
+                    "id": 27,
+                    "answer": "h3. orate",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 3,
+                        "impossible": 7
+                    },
+                    "parent_node": 11,
+                    "ancestor_value": 44.009
+                }
+            ],
+            "selected_node": {
+                "id": 11,
+                "answer": "h4. salon",
+                "value": {
+                    "sure": 1,
+                    "maybe": 1,
+                    "impossible": 5
+                },
+                "parent_node": 9,
+                "ancestor_value": 23.004
+            },
+            "is_back": false
+        },
+        {
+            "step": 4,
+            "nodes": [
+                {
+                    "id": 5,
+                    "answer": "h1. dutyc",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 1,
+                        "impossible": 0
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 1,
+                    "answer": "h1. apple",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 1
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 2,
+                    "answer": "h1. taska",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 1
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 3,
+                    "answer": "h1. goalb",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 1
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 4,
+                    "answer": "h1. ideaa",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 1
+                    },
+                    "parent_node": 0,
+                    "ancestor_value": 0
+                },
+                {
+                    "id": 9,
+                    "answer": "h4. forum",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 2,
+                        "impossible": 4
+                    },
+                    "parent_node": 5,
+                    "ancestor_value": 1.0
+                },
+                {
+                    "id": 10,
+                    "answer": "h5. scoff",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 1,
+                        "impossible": 5
+                    },
+                    "parent_node": 5,
+                    "ancestor_value": 1.0
+                },
+                {
+                    "id": 6,
+                    "answer": "v1. build",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 0,
+                        "impossible": 1
+                    },
+                    "parent_node": 5,
+                    "ancestor_value": 1.0
+                },
+                {
+                    "id": 7,
+                    "answer": "h2. locom",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 1,
+                        "impossible": 6
+                    },
+                    "parent_node": 5,
+                    "ancestor_value": 1.0
+                },
+                {
+                    "id": 8,
+                    "answer": "h3. orate",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 6
+                    },
+                    "parent_node": 5,
+                    "ancestor_value": 1.0
+                },
+                {
+                    "id": 12,
+                    "answer": "h3. orate",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 3,
+                        "impossible": 4
+                    },
+                    "parent_node": 9,
+                    "ancestor_value": 23.004
+                },
+                {
+                    "id": 13,
+                    "answer": "h5. deris",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 2,
+                        "impossible": 5
+                    },
+                    "parent_node": 9,
+                    "ancestor_value": 23.004
+                },
+                {
+                    "id": 11,
+                    "answer": "h4. salon",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 1,
+                        "impossible": 5
+                    },
+                    "parent_node": 9,
+                    "ancestor_value": 23.004
+                },
+                {
+                    "id": 14,
+                    "answer": "h2. actin",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 0,
+                        "impossible": 7
+                    },
+                    "parent_node": 9,
+                    "ancestor_value": 23.004
+                },
+                {
+                    "id": 15,
+                    "answer": "v1. heapd",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 0,
+                        "impossible": 6
+                    },
+                    "parent_node": 9,
+                    "ancestor_value": 23.004
+                },
+                {
+                    "id": 20,
+                    "answer": "h2. appro",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 3,
+                        "impossible": 5
+                    },
+                    "parent_node": 12,
+                    "ancestor_value": 46.008
+                },
+                {
+                    "id": 17,
+                    "answer": "h2. asset",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 1,
+                        "impossible": 7
+                    },
+                    "parent_node": 12,
+                    "ancestor_value": 46.008
+                },
+                {
+                    "id": 18,
+                    "answer": "h2. arise",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 1,
+                        "impossible": 7
+                    },
+                    "parent_node": 12,
+                    "ancestor_value": 46.008
+                },
+                {
+                    "id": 16,
+                    "answer": "h2. analy",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 0,
+                        "impossible": 8
+                    },
+                    "parent_node": 12,
+                    "ancestor_value": 46.008
+                },
+                {
+                    "id": 19,
+                    "answer": "h2. await",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 0,
+                        "impossible": 8
+                    },
+                    "parent_node": 12,
+                    "ancestor_value": 46.008
+                },
+                {
+                    "id": 21,
+                    "answer": "h2. analy",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 1,
+                        "impossible": 7
+                    },
+                    "parent_node": 13,
+                    "ancestor_value": 45.009
+                },
+                {
+                    "id": 22,
+                    "answer": "h2. analy",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 1,
+                        "impossible": 7
+                    },
+                    "parent_node": 13,
+                    "ancestor_value": 45.009
+                },
+                {
+                    "id": 23,
+                    "answer": "h2. appra",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 1,
+                        "impossible": 7
+                    },
+                    "parent_node": 13,
+                    "ancestor_value": 45.009
+                },
+                {
+                    "id": 24,
+                    "answer": "h2. assay",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 2,
+                        "impossible": 7
+                    },
+                    "parent_node": 13,
+                    "ancestor_value": 45.009
+                },
+                {
+                    "id": 25,
+                    "answer": "h2. engin",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 1,
+                        "impossible": 8
+                    },
+                    "parent_node": 13,
+                    "ancestor_value": 45.009
+                },
+                {
+                    "id": 28,
+                    "answer": "h3. pompj",
+                    "value": {
+                        "sure": 2,
+                        "maybe": 4,
+                        "impossible": 4
+                    },
+                    "parent_node": 11,
+                    "ancestor_value": 44.009
+                },
+                {
+                    "id": 30,
+                    "answer": "h3. magnf",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 2,
+                        "impossible": 7
+                    },
+                    "parent_node": 11,
+                    "ancestor_value": 44.009
+                },
+                {
+                    "id": 29,
+                    "answer": "h3. stent",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 1,
+                        "impossible": 8
+                    },
+                    "parent_node": 11,
+                    "ancestor_value": 44.009
+                },
+                {
+                    "id": 26,
+                    "answer": "h3. pretz",
+                    "value": {
+                        "sure": 1,
+                        "maybe": 1,
+                        "impossible": 7
+                    },
+                    "parent_node": 11,
+                    "ancestor_value": 44.009
+                },
+                {
+                    "id": 27,
+                    "answer": "h3. orate",
+                    "value": {
+                        "sure": 0,
+                        "maybe": 3,
+                        "impossible": 7
+                    },
+                    "parent_node": 11,
+                    "ancestor_value": 44.009
+                }
+            ],
+            "selected_node": {
+                "id": 28,
+                "answer": "h3. pompj",
+                "value": {
+                    "sure": 2,
+                    "maybe": 4,
+                    "impossible": 4
+                },
+                "parent_node": 11,
+                "ancestor_value": 44.009
+            },
+            "is_back": false
+        }
+    ],
+    "answer": [
+        "d",
+        "u",
+        "t",
+        "y",
+        "c",
+        "a",
+        "n",
+        "a",
+        "l",
+        "y",
+        "p",
+        "o",
+        "m",
+        "p",
+        "j",
+        "s",
+        "a",
+        "l",
+        "o",
+        "n",
+        "d",
+        "e",
+        "r",
+        "i",
+        "s"
+    ],
+    "correct": null,
+    "cost time": 15163.518636465073
+}

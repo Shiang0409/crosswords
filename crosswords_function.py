@@ -10,7 +10,7 @@ import time
 env = crosswords_env.CrosswordsEnv(file_name = parameters.data_path_crosswords)
 
 def Parse_propose_response(response: str):
-    format = r'^([hv][1-5])\. ([a-zA-Z]{5}) \((certain|high|medium|low|zero)\)$' # 定義提議回應的格式
+    format = r'^([hv][1-5])\. ([a-zA-Z]{5}) \((certain|high|medium|low)\)$' # 定義提議回應的格式
     parsed_lines = list() # 存放解析後的結果的列表
     for line in response.split('\n'): # 逐行解析提議回應
         print( 'line: ' + line + '\n')
@@ -23,13 +23,13 @@ def Parse_propose_response(response: str):
 
 def Generator(llm, node, refine = False):
     # initialize
-    confidence_to_value = {'certain': 1, 'high': 0.75, 'medium': 0.5, 'low': 0.25, 'zero': 0} # 將信心水準映射到數值，用於排序
+    confidence_to_value = {'certain': 1, 'high': 0.75, 'medium': 0.5, 'low': 0.1} # 將信心水準映射到數值，用於排序
     new_nodes = list()  # 存放新生成節點的列表
     # call llm
     input_string = env.board_render() + env.ans_render()
     question = propose_prompt.format(input = input_string, k = parameters.k)
     print('\nquestion:\n' +  question + '\n')
-    pattern = r'([hv][1-5])\. ([a-zA-Z]{5}) \((certain|high|medium|low|zero)\)'
+    pattern = r'([hv][1-5])\. ([a-zA-Z]{5}) \((certain|high|medium|low)\)'
     patterns = '\n'.join([pattern for i in range(parameters.k)])
     start_time = time.time()
     response = llm_function.call_llm(llm, question, patterns)
@@ -37,6 +37,16 @@ def Generator(llm, node, refine = False):
     print('\nresponse:\n' + response + '\n')
     # parse response & return 
     parsed_lines = Parse_propose_response(response + '\n') # 解析模型生成的回應
+    # 如果產出的可能性過低，再產一遍
+    sum_of_convalue = 0
+    count_of_loop = 0
+    for line in parsed_lines:
+        sum_of_convalue += confidence_to_value.get(line[2], 0)
+        count_of_loop += 1
+    print(f'\nAvarage confidence value: {sum_of_convalue / count_of_loop}\n')
+    if count_of_loop == 0 or sum_of_convalue / count_of_loop < 0.4: 
+        print('-----\nGenerate Again!\n-----\n')
+        Generator(llm, node, refine = False)
     parsed_lines = [(line[0].lower() + '. ' + line[1].lower(), confidence_to_value.get(line[2], 0)) for line in parsed_lines] # 格式轉換為方便後續處理的形式
     parsed_lines = sorted(parsed_lines, key = lambda x: x[1], reverse = True) # 根據信心水準進行排序
     print('\nparsed lines:\n')
@@ -62,11 +72,6 @@ def Generator(llm, node, refine = False):
 def Parse_value_response(response, input): #若 response 是 "sure"、"maybe" 或 "impossible" 中的一個，則返回解析後的回應；否則返回 None
     #old ver.
     '''
-    answer = response.strip().split('\n')[-1] # 去除回應中的空格，取最後一行
-    if (answer != 'sure') and (answer != 'maybe') and (answer != 'impossible'): # 判斷回應是否為合法值，若不是，則返回 None
-        return None
-    return answer
-    '''
     short_response = response.strip().split('\n')[-1]
     pattern = fr"Output: ((?:sure)|(?:maybe)|(?:impossible)) \({input}\)"
     answer = re.search(pattern, fr"Output: {short_response} ({input})")
@@ -76,6 +81,20 @@ def Parse_value_response(response, input): #若 response 是 "sure"、"maybe" �
         return answer.group(1)
     else:
         return None
+    '''
+    answer = response.strip().split('\n')[-1]
+    print('Last line in response:' + answer)
+    if answer == 'sure' or answer == 'maybe' or answer == 'impossible':
+        return answer
+    elif 'impossible' in response:
+        return 'impossible'
+    elif 'maybe' in response:
+        return 'maybe'
+    elif 'sure' in response:
+        return 'sure'
+    elif ('extremely unlikely' in response) or ('very unlikely' in response):
+        return 'impossible'
+    else: None
 
 
 def Evaluator(llm, nodes):
@@ -89,6 +108,7 @@ def Evaluator(llm, nodes):
         t = env.t
         env.change_env(node['answer']) # 將 node 的答案應用於環境
         for i in range(10): # 對每一行及列進行評估
+            print(f'\nThe {i+1} row')
             print(env.board_render())
             print(f'env.ans: {env.ans[i]}')
             # skip _____ & ____ answers(跳過包含大量空格的答案)
@@ -105,10 +125,12 @@ def Evaluator(llm, nodes):
             response = llm_function.call_llm(llm, question, pattern)
             end_time = time.time()
             # parse response & return
+            print('\nEvaluator response:\n')
             print(response)
-            print(f'cost time: {end_time - start_time}')
+            print(f'\ncost time: {end_time - start_time}')
             record.Record_txt(parameters.file_name, '\ninput: ' + line + '\nEvaluator response: ' + response + '\ncost time: ' + str(end_time - start_time) + '\n')
             answer = Parse_value_response(response, env.ans[i])
+            print(f'\nThe value is {answer}\n')
             if answer != None: # 若解析成功，則更新計數
                 count[answer] += 1
         node['value'] = count  # 更新 node 的 value 屬性

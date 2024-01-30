@@ -9,13 +9,13 @@ max_tokens = 1024
 temperature = 0.7
 n_ctx = 2048
 n_gpu_layers = -1
-question_sets = 2
-initial_idx = 0
+question_sets = 1 #最小為1
+initial_idx = 2 #最小為0
 b = 3
 T = 10
 k = 5
 llm_method = 'llama-index'
-algorithm_method = 'dfs'
+algorithm_method = 'dfs' #'dfs' or 'sphere'
 
 id = 0
 idx = 0
