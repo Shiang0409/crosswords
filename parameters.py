@@ -14,6 +14,8 @@ initial_idx = 2 #最小為0
 b = 3
 T = 10
 k = 5
+count_of_generator = 1 # genertor 計數，初始為1
+limit_generator = 8 # generator refine 上限值
 llm_method = 'llama-index'
 algorithm_method = 'dfs' #'dfs' or 'sphere'
 

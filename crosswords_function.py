@@ -8,10 +8,13 @@ import crosswords_env
 import time
 
 env = crosswords_env.CrosswordsEnv(file_name = parameters.data_path_crosswords)
+all_parse_lines = []
+all_average = []
 
 def Parse_propose_response(response: str):
     format = r'^([hv][1-5])\. ([a-zA-Z]{5}) \((certain|high|medium|low)\)$' # 定義提議回應的格式
     parsed_lines = list() # 存放解析後的結果的列表
+    parsed_lines.clear()
     for line in response.split('\n'): # 逐行解析提議回應
         print( 'line: ' + line + '\n')
         match = re.match(format, line) # 使用正則表達式進行匹配
@@ -37,16 +40,29 @@ def Generator(llm, node, refine = False):
     print('\nresponse:\n' + response + '\n')
     # parse response & return 
     parsed_lines = Parse_propose_response(response + '\n') # 解析模型生成的回應
+    global all_parse_lines
+    all_parse_lines.append(parsed_lines)
+    print(f'\nAll parsed lines: {all_parse_lines}\n')
     # 如果產出的可能性過低，再產一遍
     sum_of_convalue = 0
-    count_of_loop = 0
+    count_of_k = 0
     for line in parsed_lines:
         sum_of_convalue += confidence_to_value.get(line[2], 0)
-        count_of_loop += 1
-    print(f'\nAvarage confidence value: {sum_of_convalue / count_of_loop}\n')
-    if count_of_loop == 0 or sum_of_convalue / count_of_loop < 0.4: 
-        print('-----\nGenerate Again!\n-----\n')
-        Generator(llm, node, refine = False)
+        count_of_k += 1
+    average = sum_of_convalue / count_of_k
+    global all_average
+    all_average.append(average)
+    print(f'\nAvarage confidence value: {average}\n')
+    print(f'\nAll avarage confidence value: {all_average}\n')
+    if (count_of_k == 0 or average < 0.4) and parameters.count_of_generator <= parameters.limit_generator - 1: 
+        parameters.count_of_generator += 1
+        print(f'-----\nThe {parameters.count_of_generator} Generate!\n-----\n')
+        return Generator(llm, node, refine = False)
+    else:
+        max_average = max(all_average)
+        parsed_lines = all_parse_lines[all_average.index(max_average)]
+        print(f'Final max average: {max_average}')
+        print(f'Final chose parsed line: {parsed_lines}')
     parsed_lines = [(line[0].lower() + '. ' + line[1].lower(), confidence_to_value.get(line[2], 0)) for line in parsed_lines] # 格式轉換為方便後續處理的形式
     parsed_lines = sorted(parsed_lines, key = lambda x: x[1], reverse = True) # 根據信心水準進行排序
     print('\nparsed lines:\n')
@@ -57,9 +73,11 @@ def Generator(llm, node, refine = False):
             break
         new_nodes.append({'id': env.get_id(), 'answer': parsed_lines[i][0], 'value': None, 'parent_node': node['id'], 'ancestor_value': Value_mapping(node['value']) + (0 if node['ancestor_value'] == None else node['ancestor_value'])})
     # refine(如果未生成新節點，進行 refine 操作)
+    '''
     if len(new_nodes) == 0:
         print('refine')
         new_nodes = Generator(llm, node, refine = True)
+    '''
     if refine == False: # 輸出生成節點或 refine 的相關信息
         print(f'cost time: {end_time - start_time}')
         record.Record_txt(parameters.file_name, 'Generator nodes:\n' + str(new_nodes) + '\ncost time: ' + str(end_time - start_time) + '\n\n')

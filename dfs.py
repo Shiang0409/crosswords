@@ -17,6 +17,8 @@ def dfs(llm, nodes):
                 record.Record_txt(parameters.file_name, '\nnow step: ' + str(crosswords.env.t) + '\nboard:\n' + crosswords.env.board_render() + '\n\n')
                 steps.append({'step': crosswords.env.t, 'nodes': all_nodes.copy(), 'selected_node': node, 'is_back': False})
                 break
+            crosswords.all_parse_lines.clear()
+            crosswords.all_average.clear()
             new_nodes = crosswords.Generator(llm, node)
             new_nodes = crosswords.Evaluator(llm, new_nodes)
             # 根據值排序節點
