@@ -49,7 +49,9 @@ def Generator(llm, node, refine = False):
     for line in parsed_lines:
         sum_of_convalue += confidence_to_value.get(line[2], 0)
         count_of_k += 1
-    average = sum_of_convalue / count_of_k
+    if count_of_k == 0:
+        average = 0
+    else: average = sum_of_convalue / count_of_k
     global all_average
     all_average.append(average)
     print(f'\nAvarage confidence value: {average}\n')
